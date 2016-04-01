@@ -13,7 +13,7 @@ import UIKit
 let kMAX_REPS_QUICK = 30
 let kMAX_REPS_SLOW = 10
 let kSLOW_ANIMATION: Double = 0.4
-let kQUICK_ANIMATION: Double = 0.15
+let kQUICK_ANIMATION: Double = 0.20
 
 class Coin {
     
@@ -57,7 +57,6 @@ class Coin {
         
         if repeatCount == 1 {					// first time for this animation
             let duration: Double = (animationDuration * Double((maxReps+1)))
-            
             let startFrame = image.frame
             UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
                 
@@ -121,5 +120,4 @@ class Coin {
         image.layer.contents = heads.CGImage
         doAnimation()
     }
-    
 }

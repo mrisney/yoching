@@ -20,20 +20,17 @@ class MainViewController: UIViewController {
     private var coinTwo: Coin!
     private var coinThree: Coin!
     
+    
+    private var outcome = 0;
     @IBOutlet weak private var flipButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        coinOneImage.image = nil
-//        coinTwoImage.image = nil
-//        coinThreeImage.image = nil
-
         coinOne = Coin(image: coinOneImage)
         coinTwo = Coin(image: coinTwoImage)
         coinThree = Coin(image: coinThreeImage)
     }
-    
     
     @IBAction func flipCoinAction(sender: AnyObject) {
         
@@ -41,17 +38,23 @@ class MainViewController: UIViewController {
         
         coinOne?.flipCoinAction() { side in
             print("Coin 1 Flipped: \(side)")
+//            outcome += 1;
+            
         }
         
-        coinTwo.flipCoinAction() { side in
-            print("Coin 2 Flipped: \(side)")
+        delay(0.05){
+            self.coinTwo.flipCoinAction() { side in
+                print("Coin 2 Flipped: \(side)")
+            }
         }
         
-        coinThree?.flipCoinAction() { side in
-            print("Coin 3 Flipped: \(side)")
-            self.flipButton.enabled = true
+        delay(0.1){
+            self.coinThree?.flipCoinAction() { side in
+                print("Coin 3 Flipped: \(side)")
+                self.flipButton.enabled = true
+                self.goToWrex(1);
+            }
         }
-
     }
     
 
@@ -73,6 +76,19 @@ class MainViewController: UIViewController {
             }
         }
         
+    }
+    
+    
+
+    private func delay(delay: Double, closure: ()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            dispatch_get_main_queue(),
+            closure
+        )
     }
     
 }
