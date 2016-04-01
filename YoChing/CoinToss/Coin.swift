@@ -10,10 +10,10 @@ import Foundation
 import QuartzCore
 import UIKit
 
-let kMAX_REPS_QUICK = 30
+let kMAX_REPS_QUICK = 10
 let kMAX_REPS_SLOW = 10
 let kSLOW_ANIMATION: Double = 0.4
-let kQUICK_ANIMATION: Double = 0.20
+let kQUICK_ANIMATION: Double = 0.10
 
 class Coin {
     
@@ -86,7 +86,6 @@ class Coin {
                 _ in
                 
                 image.layer.contents = self.tails.CGImage
-//                image.image = tails
                 UIView.animateWithDuration(self.animationDuration, delay: 0.0, options: UIViewAnimationOptions.CurveLinear, animations: {
                     
                     var rotation = image.layer.transform
@@ -97,7 +96,6 @@ class Coin {
                         _ in
                         
                         image.layer.contents = self.heads.CGImage
-//                        image.image = heads
                         self.doAnimation()
                 })
         })

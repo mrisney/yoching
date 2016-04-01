@@ -42,17 +42,20 @@ class MainViewController: UIViewController {
             
         }
         
-        delay(0.05){
+        delay(0.05) {
             self.coinTwo.flipCoinAction() { side in
                 print("Coin 2 Flipped: \(side)")
             }
         }
         
-        delay(0.1){
+        delay(0.1) {
             self.coinThree?.flipCoinAction() { side in
                 print("Coin 3 Flipped: \(side)")
                 self.flipButton.enabled = true
-                self.goToWrex(1);
+                
+                NSOperationQueue.mainQueue().addOperationWithBlock() {
+                    self.goToWrex(1)
+                }
             }
         }
     }
