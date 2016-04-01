@@ -17,6 +17,9 @@
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
 		A3E21B281BDDD519004AFB72 /* wrex01.breaks.html in Resources */ = {isa = PBXBuildFile; fileRef = A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */; };
+		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
+		DEC3BD271CADE945004233E4 /* coin-heads-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC3BD251CADE945004233E4 /* coin-heads-medium.png */; };
+		DEC3BD281CADE945004233E4 /* coin-tails-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC3BD261CADE945004233E4 /* coin-tails-medium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,9 @@
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wrex01.breaks.html; path = ../wrexegrams/wrex01.breaks.html; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
-		DECAF4EB1BFD591F00A0B48E /* EasyAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyAnimation.framework; path = "/Users/SirWellington/Google Drive/Projects/Yo Ching/yoching.m.risney/Pods/../build/Debug-iphoneos/EasyAnimation.framework"; sourceTree = "<absolute>"; };
+		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		DEC3BD251CADE945004233E4 /* coin-heads-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-heads-medium.png"; sourceTree = "<group>"; };
+		DEC3BD261CADE945004233E4 /* coin-tails-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-tails-medium.png"; sourceTree = "<group>"; };
 		FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */,
+				DEC3BD251CADE945004233E4 /* coin-heads-medium.png */,
+				DEC3BD261CADE945004233E4 /* coin-tails-medium.png */,
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
+				DE5138C01CADD9560067A31C /* Coin.swift */,
 				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
 				1397CE051BF463AD004523FD /* InfoViewController.swift */,
 				3EED85B71978FEE8007EEB62 /* MainViewController.swift */,
@@ -115,7 +123,6 @@
 		6AE0E31AC8697ED4E2512BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DECAF4EB1BFD591F00A0B48E /* EasyAnimation.framework */,
 				FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */,
 			);
 			name = Frameworks;
@@ -183,7 +190,6 @@
 				TargetAttributes = {
 					3EED85AF1978FEE8007EEB62 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = Z6YQTBH7LB;
 					};
 					3EED85C11978FEE8007EEB62 = {
 						CreatedOnToolsVersion = 6.0;
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
+				DEC3BD271CADE945004233E4 /* coin-heads-medium.png in Resources */,
 				3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */,
 				A3E21B281BDDD519004AFB72 /* wrex01.breaks.html in Resources */,
+				DEC3BD281CADE945004233E4 /* coin-tails-medium.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */,
 				1397CE021BF454E1004523FD /* WrexegramViewController.swift in Sources */,
 				1397CE041BF45CAE004523FD /* WrexegramBreaksViewController.swift in Sources */,
+				DE5138C11CADD9560067A31C /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +419,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoinToss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.risney.YoChing;
 				PRODUCT_NAME = YoChing;
@@ -426,6 +436,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoinToss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.risney.YoChing;
 				PRODUCT_NAME = YoChing;

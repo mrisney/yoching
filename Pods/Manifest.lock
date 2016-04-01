@@ -1,10 +1,12 @@
 PODS:
-  - EasyAnimation (1.0.1)
+  - BRYXBanner (0.5.2):
+    - BRYXBanner/Core (= 0.5.2)
+  - BRYXBanner/Core (0.5.2)
 
 DEPENDENCIES:
-  - EasyAnimation
+  - BRYXBanner
 
 SPEC CHECKSUMS:
-  EasyAnimation: 270584ad88949718dfb9e2d957719f4f7ddc87ea
+  BRYXBanner: 5f0911d52e0a77e088f7ea7ddcdebd02afb7828a
 
 COCOAPODS: 0.39.0

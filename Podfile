@@ -8,7 +8,14 @@ use_frameworks!
 
 target 'YoChing' do
 
-pod 'EasyAnimation'
+#pod 'EasyAnimation'
+
+
+#===============================
+# NOTIFICATION BANNER
+pod 'BRYXBanner'
+#===============================
+
 
 end
 
