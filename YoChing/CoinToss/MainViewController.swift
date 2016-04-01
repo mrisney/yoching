@@ -93,6 +93,5 @@ class MainViewController: UIViewController {
             closure
         )
     }
-    
 }
 

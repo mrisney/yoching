@@ -17,9 +17,8 @@
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
 		A3E21B281BDDD519004AFB72 /* wrex01.breaks.html in Resources */ = {isa = PBXBuildFile; fileRef = A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */; };
+		A3F35A041CAF154600560B01 /* wrex02.breaks.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.breaks.html */; };
 		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
-		DEC3BD271CADE945004233E4 /* coin-heads-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC3BD251CADE945004233E4 /* coin-heads-medium.png */; };
-		DEC3BD281CADE945004233E4 /* coin-tails-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC3BD261CADE945004233E4 /* coin-tails-medium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +44,9 @@
 		3EED85BC1978FEE8007EEB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wrex01.breaks.html; path = ../wrexegrams/wrex01.breaks.html; sourceTree = "<group>"; };
+		A3F35A031CAF154600560B01 /* wrex02.breaks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.breaks.html; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
 		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
-		DEC3BD251CADE945004233E4 /* coin-heads-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-heads-medium.png"; sourceTree = "<group>"; };
-		DEC3BD261CADE945004233E4 /* coin-tails-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-tails-medium.png"; sourceTree = "<group>"; };
 		FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,8 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A3E21B271BDDD519004AFB72 /* wrex01.breaks.html */,
-				DEC3BD251CADE945004233E4 /* coin-heads-medium.png */,
-				DEC3BD261CADE945004233E4 /* coin-tails-medium.png */,
+				A3F35A031CAF154600560B01 /* wrex02.breaks.html */,
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
 				DE5138C01CADD9560067A31C /* Coin.swift */,
 				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
@@ -222,10 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
-				DEC3BD271CADE945004233E4 /* coin-heads-medium.png in Resources */,
 				3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */,
 				A3E21B281BDDD519004AFB72 /* wrex01.breaks.html in Resources */,
-				DEC3BD281CADE945004233E4 /* coin-tails-medium.png in Resources */,
+				A3F35A041CAF154600560B01 /* wrex02.breaks.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
