@@ -62,7 +62,7 @@ class Coin {
                 
                 var frame = image.frame
                 
-                frame.origin.y = 40.0
+                frame.origin.y = 90.0
                 image.frame = frame
                 }, completion: {
                     _ in

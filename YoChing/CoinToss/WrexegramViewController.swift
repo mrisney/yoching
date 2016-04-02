@@ -35,7 +35,8 @@ class WrexegramViewController : UIViewController {
         if let html = NSBundle.mainBundle().pathForResource("wrex01.breaks", ofType: "html") {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
-                webView.loadHTMLString(htmlString, baseURL: nil)
+                
+                webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
             } catch {
                 
             }

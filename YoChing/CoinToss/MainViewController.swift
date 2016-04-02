@@ -19,45 +19,59 @@ class MainViewController: UIViewController {
     private var coinOne: Coin!
     private var coinTwo: Coin!
     private var coinThree: Coin!
+    var tosses:Int = 0
     
-    
-    private var outcome = 0;
     @IBOutlet weak private var flipButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+      
         coinOne = Coin(image: coinOneImage)
         coinTwo = Coin(image: coinTwoImage)
         coinThree = Coin(image: coinThreeImage)
+    
     }
     
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake {
+            self.flipCoinAction(NSNull)
+        }
+    }
+  
     @IBAction func flipCoinAction(sender: AnyObject) {
         
         flipButton.enabled = false
         
-        coinOne?.flipCoinAction() { side in
-            print("Coin 1 Flipped: \(side)")
-//            outcome += 1;
-            
-        }
         
-        delay(0.05) {
+        delay(self.randomDouble()) {
+            self.coinOne?.flipCoinAction() { side in
+                print("Coin 1 Flipped: \(side)")
+            }
+        }
+        delay(self.randomDouble()) {
             self.coinTwo.flipCoinAction() { side in
                 print("Coin 2 Flipped: \(side)")
             }
         }
         
-        delay(0.1) {
+        delay(self.randomDouble()) {
             self.coinThree?.flipCoinAction() { side in
                 print("Coin 3 Flipped: \(side)")
                 self.flipButton.enabled = true
                 
                 NSOperationQueue.mainQueue().addOperationWithBlock() {
-                    self.goToWrex(1)
+                    if (self.tosses ==  6){
+                        self.tosses = 0
+                        self.goToWrex(1)
+                    }
                 }
             }
         }
+        tosses += 1
     }
     
 
@@ -74,15 +88,17 @@ class MainViewController: UIViewController {
         
         if let wrexegramView = segue.destinationViewController as? WrexegramViewController {
             if let outcome = sender as? Int {
-                print("transitioning to Wrexegram with outcome \(outcome)")
+                print("transitioning to wrexegram with outcome \(outcome)")
                 wrexegramView.outcome = outcome
             }
         }
         
     }
     
+    private func randomDouble(lower: Double = 0.0, _ upper: Double = 0.25) -> Double {
+        return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
+    }
     
-
     private func delay(delay: Double, closure: ()->()) {
         dispatch_after(
             dispatch_time(
