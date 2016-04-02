@@ -10,7 +10,7 @@ import Foundation
 import QuartzCore
 import UIKit
 
-let kMAX_REPS_QUICK = 10
+let kMAX_REPS_QUICK = 5
 let kMAX_REPS_SLOW = 10
 let kSLOW_ANIMATION: Double = 0.4
 let kQUICK_ANIMATION: Double = 0.10

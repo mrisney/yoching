@@ -47,18 +47,18 @@ class MainViewController: UIViewController {
         flipButton.enabled = false
         
         
-        delay(self.randomDouble()) {
+        delay(randomDouble()) {
             self.coinOne?.flipCoinAction() { side in
                 print("Coin 1 Flipped: \(side)")
             }
         }
-        delay(self.randomDouble()) {
+        delay(randomDouble()) {
             self.coinTwo.flipCoinAction() { side in
                 print("Coin 2 Flipped: \(side)")
             }
         }
         
-        delay(self.randomDouble()) {
+        delay(randomDouble()) {
             self.coinThree?.flipCoinAction() { side in
                 print("Coin 3 Flipped: \(side)")
                 self.flipButton.enabled = true
@@ -95,7 +95,7 @@ class MainViewController: UIViewController {
         
     }
     
-    private func randomDouble(lower: Double = 0.0, _ upper: Double = 0.25) -> Double {
+    private func randomDouble(lower: Double = 0.0, _ upper: Double = 0.35) -> Double {
         return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
     }
     

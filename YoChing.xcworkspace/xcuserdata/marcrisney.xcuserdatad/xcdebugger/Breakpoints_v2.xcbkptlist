@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YoChing/CoinToss/MainViewController.swift"
-            timestampString = "481272370.296736"
+            timestampString = "481277579.296461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "motionEnded(_:withEvent:)"
             landmarkType = "5">
          </BreakpointContent>
