@@ -109,5 +109,13 @@ class MainViewController: UIViewController {
             closure
         )
     }
+    
+    private func loadImageFor(coinResults: [Coin.CoinSide]) -> UIImage {
+        let straightLineimage: UIImage? = UIImage(contentsOfFile: "wrex-master-strongline.tif")
+        let brokenLineimage: UIImage? = UIImage(contentsOfFile: "wrex-master-strongline.tif")
+        return image!
+    }
+
+
 }
 
