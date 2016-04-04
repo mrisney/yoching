@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0373823B8D641415471834E1 /* Pods_YoChing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */; };
 		1397CE001BF44E6C004523FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CDFF1BF44E6C004523FD /* Extensions.swift */; };
-		1397CE021BF454E1004523FD /* WrexegramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE011BF454E1004523FD /* WrexegramViewController.swift */; };
-		1397CE041BF45CAE004523FD /* WrexegramBreaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE031BF45CAE004523FD /* WrexegramBreaksViewController.swift */; };
+		1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE011BF454E1004523FD /* WrexagramViewController.swift */; };
+		1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */; };
 		1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE051BF463AD004523FD /* InfoViewController.swift */; };
 		3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B51978FEE8007EEB62 /* AppDelegate.swift */; };
 		3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B71978FEE8007EEB62 /* MainViewController.swift */; };
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
-		A368216C1CB23F6300B2DA44 /* WrexegramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexegramLibrary.swift */; };
+		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
 		A3E21B281BDDD519004AFB72 /* wrex01.html in Resources */ = {isa = PBXBuildFile; fileRef = A3E21B271BDDD519004AFB72 /* wrex01.html */; };
 		A3F35A041CAF154600560B01 /* wrex02.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.html */; };
 		A3F35A061CAF538100560B01 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A051CAF538100560B01 /* style.css */; };
@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		1397CDFF1BF44E6C004523FD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1397CE011BF454E1004523FD /* WrexegramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexegramViewController.swift; sourceTree = "<group>"; };
-		1397CE031BF45CAE004523FD /* WrexegramBreaksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexegramBreaksViewController.swift; sourceTree = "<group>"; };
+		1397CE011BF454E1004523FD /* WrexagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramViewController.swift; sourceTree = "<group>"; };
+		1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramBreaksViewController.swift; sourceTree = "<group>"; };
 		1397CE051BF463AD004523FD /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3EED85B01978FEE8007EEB62 /* YoChing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoChing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EED85B41978FEE8007EEB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		3EED85BA1978FEE8007EEB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EED85BC1978FEE8007EEB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A368216B1CB23F6300B2DA44 /* WrexegramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexegramLibrary.swift; sourceTree = "<group>"; };
+		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
 		A3E21B271BDDD519004AFB72 /* wrex01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wrex01.html; path = ../wrexegrams/wrex01.html; sourceTree = "<group>"; };
 		A3F35A031CAF154600560B01 /* wrex02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.html; sourceTree = "<group>"; };
 		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
@@ -104,9 +104,9 @@
 				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
 				1397CE051BF463AD004523FD /* InfoViewController.swift */,
 				3EED85B71978FEE8007EEB62 /* MainViewController.swift */,
-				1397CE031BF45CAE004523FD /* WrexegramBreaksViewController.swift */,
-				1397CE011BF454E1004523FD /* WrexegramViewController.swift */,
-				A368216B1CB23F6300B2DA44 /* WrexegramLibrary.swift */,
+				1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */,
+				1397CE011BF454E1004523FD /* WrexagramViewController.swift */,
+				A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */,
 				3EED85BC1978FEE8007EEB62 /* Images.xcassets */,
 				3EED85B91978FEE8007EEB62 /* Main.storyboard */,
 				3EED85B11978FEE8007EEB62 /* Products */,
@@ -299,9 +299,9 @@
 				3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */,
 				3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */,
 				1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */,
-				A368216C1CB23F6300B2DA44 /* WrexegramLibrary.swift in Sources */,
-				1397CE021BF454E1004523FD /* WrexegramViewController.swift in Sources */,
-				1397CE041BF45CAE004523FD /* WrexegramBreaksViewController.swift in Sources */,
+				A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */,
+				1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */,
+				1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */,
 				DE5138C11CADD9560067A31C /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
