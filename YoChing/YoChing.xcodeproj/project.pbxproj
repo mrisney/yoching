@@ -46,7 +46,7 @@
 		3EED85BC1978FEE8007EEB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
-		A3E21B271BDDD519004AFB72 /* wrex01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wrex01.html; path = ../wrexegrams/wrex01.html; sourceTree = "<group>"; };
+		A3E21B271BDDD519004AFB72 /* wrex01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wrex01.html; path = ../wrexagrams/wrex01.html; sourceTree = "<group>"; };
 		A3F35A031CAF154600560B01 /* wrex02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.html; sourceTree = "<group>"; };
 		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
