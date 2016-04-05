@@ -19,7 +19,9 @@ class MainViewController: UIViewController {
     private var coinOne: Coin!
     private var coinTwo: Coin!
     private var coinThree: Coin!
-    var tosses:Int = 0
+    private var tosses:Int = 0
+    private var coinsOutcome: [Coin.CoinSide] = []
+    
     
     @IBOutlet weak private var flipButton: UIButton!
     
@@ -29,7 +31,6 @@ class MainViewController: UIViewController {
         coinOne = Coin(image: coinOneImage)
         coinTwo = Coin(image: coinTwoImage)
         coinThree = Coin(image: coinThreeImage)
-    
     }
     
     override func canBecomeFirstResponder() -> Bool {
@@ -50,27 +51,33 @@ class MainViewController: UIViewController {
         delay(randomDouble()) {
             self.coinOne?.flipCoinAction() { side in
                 print("Coin 1 Flipped: \(side)")
+                self.coinsOutcome.append(side)
             }
         }
         delay(randomDouble()) {
             self.coinTwo.flipCoinAction() { side in
                 print("Coin 2 Flipped: \(side)")
+                self.coinsOutcome.append(side)
+
             }
         }
         
         delay(randomDouble()) {
             self.coinThree?.flipCoinAction() { side in
                 print("Coin 3 Flipped: \(side)")
+                self.coinsOutcome.append(side)
+
                 self.flipButton.enabled = true
                 
                 NSOperationQueue.mainQueue().addOperationWithBlock() {
                     if (self.tosses ==  6){
                         self.tosses = 0
-                        self.goToWrex(1)
+                        self.goToWrex(45)
                     }
                 }
             }
         }
+        getTossMaxValue(coinsOutcome)
         tosses += 1
     }
     
@@ -109,13 +116,15 @@ class MainViewController: UIViewController {
         )
     }
     
-    private func loadImageFor(coinResults: [Coin.CoinSide]) -> UIImage {
-        let straightLineimage: UIImage? = UIImage(contentsOfFile: "wrex-master-strongline.tif")
-        let brokenLineimage: UIImage? = UIImage(contentsOfFile: "wrex-master-strongline.tif")
+    private func getTossMaxValue(coinTossResults: [Coin.CoinSide]){
         
-        return straightLineimage!
+        var counts:[Coin.CoinSide:Int] = [:]
+        for coinSide in coinTossResults{
+           counts[coinSide] = (counts[coinSide] ?? 0) + 1
+        }
+        
+        print(counts)
+        coinsOutcome.removeAll()
     }
-
-
 }
 

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Media.xcassets">
+   </FileRef>
+   <FileRef
       location = "group:YoChing/YoChing.xcodeproj">
    </FileRef>
    <FileRef
