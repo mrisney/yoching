@@ -21,6 +21,10 @@
 		A3F35A041CAF154600560B01 /* wrex02.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.html */; };
 		A3F35A061CAF538100560B01 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A051CAF538100560B01 /* style.css */; };
 		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
+		DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */; };
+		DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */; };
+		DE683D521CB372360072F98A /* Uni Sans Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */; };
+		DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
 		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy Italic.otf"; sourceTree = "<group>"; };
+		DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy.otf"; sourceTree = "<group>"; };
+		DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Thin Italic.otf"; sourceTree = "<group>"; };
+		DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Thin.otf"; sourceTree = "<group>"; };
 		FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +104,7 @@
 		3EED85B21978FEE8007EEB62 /* CoinToss */ = {
 			isa = PBXGroup;
 			children = (
+				DE683D4B1CB372100072F98A /* Fonts */,
 				A3F35A051CAF538100560B01 /* style.css */,
 				A3E21B271BDDD519004AFB72 /* wrex01.html */,
 				A3F35A031CAF154600560B01 /* wrex02.html */,
@@ -138,6 +147,17 @@
 				D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE683D4B1CB372100072F98A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */,
+				DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */,
+				DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */,
+				DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +213,6 @@
 				TargetAttributes = {
 					3EED85AF1978FEE8007EEB62 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = XKU4RQ3453;
 					};
 					3EED85C11978FEE8007EEB62 = {
 						CreatedOnToolsVersion = 6.0;
@@ -225,10 +244,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */,
+				DE683D521CB372360072F98A /* Uni Sans Thin Italic.otf in Resources */,
 				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
 				3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */,
+				DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */,
 				A3F35A061CAF538100560B01 /* style.css in Resources */,
 				A3E21B281BDDD519004AFB72 /* wrex01.html in Resources */,
+				DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */,
 				A3F35A041CAF154600560B01 /* wrex02.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
