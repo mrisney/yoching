@@ -85,7 +85,7 @@ class MainViewController: UIViewController {
   
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if let wrexegramView = segue.destinationViewController as? WrexegramViewController {
+        if let wrexegramView = segue.destinationViewController as? WrexagramViewController {
             if let outcome = sender as? Int {
                 print("transitioning to wrexagram with outcome \(outcome)")
                 wrexegramView.outcome = outcome

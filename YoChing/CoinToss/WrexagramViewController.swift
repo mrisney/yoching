@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class WrexegramViewController : UIViewController {
+class WrexagramViewController : UIViewController {
     
     @IBOutlet weak var wrexegramImage: UIImageView!
     @IBOutlet weak var textView: UITextView!

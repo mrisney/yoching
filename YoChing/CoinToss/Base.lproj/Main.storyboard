@@ -8,6 +8,7 @@
     <customFonts key="customFonts">
         <mutableArray key="Uni Sans Heavy.otf">
             <string>UniSansHeavyCAPS</string>
+            <string>UniSansHeavyCAPS</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -184,7 +185,7 @@
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6H-Ti-hl5">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
-                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                    <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="24"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -204,9 +205,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="textView" destination="7Rd-wy-cNv" id="Slg-Nh-nB8"/>
-                        <outlet property="webView" destination="8Jr-yJ-TWo" id="855-PK-CMu"/>
-                        <outlet property="wrexegramImage" destination="sen-WV-L48" id="jzC-vm-bgE"/>
+                        <outlet property="textView" destination="7Rd-wy-cNv" id="1Zq-Rq-Egp"/>
+                        <outlet property="webView" destination="8Jr-yJ-TWo" id="vxg-E9-L1X"/>
+                        <outlet property="wrexegramImage" destination="sen-WV-L48" id="7va-Ft-Vpn"/>
                         <segue destination="ZnB-eJ-y3j" kind="show" identifier="ToBreaksView" id="cUA-Zc-EMX"/>
                     </connections>
                 </viewController>
@@ -339,6 +340,6 @@
         <image name="wrex52" width="432" height="432"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ki9-bG-w6x"/>
+        <segue reference="cUA-Zc-EMX"/>
     </inferredMetricsTieBreakers>
 </document>

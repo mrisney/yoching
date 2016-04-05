@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class WrexegramBreaksViewController : UIViewController {
+class WrexagramBreaksViewController : UIViewController {
     
     @IBOutlet weak var wrexegramImage: UIImageView!
     @IBOutlet weak var webView: UIWebView!
