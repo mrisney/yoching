@@ -76,19 +76,18 @@ class MainViewController: UIViewController {
     
 
     @IBAction func onGoToNext(sender: AnyObject) {
-        
         self.performSegueWithIdentifier("ToCoinResults", sender: sender)
     }
     
     private func goToWrex(outcome: Int) {
-        self.performSegueWithIdentifier("ToWrexegram", sender: outcome)
+        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
     }
   
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if let wrexegramView = segue.destinationViewController as? WrexegramViewController {
             if let outcome = sender as? Int {
-                print("transitioning to wrexegram with outcome \(outcome)")
+                print("transitioning to wrexagram with outcome \(outcome)")
                 wrexegramView.outcome = outcome
             }
         }
