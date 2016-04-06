@@ -19,6 +19,7 @@ class MainViewController: UIViewController {
     private var coinOne: Coin!
     private var coinTwo: Coin!
     private var coinThree: Coin!
+    
     private var tosses:Int = 0
     private var coinsOutcome: [Coin.CoinSide] = []
     private var hexNum:String = ""
