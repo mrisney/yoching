@@ -10,6 +10,7 @@ import Foundation
 
 
 class WrexagramLibrary {
+    
     class  func getOutcome(hexNum: Int) -> String {
         
         switch (hexNum) {
