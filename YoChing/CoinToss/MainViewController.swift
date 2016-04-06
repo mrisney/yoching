@@ -55,7 +55,7 @@ class MainViewController: UIViewController {
         
         var coinsOutcome: [Coin.CoinSide] = []
         
-        self.coinsInTheAir += 1
+        self.coinsInTheAir = 3
         
         delay(randomDouble()) {
             self.coinOne?.flipCoinAction() { side in
@@ -66,7 +66,6 @@ class MainViewController: UIViewController {
         }
         
         delay(randomDouble()) {
-            self.coinsInTheAir += 1
             
             self.coinTwo.flipCoinAction() { side in
                 self.coinsInTheAir -= 1
@@ -77,7 +76,6 @@ class MainViewController: UIViewController {
         }
         
         delay(randomDouble()) {
-            self.coinsInTheAir += 1
             
             self.coinThree?.flipCoinAction() { side in
                 self.coinsInTheAir -= 1
@@ -92,7 +90,7 @@ class MainViewController: UIViewController {
             
             self.tosses += 1
             
-            while self.coinsInTheAir > 0 { }
+            while self.coinsInTheAir > 0 { } //wait
             
             self.main.addOperationWithBlock() {
                 
@@ -114,8 +112,7 @@ class MainViewController: UIViewController {
                     self.goToWrex(wrexNumber)
                 }
             }
-            
-            
+               
         }
     }
     
