@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
     private var coinThree: Coin!
     private var tosses:Int = 0
     private var coinsOutcome: [Coin.CoinSide] = []
+    private var hexNum:String = ""
     
     
     @IBOutlet weak private var flipButton: UIButton!
@@ -72,7 +73,12 @@ class MainViewController: UIViewController {
                 NSOperationQueue.mainQueue().addOperationWithBlock() {
                     if (self.tosses ==  6){
                         self.tosses = 0
-                        self.goToWrex(45)
+    
+                        let hexNumber:Int? = Int(self.hexNum);
+                        let outcome  = WrexagramLibrary.getOutcome(hexNumber!)
+                        print(outcome)
+                        let wrexNumber:Int? = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: ""))
+                        self.goToWrex(wrexNumber!)
                     }
                 }
             }
@@ -118,12 +124,13 @@ class MainViewController: UIViewController {
     
     private func getTossMaxValue(coinTossResults: [Coin.CoinSide]){
         
-        var counts:[Coin.CoinSide:Int] = [:]
-        for coinSide in coinTossResults{
-           counts[coinSide] = (counts[coinSide] ?? 0) + 1
-        }
+        let headCount = coinTossResults.filter{$0 == Coin.CoinSide.HEADS}.count
         
-        print(counts)
+        if (headCount >= 2){
+            hexNum += "2"
+        } else{
+            hexNum += "1"
+        }
         coinsOutcome.removeAll()
     }
 }

@@ -32,7 +32,7 @@ class WrexagramViewController : UIViewController {
             wrexegramImage.image = image
         }
                 
-        if let html = NSBundle.mainBundle().pathForResource("wrex02", ofType: "html") {
+        if let html = NSBundle.mainBundle().pathForResource(filename, ofType: "html") {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
                 webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
