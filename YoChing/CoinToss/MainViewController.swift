@@ -21,9 +21,11 @@ class MainViewController: UIViewController {
     private var coinThree: Coin!
     
     private var tosses:Int = 0
-    private var coinsOutcome: [Coin.CoinSide] = []
     private var hexNum:String = ""
     
+    private var coinsInTheAir = 0
+    private let main = NSOperationQueue.mainQueue()
+    private let async = NSOperationQueue()
     
     @IBOutlet weak private var flipButton: UIButton!
     
@@ -33,6 +35,8 @@ class MainViewController: UIViewController {
         coinOne = Coin(image: coinOneImage)
         coinTwo = Coin(image: coinTwoImage)
         coinThree = Coin(image: coinThreeImage)
+        
+        async.maxConcurrentOperationCount = 1
     }
     
     override func canBecomeFirstResponder() -> Bool {
@@ -49,43 +53,70 @@ class MainViewController: UIViewController {
         
         flipButton.enabled = false
         
+        var coinsOutcome: [Coin.CoinSide] = []
+        
+        self.coinsInTheAir += 1
         
         delay(randomDouble()) {
             self.coinOne?.flipCoinAction() { side in
+                self.coinsInTheAir -= 1
                 print("Coin 1 Flipped: \(side)")
-                self.coinsOutcome.append(side)
+                coinsOutcome.append(side)
             }
         }
+        
         delay(randomDouble()) {
+            self.coinsInTheAir += 1
+            
             self.coinTwo.flipCoinAction() { side in
+                self.coinsInTheAir -= 1
                 print("Coin 2 Flipped: \(side)")
-                self.coinsOutcome.append(side)
+                coinsOutcome.append(side)
 
             }
         }
         
         delay(randomDouble()) {
+            self.coinsInTheAir += 1
+            
             self.coinThree?.flipCoinAction() { side in
+                self.coinsInTheAir -= 1
                 print("Coin 3 Flipped: \(side)")
-                self.coinsOutcome.append(side)
+                coinsOutcome.append(side)
 
-                self.flipButton.enabled = true
-                
-                NSOperationQueue.mainQueue().addOperationWithBlock() {
-                    if (self.tosses ==  6){
-                        self.tosses = 0
-    
-                        let hexNumber:Int? = Int(self.hexNum);
-                        let outcome  = WrexagramLibrary.getOutcome(hexNumber!)
-                        print(outcome)
-                        let wrexNumber:Int? = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: ""))
-                        self.goToWrex(wrexNumber!)
-                    }
-                }
             }
         }
-        getTossMaxValue(coinsOutcome)
-        tosses += 1
+        
+        
+        async.addOperationWithBlock() {
+            
+            self.tosses += 1
+            
+            while self.coinsInTheAir > 0 { }
+            
+            self.main.addOperationWithBlock() {
+                
+                self.recordCoinTossResult(coinsOutcome)
+                self.flipButton.enabled = true
+                
+                if self.tosses ==  6 {
+                    
+                    defer {
+                        self.tosses = 0
+                        self.hexNum = ""
+                    }
+                    
+                    let hexNumber = Int(self.hexNum) ?? 1
+                    let outcome  = WrexagramLibrary.getOutcome(hexNumber)
+                    print(outcome)
+                    
+                    let wrexNumber = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: "")) ?? 1
+                    self.goToWrex(wrexNumber)
+                }
+            }
+            
+            
+        }
     }
     
 
@@ -123,16 +154,15 @@ class MainViewController: UIViewController {
         )
     }
     
-    private func getTossMaxValue(coinTossResults: [Coin.CoinSide]){
+    private func recordCoinTossResult(coinTossResults: [Coin.CoinSide]) {
         
         let headCount = coinTossResults.filter{$0 == Coin.CoinSide.HEADS}.count
         
-        if (headCount >= 2){
+        if headCount >= 2 {
             hexNum += "2"
-        } else{
+        } else {
             hexNum += "1"
         }
-        coinsOutcome.removeAll()
     }
 }
 
