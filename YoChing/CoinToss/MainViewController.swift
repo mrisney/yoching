@@ -104,11 +104,11 @@ class MainViewController: UIViewController {
                         self.hexNum = ""
                     }
                     
-                    let hexNumber = Int(self.hexNum) ?? 1
+                    let hexNumber = Int(self.hexNum) ?? 111111
                     let outcome  = WrexagramLibrary.getOutcome(hexNumber)
                     print(outcome)
                     
-                    let wrexNumber = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: "")) ?? 1
+                    let wrexNumber = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: "")) ?? 01
                     self.goToWrex(wrexNumber)
                 }
             }
@@ -154,12 +154,9 @@ class MainViewController: UIViewController {
     private func recordCoinTossResult(coinTossResults: [Coin.CoinSide]) {
         
         let headCount = coinTossResults.filter{$0 == Coin.CoinSide.HEADS}.count
-        
-        if headCount >= 2 {
-            hexNum += "2"
-        } else {
-            hexNum += "1"
-        }
+        (headCount >= 2) ? (hexNum += "2") : (hexNum += "1")
+
     }
+
 }
 

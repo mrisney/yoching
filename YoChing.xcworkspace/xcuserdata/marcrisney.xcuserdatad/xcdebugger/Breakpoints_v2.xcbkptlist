@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
-            landmarkName = "motionEnded(_:withEvent:)"
+            landmarkName = "canBecomeFirstResponder()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "125"
             endingLineNumber = "125"
-            landmarkName = "getTossMaxValue(_:)"
+            landmarkName = "goToWrex(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
