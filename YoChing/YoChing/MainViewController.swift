@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Marc Risney. All rights reserved.
 //
 
+import AromaSwiftClient
 import UIKit
 import QuartzCore
 
@@ -107,6 +108,13 @@ class MainViewController: UIViewController {
                     let hexNumber = Int(self.hexNum) ?? 111111
                     let outcome  = WrexagramLibrary.getOutcome(hexNumber)
                     print(outcome)
+                    
+                    defer {
+                        AromaClient.begin().withTitle("Coins Flipped")
+                            .withBody("Result: \(outcome)")
+                            .send()
+                    }
+                    
                     
                     let wrexNumber = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: "")) ?? 01
                     self.goToWrex(wrexNumber)

@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Marc Risney. All rights reserved.
 //
 
+import AromaSwiftClient
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
+        
+        //Might be better to put this somewhere safe
+        AromaClient.TOKEN_ID = "3e7ee9ec-9e9e-479e-a44a-24c7376d2786"
+        AromaClient.maxConcurrency = 2
+        
+        AromaClient.begin().withTitle("App Lauched").send()
+        
+        NSSetUncaughtExceptionHandler() { ex in
+            AromaClient.begin()
+                .withTitle("App Crashed")
+                .withBody("\(ex)")
+                .send()
+        }
+        
 		return true
 	}
 
