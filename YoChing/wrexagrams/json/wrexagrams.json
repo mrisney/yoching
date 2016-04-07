@@ -1,10 +1,67 @@
-1:Bring It
-wrexegram: |
-  When a True Player shows up with power to change the game, brothers say he BRING IT.
-  The brother who BRING IT to the game is called the True Player. When True Player BRING IT,
-  he’s rolling with power from The Heavens. BRING IT runs reality.
-  With that force behind his moves, True Player don't miss a beat.
-  True Players organize motherfuckers and set them rolling on plays. Put people paid.
-  Living crisp helps True Player focus. He ain’t some motherfucker trying to be everything.
-  True Player puts limits on himself. Picks his plays, chooses his angles, runs them right.
-  All other shit he just let go. Focus like that makes him real powerful.
+[
+  {
+    number: 1,
+    title: "BRING IT"
+    body:
+  },
+  {
+    number: 2,
+    title: "WITH IT"
+  },
+  {
+    number: 3,
+    title: "STRESS GETTING STARTED"
+  },
+  {
+    number: 4,
+    title: "SHORTY"
+  },
+  {
+    number: 5,
+    title: "CHILL"
+  },
+  {
+    number: 6,
+    title: "DRAMA"
+  },
+  {
+    number: 7,
+    title: "ROLLING"
+  },
+  {
+    number: 8,
+    title: "HOLD IT TOGETHER"
+  },
+  {
+    number: 9,
+    title: "WAIT A MINUTE"
+  },
+  {
+    number: 10,
+    title: "WATCH YOUR STEP"
+  },
+  {
+    number: 11,
+    title: "PEACE"
+  },
+  {
+    number: 12,
+    title: "STAGNATIN'"
+  },
+  {
+    number: 13,
+    title: "GETTING TOGETHER"
+  },
+  {
+    id: 14,
+    title: "PAID FOR REAL"
+  },
+  {
+    id: 15,
+    title: "LOW KEY"
+  },
+  {
+    id: 16,
+    title: "UP FOR IT"
+  }
+]
