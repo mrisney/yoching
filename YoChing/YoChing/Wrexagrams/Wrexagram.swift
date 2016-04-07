@@ -11,9 +11,10 @@ import UIKit
 
 
 struct Wrexagram {
-    private let title: String
-    private let body: String?
-    private let number: Int?
+    
+    let title: String
+    let body: String?
+    let number: Int?
     
     init(title: String) {
         self.init(title: title, body: nil, number: nil)
