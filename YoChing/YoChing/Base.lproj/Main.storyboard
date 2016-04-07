@@ -9,6 +9,7 @@
         <mutableArray key="Uni Sans Heavy.otf">
             <string>UniSansHeavyCAPS</string>
             <string>UniSansHeavyCAPS</string>
+            <string>UniSansHeavyCAPS</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -27,16 +28,9 @@
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3U-LU-RBb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                 <subviews>
-                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spray.galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-7K-33l">
+                                    <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spray.galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-7K-33l">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yo Ching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDm-qR-H0S">
-                                        <rect key="frame" x="0.0" y="0.0" width="169" height="45"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="39"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0tV-un-F3X" userLabel="wrexegram-line-01"/>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -46,16 +40,15 @@
                                     <constraint firstItem="zRW-7K-33l" firstAttribute="top" secondItem="B3U-LU-RBb" secondAttribute="top" id="vVZ-aI-iBj"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giy-xa-NoG">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giy-xa-NoG">
                                 <rect key="frame" x="0.0" y="466" width="600" height="70"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="fJp-ly-hb8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="39"/>
                                 <state key="normal" title="Throw The Yo">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCoinAction:" destination="IGd-ft-1RS" eventType="touchUpInside" id="1KQ-kb-Cyy"/>
@@ -104,20 +97,24 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="w9R-Ii-Nga">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="zSM-Jr-duo">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="3kH-Ie-9yL">
-                                <rect key="frame" x="558" y="11" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ozo-b2-qxu" kind="presentation" modalTransitionStyle="flipHorizontal" id="FH8-cQ-aDN"/>
-                                </connections>
-                            </button>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </barButtonItem>
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="YH0-Tn-yhm">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo Ching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-Tc-V3N">
+                                    <rect key="frame" x="60" y="3" width="121" height="28"/>
+                                    <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="28"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="XyC-Tc-V3N" firstAttribute="centerY" secondItem="YH0-Tn-yhm" secondAttribute="centerY" id="MCm-Aq-7UW"/>
+                                <constraint firstItem="XyC-Tc-V3N" firstAttribute="centerX" secondItem="YH0-Tn-yhm" secondAttribute="centerX" id="uAg-VP-GYd"/>
+                            </constraints>
+                        </view>
                     </navigationItem>
                     <connections>
                         <outlet property="coinOneImage" destination="Hlq-cf-f8c" id="aXk-oe-oLo"/>
@@ -213,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTv-eX-rhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="376" y="-344"/>
+            <point key="canvasLocation" x="370" y="-370"/>
         </scene>
         <!--Wrexagram Breaks View Controller-->
         <scene sceneID="V8U-Id-o6e">
@@ -265,49 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaW-fe-kl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1151" y="-344"/>
-        </scene>
-        <!--Info View Controller-->
-        <scene sceneID="tjX-5m-8UZ">
-            <objects>
-                <viewController id="Ozo-b2-qxu" customClass="InfoViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="miD-6G-vgZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="cw8-Yk-clm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1aQ-2x-cfq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-eH-C7B">
-                                <rect key="frame" x="20" y="20" width="560" height="580"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTn-sZ-T59">
-                                <rect key="frame" x="20" y="28" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="MTn-sZ-T59" secondAttribute="height" multiplier="1:1" id="VO7-xN-xWO"/>
-                                    <constraint firstAttribute="width" constant="40" id="tta-Hg-LKm"/>
-                                </constraints>
-                                <state key="normal" image="arrow_left"/>
-                                <connections>
-                                    <action selector="onBackButton:" destination="Ozo-b2-qxu" eventType="touchUpInside" id="GM9-cz-yr7"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="pz4-eH-C7B" firstAttribute="leading" secondItem="1aQ-2x-cfq" secondAttribute="leadingMargin" id="4qd-mB-o9A"/>
-                            <constraint firstItem="cw8-Yk-clm" firstAttribute="top" secondItem="pz4-eH-C7B" secondAttribute="bottom" id="8Ye-OV-Qkb"/>
-                            <constraint firstItem="MTn-sZ-T59" firstAttribute="top" secondItem="miD-6G-vgZ" secondAttribute="bottom" constant="8" id="8lC-Rx-606"/>
-                            <constraint firstItem="MTn-sZ-T59" firstAttribute="leading" secondItem="1aQ-2x-cfq" secondAttribute="leadingMargin" id="PWa-qa-RZp"/>
-                            <constraint firstItem="pz4-eH-C7B" firstAttribute="top" secondItem="miD-6G-vgZ" secondAttribute="bottom" id="ljS-iK-j5e"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pz4-eH-C7B" secondAttribute="trailing" id="xKG-8t-9in"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pD0-9n-3tX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-444" y="-1130"/>
+            <point key="canvasLocation" x="1157" y="-370"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jK0-bs-v3o">
@@ -317,7 +272,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
@@ -333,8 +288,6 @@
     </scenes>
     <resources>
         <image name="Coin_Heads" width="512" height="512"/>
-        <image name="Logo" width="76" height="76"/>
-        <image name="arrow_left" width="100" height="100"/>
         <image name="arrow_right" width="25" height="25"/>
         <image name="spray.galaxy" width="2445" height="1630"/>
         <image name="wrex52" width="432" height="432"/>
@@ -342,4 +295,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="cUA-Zc-EMX"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

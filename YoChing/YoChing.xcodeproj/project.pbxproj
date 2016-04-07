@@ -1,4192 +1,638 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0373823B8D641415471834E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FCA493FE538E6ADC2394AAC6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0400814AF8DFD15FE04F48E1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1397CDFF1BF44E6C004523FD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Extensions.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1397CE001BF44E6C004523FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1397CDFF1BF44E6C004523FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1397CE011BF454E1004523FD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WrexagramViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1397CE021BF454E1004523FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1397CE011BF454E1004523FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1397CE031BF45CAE004523FD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WrexagramBreaksViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1397CE041BF45CAE004523FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1397CE031BF45CAE004523FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1397CE051BF463AD004523FD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>InfoViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1397CE061BF463AD004523FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1397CE051BF463AD004523FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27C3CCC290F40858FECF2147</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C996FB898E39F38827B5001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EED85A71978FEE8007EEB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE8747491CB6413000890679</string>
-				<string>3EED85B21978FEE8007EEB62</string>
-				<string>CFB327BF22180A17FDDBD6CF</string>
-				<string>6AE0E31AC8697ED4E2512BED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85A81978FEE8007EEB62</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Gary.com</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3EED85AF1978FEE8007EEB62</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-					</dict>
-					<key>3EED85C11978FEE8007EEB62</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>TestTargetID</key>
-						<string>3EED85AF1978FEE8007EEB62</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3EED85AB1978FEE8007EEB62</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>3EED85A71978FEE8007EEB62</string>
-			<key>productRefGroup</key>
-			<string>3EED85B11978FEE8007EEB62</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3EED85AF1978FEE8007EEB62</string>
-				<string>3EED85C11978FEE8007EEB62</string>
-			</array>
-		</dict>
-		<key>3EED85AB1978FEE8007EEB62</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3EED85CA1978FEE8007EEB62</string>
-				<string>3EED85CB1978FEE8007EEB62</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3EED85AC1978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1397CE001BF44E6C004523FD</string>
-				<string>3EED85B81978FEE8007EEB62</string>
-				<string>3EED85B61978FEE8007EEB62</string>
-				<string>1397CE061BF463AD004523FD</string>
-				<string>A368216C1CB23F6300B2DA44</string>
-				<string>1397CE021BF454E1004523FD</string>
-				<string>1397CE041BF45CAE004523FD</string>
-				<string>DE5138C11CADD9560067A31C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85AD1978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0373823B8D641415471834E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85AE1978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DE8748211CB6415700890679</string>
-				<string>DE8748251CB6415700890679</string>
-				<string>A37B49781CB397DD005B28D4</string>
-				<string>DE8748131CB6415700890679</string>
-				<string>DE8748011CB6415700890679</string>
-				<string>DE8747F31CB6415700890679</string>
-				<string>DE8748311CB6415700890679</string>
-				<string>DE8747EE1CB6415700890679</string>
-				<string>DE8748191CB6415700890679</string>
-				<string>DE8748491CB6415700890679</string>
-				<string>DE8747DB1CB6415700890679</string>
-				<string>DE8748521CB6415700890679</string>
-				<string>DE8748561CB6415700890679</string>
-				<string>DE8747F91CB6415700890679</string>
-				<string>DE87480B1CB6415700890679</string>
-				<string>DE8748121CB6415700890679</string>
-				<string>DE8747DC1CB6415700890679</string>
-				<string>DE87481E1CB6415700890679</string>
-				<string>DE8747F21CB6415700890679</string>
-				<string>DE8748431CB6415700890679</string>
-				<string>DE87483F1CB6415700890679</string>
-				<string>DE8748181CB6415700890679</string>
-				<string>DE8747FA1CB6415700890679</string>
-				<string>DE8748221CB6415700890679</string>
-				<string>DE8748501CB6415700890679</string>
-				<string>DE683D511CB372360072F98A</string>
-				<string>DE8747E91CB6415700890679</string>
-				<string>DE8748391CB6415700890679</string>
-				<string>DE8747D91CB6415700890679</string>
-				<string>DE87482E1CB6415700890679</string>
-				<string>DE8747E81CB6415700890679</string>
-				<string>DE683D521CB372360072F98A</string>
-				<string>DE8747FE1CB6415700890679</string>
-				<string>DE87483E1CB6415700890679</string>
-				<string>DE8748531CB6415700890679</string>
-				<string>DE87484B1CB6415700890679</string>
-				<string>DE8748481CB6415700890679</string>
-				<string>DE8748301CB6415700890679</string>
-				<string>DE8748151CB6415700890679</string>
-				<string>DE8748401CB6415700890679</string>
-				<string>DE8747E21CB6415700890679</string>
-				<string>DE8747E61CB6415700890679</string>
-				<string>DE8747DE1CB6415700890679</string>
-				<string>DE8747F01CB6415700890679</string>
-				<string>DE8748381CB6415700890679</string>
-				<string>DE8747EA1CB6415700890679</string>
-				<string>DE87482F1CB6415700890679</string>
-				<string>DE87481D1CB6415700890679</string>
-				<string>3EED85BB1978FEE8007EEB62</string>
-				<string>DE8747FC1CB6415700890679</string>
-				<string>DE8748471CB6415700890679</string>
-				<string>DE8748041CB6415700890679</string>
-				<string>DE8748511CB6415700890679</string>
-				<string>DE8748281CB6415700890679</string>
-				<string>DE8747EC1CB6415700890679</string>
-				<string>DE87482B1CB6415700890679</string>
-				<string>DE87484F1CB6415700890679</string>
-				<string>DE8747FF1CB6415700890679</string>
-				<string>DE8748171CB6415700890679</string>
-				<string>DE87481F1CB6415700890679</string>
-				<string>DE87483B1CB6415700890679</string>
-				<string>DE8747F61CB6415700890679</string>
-				<string>DE8748541CB6415700890679</string>
-				<string>DE8748141CB6415700890679</string>
-				<string>DE87480E1CB6415700890679</string>
-				<string>DE8748021CB6415700890679</string>
-				<string>3EED85BD1978FEE8007EEB62</string>
-				<string>DE683D531CB372360072F98A</string>
-				<string>DE8747D51CB6415700890679</string>
-				<string>DE8747D81CB6415700890679</string>
-				<string>DE8748071CB6415700890679</string>
-				<string>DE8748091CB6415700890679</string>
-				<string>DE8748291CB6415700890679</string>
-				<string>DE8747F51CB6415700890679</string>
-				<string>DE8747EF1CB6415700890679</string>
-				<string>DE8748551CB6415700890679</string>
-				<string>DE8747E31CB6415700890679</string>
-				<string>DE87480D1CB6415700890679</string>
-				<string>DE8747F41CB6415700890679</string>
-				<string>DE8748441CB6415700890679</string>
-				<string>DE8748201CB6415700890679</string>
-				<string>DE87480F1CB6415700890679</string>
-				<string>DE87484E1CB6415700890679</string>
-				<string>DE8748331CB6415700890679</string>
-				<string>DE8748241CB6415700890679</string>
-				<string>DE8747E11CB6415700890679</string>
-				<string>DE8748061CB6415700890679</string>
-				<string>DE8748361CB6415700890679</string>
-				<string>DE87482C1CB6415700890679</string>
-				<string>DE8747F81CB6415700890679</string>
-				<string>DE87482D1CB6415700890679</string>
-				<string>DE8747D71CB6415700890679</string>
-				<string>DE8748001CB6415700890679</string>
-				<string>DE8747F11CB6415700890679</string>
-				<string>DE8748081CB6415700890679</string>
-				<string>A3F35A061CAF538100560B01</string>
-				<string>DE8748101CB6415700890679</string>
-				<string>DE87481A1CB6415700890679</string>
-				<string>DE8748231CB6415700890679</string>
-				<string>DE8748451CB6415700890679</string>
-				<string>DE87484D1CB6415700890679</string>
-				<string>DE8747F71CB6415700890679</string>
-				<string>DE8748421CB6415700890679</string>
-				<string>DE87481C1CB6415700890679</string>
-				<string>DE8747D41CB6415700890679</string>
-				<string>DE8748261CB6415700890679</string>
-				<string>DE8748031CB6415700890679</string>
-				<string>DE8747EB1CB6415700890679</string>
-				<string>DE87481B1CB6415700890679</string>
-				<string>DE8748111CB6415700890679</string>
-				<string>DE87480C1CB6415700890679</string>
-				<string>DE8747FB1CB6415700890679</string>
-				<string>DE8747D61CB6415700890679</string>
-				<string>DE8747ED1CB6415700890679</string>
-				<string>DE8747DA1CB6415700890679</string>
-				<string>DE8747D21CB6415700890679</string>
-				<string>DE87482A1CB6415700890679</string>
-				<string>DE8748341CB6415700890679</string>
-				<string>DE8747D31CB6415700890679</string>
-				<string>DE8748371CB6415700890679</string>
-				<string>DE683D501CB372360072F98A</string>
-				<string>DE87483C1CB6415700890679</string>
-				<string>DE8747DD1CB6415700890679</string>
-				<string>A3F35A041CAF154600560B01</string>
-				<string>DE87483D1CB6415700890679</string>
-				<string>DE8748411CB6415700890679</string>
-				<string>DE8747E01CB6415700890679</string>
-				<string>DE87484A1CB6415700890679</string>
-				<string>DE8747E51CB6415700890679</string>
-				<string>DE8748351CB6415700890679</string>
-				<string>DE8747E41CB6415700890679</string>
-				<string>DE8747DF1CB6415700890679</string>
-				<string>DE8748321CB6415700890679</string>
-				<string>DE8748051CB6415700890679</string>
-				<string>DE8747FD1CB6415700890679</string>
-				<string>DE8748271CB6415700890679</string>
-				<string>DE87484C1CB6415700890679</string>
-				<string>DE8748461CB6415700890679</string>
-				<string>DE87483A1CB6415700890679</string>
-				<string>DE87480A1CB6415700890679</string>
-				<string>DE8747E71CB6415700890679</string>
-				<string>DE8748161CB6415700890679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85AF1978FEE8007EEB62</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3EED85CC1978FEE8007EEB62</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F60A9EC3F1933EC8E60447FA</string>
-				<string>3EED85AC1978FEE8007EEB62</string>
-				<string>3EED85AD1978FEE8007EEB62</string>
-				<string>3EED85AE1978FEE8007EEB62</string>
-				<string>BDF24BAD3B8BD13D5DD15A50</string>
-				<string>B90890821FD0B1DE8C4A4794</string>
-				<string>0400814AF8DFD15FE04F48E1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>YoChing</string>
-			<key>productName</key>
-			<string>CoinToss</string>
-			<key>productReference</key>
-			<string>3EED85B01978FEE8007EEB62</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>3EED85B01978FEE8007EEB62</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>YoChing.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3EED85B11978FEE8007EEB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EED85B01978FEE8007EEB62</string>
-				<string>3EED85C21978FEE8007EEB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B21978FEE8007EEB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE683D4B1CB372100072F98A</string>
-				<string>A3F35A051CAF538100560B01</string>
-				<string>A3F35A031CAF154600560B01</string>
-				<string>3EED85B51978FEE8007EEB62</string>
-				<string>DE5138C01CADD9560067A31C</string>
-				<string>1397CDFF1BF44E6C004523FD</string>
-				<string>1397CE051BF463AD004523FD</string>
-				<string>3EED85B71978FEE8007EEB62</string>
-				<string>1397CE031BF45CAE004523FD</string>
-				<string>1397CE011BF454E1004523FD</string>
-				<string>A368216B1CB23F6300B2DA44</string>
-				<string>3EED85BC1978FEE8007EEB62</string>
-				<string>A37B49771CB397DD005B28D4</string>
-				<string>3EED85B91978FEE8007EEB62</string>
-				<string>3EED85B11978FEE8007EEB62</string>
-				<string>3EED85B31978FEE8007EEB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>YoChing</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B31978FEE8007EEB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EED85B41978FEE8007EEB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B41978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B51978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B61978FEE8007EEB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EED85B51978FEE8007EEB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EED85B71978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MainViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85B81978FEE8007EEB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EED85B71978FEE8007EEB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EED85B91978FEE8007EEB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EED85BA1978FEE8007EEB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85BA1978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85BB1978FEE8007EEB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EED85B91978FEE8007EEB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EED85BC1978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EED85BD1978FEE8007EEB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EED85BC1978FEE8007EEB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EED85BE1978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85BF1978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27C3CCC290F40858FECF2147</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85C01978FEE8007EEB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EED85C11978FEE8007EEB62</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3EED85CF1978FEE8007EEB62</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E4FEDB4E1F91CF5DE1486A00</string>
-				<string>3EED85BE1978FEE8007EEB62</string>
-				<string>3EED85BF1978FEE8007EEB62</string>
-				<string>3EED85C01978FEE8007EEB62</string>
-				<string>4BAAEB642B8DD56C077CD387</string>
-				<string>BFA3D15B2E1D289268C8BC17</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3EED85C41978FEE8007EEB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>YoChingTests</string>
-			<key>productName</key>
-			<string>CoinTossTests</string>
-			<key>productReference</key>
-			<string>3EED85C21978FEE8007EEB62</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>3EED85C21978FEE8007EEB62</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>YoChing.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3EED85C31978FEE8007EEB62</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>3EED85A81978FEE8007EEB62</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3EED85AF1978FEE8007EEB62</string>
-			<key>remoteInfo</key>
-			<string>CoinToss</string>
-		</dict>
-		<key>3EED85C41978FEE8007EEB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3EED85AF1978FEE8007EEB62</string>
-			<key>targetProxy</key>
-			<string>3EED85C31978FEE8007EEB62</string>
-		</dict>
-		<key>3EED85CA1978FEE8007EEB62</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3EED85CB1978FEE8007EEB62</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3EED85CC1978FEE8007EEB62</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3EED85CD1978FEE8007EEB62</string>
-				<string>3EED85CE1978FEE8007EEB62</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3EED85CD1978FEE8007EEB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FC05695ED601CAB2DFF5DB0F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>YoChing/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.risney.YoChing</string>
-				<key>PRODUCT_NAME</key>
-				<string>YoChing</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3EED85CE1978FEE8007EEB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D6F61F570B70A6455AF6A0A4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>YoChing/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.risney.YoChing</string>
-				<key>PRODUCT_NAME</key>
-				<string>YoChing</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3EED85CF1978FEE8007EEB62</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3EED85D01978FEE8007EEB62</string>
-				<string>3EED85D11978FEE8007EEB62</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3EED85D01978FEE8007EEB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BB8BA239BB98947BEE558160</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CoinToss.app/CoinToss</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CoinTossTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>YoChing</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3EED85D11978FEE8007EEB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6F89BF55C197002986CA2CAC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CoinToss.app/CoinToss</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CoinTossTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>YoChing</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4BAAEB642B8DD56C077CD387</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6AE0E31AC8697ED4E2512BED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FCA493FE538E6ADC2394AAC6</string>
-				<string>8C996FB898E39F38827B5001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F89BF55C197002986CA2CAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-YoChingTests.release.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C996FB898E39F38827B5001</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_YoChingTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A368216B1CB23F6300B2DA44</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WrexagramLibrary.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A368216C1CB23F6300B2DA44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A368216B1CB23F6300B2DA44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A37B49771CB397DD005B28D4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>name</key>
-			<string>Media.xcassets</string>
-			<key>path</key>
-			<string>../../Media.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A37B49781CB397DD005B28D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A37B49771CB397DD005B28D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3F35A031CAF154600560B01</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrex02.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3F35A041CAF154600560B01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3F35A031CAF154600560B01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3F35A051CAF538100560B01</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.css</string>
-			<key>path</key>
-			<string>style.css</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3F35A061CAF538100560B01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3F35A051CAF538100560B01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B90890821FD0B1DE8C4A4794</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BB8BA239BB98947BEE558160</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-YoChingTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDF24BAD3B8BD13D5DD15A50</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BFA3D15B2E1D289268C8BC17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>CFB327BF22180A17FDDBD6CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC05695ED601CAB2DFF5DB0F</string>
-				<string>D6F61F570B70A6455AF6A0A4</string>
-				<string>BB8BA239BB98947BEE558160</string>
-				<string>6F89BF55C197002986CA2CAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F61F570B70A6455AF6A0A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-YoChing.release.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE5138C01CADD9560067A31C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Coin.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE5138C11CADD9560067A31C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE5138C01CADD9560067A31C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE683D4B1CB372100072F98A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE683D4C1CB372360072F98A</string>
-				<string>DE683D4D1CB372360072F98A</string>
-				<string>DE683D4E1CB372360072F98A</string>
-				<string>DE683D4F1CB372360072F98A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Fonts</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE683D4C1CB372360072F98A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>path</key>
-			<string>Uni Sans Heavy Italic.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE683D4D1CB372360072F98A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>path</key>
-			<string>Uni Sans Heavy.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE683D4E1CB372360072F98A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>path</key>
-			<string>Uni Sans Thin Italic.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE683D4F1CB372360072F98A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>path</key>
-			<string>Uni Sans Thin.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE683D501CB372360072F98A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE683D4C1CB372360072F98A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE683D511CB372360072F98A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE683D4D1CB372360072F98A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE683D521CB372360072F98A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE683D4E1CB372360072F98A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE683D531CB372360072F98A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE683D4F1CB372360072F98A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747491CB6413000890679</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE87474A1CB6415700890679</string>
-				<string>DE87478C1CB6415700890679</string>
-				<string>DE8747D01CB6415700890679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Wrexagrams</string>
-			<key>path</key>
-			<string>wrexagrams</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474A1CB6415700890679</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE87474B1CB6415700890679</string>
-				<string>DE87474C1CB6415700890679</string>
-				<string>DE87474D1CB6415700890679</string>
-				<string>DE87474E1CB6415700890679</string>
-				<string>DE87474F1CB6415700890679</string>
-				<string>DE8747501CB6415700890679</string>
-				<string>DE8747511CB6415700890679</string>
-				<string>DE8747521CB6415700890679</string>
-				<string>DE8747531CB6415700890679</string>
-				<string>DE8747541CB6415700890679</string>
-				<string>DE8747551CB6415700890679</string>
-				<string>DE8747561CB6415700890679</string>
-				<string>DE8747571CB6415700890679</string>
-				<string>DE8747581CB6415700890679</string>
-				<string>DE8747591CB6415700890679</string>
-				<string>DE87475A1CB6415700890679</string>
-				<string>DE87475B1CB6415700890679</string>
-				<string>DE87475C1CB6415700890679</string>
-				<string>DE87475D1CB6415700890679</string>
-				<string>DE87475E1CB6415700890679</string>
-				<string>DE87475F1CB6415700890679</string>
-				<string>DE8747601CB6415700890679</string>
-				<string>DE8747611CB6415700890679</string>
-				<string>DE8747621CB6415700890679</string>
-				<string>DE8747631CB6415700890679</string>
-				<string>DE8747641CB6415700890679</string>
-				<string>DE8747651CB6415700890679</string>
-				<string>DE8747661CB6415700890679</string>
-				<string>DE8747671CB6415700890679</string>
-				<string>DE8747681CB6415700890679</string>
-				<string>DE8747691CB6415700890679</string>
-				<string>DE87476A1CB6415700890679</string>
-				<string>DE87476B1CB6415700890679</string>
-				<string>DE87476C1CB6415700890679</string>
-				<string>DE87476D1CB6415700890679</string>
-				<string>DE87476E1CB6415700890679</string>
-				<string>DE87476F1CB6415700890679</string>
-				<string>DE8747701CB6415700890679</string>
-				<string>DE8747711CB6415700890679</string>
-				<string>DE8747721CB6415700890679</string>
-				<string>DE8747731CB6415700890679</string>
-				<string>DE8747741CB6415700890679</string>
-				<string>DE8747751CB6415700890679</string>
-				<string>DE8747761CB6415700890679</string>
-				<string>DE8747771CB6415700890679</string>
-				<string>DE8747781CB6415700890679</string>
-				<string>DE8747791CB6415700890679</string>
-				<string>DE87477A1CB6415700890679</string>
-				<string>DE87477B1CB6415700890679</string>
-				<string>DE87477C1CB6415700890679</string>
-				<string>DE87477D1CB6415700890679</string>
-				<string>DE87477E1CB6415700890679</string>
-				<string>DE87477F1CB6415700890679</string>
-				<string>DE8747801CB6415700890679</string>
-				<string>DE8747811CB6415700890679</string>
-				<string>DE8747821CB6415700890679</string>
-				<string>DE8747831CB6415700890679</string>
-				<string>DE8747841CB6415700890679</string>
-				<string>DE8747851CB6415700890679</string>
-				<string>DE8747861CB6415700890679</string>
-				<string>DE8747871CB6415700890679</string>
-				<string>DE8747881CB6415700890679</string>
-				<string>DE8747891CB6415700890679</string>
-				<string>DE87478A1CB6415700890679</string>
-				<string>DE87478B1CB6415700890679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474B1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.css</string>
-			<key>path</key>
-			<string>style.css</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474C1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram01.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474D1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram02.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474E1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram03.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87474F1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram04.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747501CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram05.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747511CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram06.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747521CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram07.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747531CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram08.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747541CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram09.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747551CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram10.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747561CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram11.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747571CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram12.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747581CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram13.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747591CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram14.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475A1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram15.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475B1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram16.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475C1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram17.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475D1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram18.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475E1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram19.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87475F1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram20.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747601CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram21.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747611CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram22.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747621CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram23.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747631CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram24.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747641CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram25.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747651CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram26.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747661CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram27.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747671CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram28.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747681CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram29.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747691CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram30.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476A1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram31.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476B1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram32.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476C1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram33.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476D1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram34.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476E1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram35.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87476F1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram36.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747701CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram37.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747711CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram38.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747721CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram39.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747731CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram40.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747741CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram41.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747751CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram42.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747761CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram43.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747771CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram44.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747781CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram45.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747791CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram46.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477A1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram47.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477B1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram48.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477C1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram49.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477D1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram50.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477E1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram51.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87477F1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram52.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747801CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram53.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747811CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram54.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747821CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram55.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747831CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram56.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747841CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram57.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747851CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram58.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747861CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram59.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747871CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram60.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747881CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram61.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747891CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram62.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478A1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram63.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478B1CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.html</string>
-			<key>path</key>
-			<string>wrexagram64.html</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478C1CB6415700890679</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE87478D1CB6415700890679</string>
-				<string>DE87478E1CB6415700890679</string>
-				<string>DE87478F1CB6415700890679</string>
-				<string>DE8747901CB6415700890679</string>
-				<string>DE8747911CB6415700890679</string>
-				<string>DE8747921CB6415700890679</string>
-				<string>DE8747931CB6415700890679</string>
-				<string>DE8747941CB6415700890679</string>
-				<string>DE8747951CB6415700890679</string>
-				<string>DE8747961CB6415700890679</string>
-				<string>DE8747971CB6415700890679</string>
-				<string>DE8747981CB6415700890679</string>
-				<string>DE8747991CB6415700890679</string>
-				<string>DE87479A1CB6415700890679</string>
-				<string>DE87479B1CB6415700890679</string>
-				<string>DE87479C1CB6415700890679</string>
-				<string>DE87479D1CB6415700890679</string>
-				<string>DE87479E1CB6415700890679</string>
-				<string>DE87479F1CB6415700890679</string>
-				<string>DE8747A01CB6415700890679</string>
-				<string>DE8747A11CB6415700890679</string>
-				<string>DE8747A21CB6415700890679</string>
-				<string>DE8747A31CB6415700890679</string>
-				<string>DE8747A41CB6415700890679</string>
-				<string>DE8747A51CB6415700890679</string>
-				<string>DE8747A61CB6415700890679</string>
-				<string>DE8747A71CB6415700890679</string>
-				<string>DE8747A81CB6415700890679</string>
-				<string>DE8747A91CB6415700890679</string>
-				<string>DE8747AA1CB6415700890679</string>
-				<string>DE8747AB1CB6415700890679</string>
-				<string>DE8747AC1CB6415700890679</string>
-				<string>DE8747AD1CB6415700890679</string>
-				<string>DE8747AE1CB6415700890679</string>
-				<string>DE8747AF1CB6415700890679</string>
-				<string>DE8747B01CB6415700890679</string>
-				<string>DE8747B11CB6415700890679</string>
-				<string>DE8747B21CB6415700890679</string>
-				<string>DE8747B31CB6415700890679</string>
-				<string>DE8747B41CB6415700890679</string>
-				<string>DE8747B51CB6415700890679</string>
-				<string>DE8747B61CB6415700890679</string>
-				<string>DE8747B71CB6415700890679</string>
-				<string>DE8747B81CB6415700890679</string>
-				<string>DE8747B91CB6415700890679</string>
-				<string>DE8747BA1CB6415700890679</string>
-				<string>DE8747BB1CB6415700890679</string>
-				<string>DE8747BC1CB6415700890679</string>
-				<string>DE8747BD1CB6415700890679</string>
-				<string>DE8747BE1CB6415700890679</string>
-				<string>DE8747BF1CB6415700890679</string>
-				<string>DE8747C01CB6415700890679</string>
-				<string>DE8747C11CB6415700890679</string>
-				<string>DE8747C21CB6415700890679</string>
-				<string>DE8747C31CB6415700890679</string>
-				<string>DE8747C41CB6415700890679</string>
-				<string>DE8747C51CB6415700890679</string>
-				<string>DE8747C61CB6415700890679</string>
-				<string>DE8747C71CB6415700890679</string>
-				<string>DE8747C81CB6415700890679</string>
-				<string>DE8747C91CB6415700890679</string>
-				<string>DE8747CA1CB6415700890679</string>
-				<string>DE8747CB1CB6415700890679</string>
-				<string>DE8747CC1CB6415700890679</string>
-				<string>DE8747CD1CB6415700890679</string>
-				<string>DE8747CE1CB6415700890679</string>
-				<string>DE8747CF1CB6415700890679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478D1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex-master-dot.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478E1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex-master-splitline.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87478F1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex-master-strongline.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747901CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex01.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747911CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex02.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747921CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex03.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747931CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex04.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747941CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex05.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747951CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex06.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747961CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex07.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747971CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex08.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747981CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex09.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747991CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex10.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479A1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex11.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479B1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex12.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479C1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex13.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479D1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex14.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479E1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex15.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE87479F1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex16.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A01CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex17.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A11CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex18.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A21CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex19.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A31CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex20.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A41CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex21.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A51CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex22.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A61CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex23.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A71CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex24.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A81CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex25.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747A91CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex26.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AA1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex27.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AB1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex28.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AC1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex29.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AD1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex30.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AE1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex31.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747AF1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex32.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B01CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex33.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B11CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex34.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B21CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex35.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B31CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex36.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B41CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex37.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B51CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex38.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B61CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex39.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B71CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex40.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B81CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex41.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747B91CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex42.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BA1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex43.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BB1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex44.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BC1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex45.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BD1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex46.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BE1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex47.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747BF1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex48.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C01CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex49.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C11CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex50.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C21CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex51.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C31CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex52.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C41CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex53.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C51CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex54.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C61CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex55.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C71CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex56.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C81CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex57.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747C91CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex58.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CA1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex59.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CB1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex60.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CC1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex61.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CD1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex62.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CE1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex63.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747CF1CB6415700890679</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.pdf</string>
-			<key>path</key>
-			<string>wrex64.pdf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747D01CB6415700890679</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE8747D11CB6415700890679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>yaml</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747D11CB6415700890679</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>wrexagram01.yaml</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE8747D21CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87474B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D31CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87474C1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D41CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87474D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D51CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87474E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D61CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87474F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D71CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747501CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D81CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747511CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747D91CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747521CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DA1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747531CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DB1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747541CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DC1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747551CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DD1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747561CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DE1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747571CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747DF1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747581CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E01CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747591CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E11CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475A1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E21CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E31CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475C1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E41CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E51CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E61CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87475F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E71CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747601CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E81CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747611CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747E91CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747621CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747EA1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747631CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747EB1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747641CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747EC1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747651CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747ED1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747661CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747EE1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747671CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747EF1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747681CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F01CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747691CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F11CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476A1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F21CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F31CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476C1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F41CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F51CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F61CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87476F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F71CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747701CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F81CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747711CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747F91CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747721CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FA1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747731CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FB1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747741CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FC1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747751CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FD1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747761CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FE1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747771CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8747FF1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747781CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748001CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747791CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748011CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477A1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748021CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748031CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477C1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748041CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748051CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748061CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87477F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748071CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747801CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748081CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747811CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748091CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747821CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480A1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747831CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480B1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747841CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480C1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747851CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480D1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747861CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480E1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747871CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87480F1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747881CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748101CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747891CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748111CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87478A1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748121CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87478B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748131CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87478D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748141CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87478E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748151CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87478F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748161CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747901CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748171CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747911CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748181CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747921CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748191CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747931CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481A1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747941CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481B1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747951CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481C1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747961CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481D1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747971CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481E1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747981CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87481F1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747991CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748201CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479A1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748211CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479B1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748221CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479C1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748231CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479D1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748241CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479E1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748251CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE87479F1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748261CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A01CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748271CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A11CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748281CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A21CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748291CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A31CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482A1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A41CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482B1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A51CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482C1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A61CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482D1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A71CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482E1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A81CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87482F1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747A91CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748301CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AA1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748311CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AB1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748321CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AC1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748331CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AD1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748341CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AE1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748351CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747AF1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748361CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B01CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748371CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B11CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748381CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B21CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748391CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B31CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483A1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B41CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483B1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B51CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483C1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B61CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483D1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B71CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483E1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B81CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87483F1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747B91CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748401CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BA1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748411CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BB1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748421CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BC1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748431CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BD1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748441CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BE1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748451CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747BF1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748461CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C01CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748471CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C11CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748481CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C21CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748491CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C31CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484A1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C41CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484B1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C51CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484C1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C61CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484D1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C71CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484E1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C81CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE87484F1CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747C91CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748501CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CA1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748511CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CB1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748521CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CC1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748531CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CD1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748541CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CE1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748551CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747CF1CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE8748561CB6415700890679</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8747D11CB6415700890679</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E4FEDB4E1F91CF5DE1486A00</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F60A9EC3F1933EC8E60447FA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FC05695ED601CAB2DFF5DB0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-YoChing.debug.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCA493FE538E6ADC2394AAC6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_YoChing.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>3EED85A81978FEE8007EEB62</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0373823B8D641415471834E1 /* Pods_YoChing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */; };
+		1397CE001BF44E6C004523FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CDFF1BF44E6C004523FD /* Extensions.swift */; };
+		1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE011BF454E1004523FD /* WrexagramViewController.swift */; };
+		1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */; };
+		1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE051BF463AD004523FD /* InfoViewController.swift */; };
+		27C3CCC290F40858FECF2147 /* Pods_YoChingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */; };
+		3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B51978FEE8007EEB62 /* AppDelegate.swift */; };
+		3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B71978FEE8007EEB62 /* MainViewController.swift */; };
+		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
+		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
+		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
+		A37B49781CB397DD005B28D4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37B49771CB397DD005B28D4 /* Media.xcassets */; };
+		A3F35A041CAF154600560B01 /* wrex02.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.html */; };
+		A3F35A061CAF538100560B01 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A051CAF538100560B01 /* style.css */; };
+		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
+		DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */; };
+		DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */; };
+		DE683D521CB372360072F98A /* Uni Sans Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */; };
+		DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */; };
+		DE6B79EA1CB7212500C47024 /* Wrexagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B79E91CB7212500C47024 /* Wrexagram.swift */; };
+		DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B79EC1CB7226100C47024 /* WrexagramListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EED85C31978FEE8007EEB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EED85A81978FEE8007EEB62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EED85AF1978FEE8007EEB62;
+			remoteInfo = CoinToss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1397CDFF1BF44E6C004523FD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1397CE011BF454E1004523FD /* WrexagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramViewController.swift; sourceTree = "<group>"; };
+		1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramBreaksViewController.swift; sourceTree = "<group>"; };
+		1397CE051BF463AD004523FD /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3EED85B01978FEE8007EEB62 /* YoChing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoChing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EED85B41978FEE8007EEB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EED85B51978FEE8007EEB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EED85B71978FEE8007EEB62 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3EED85BA1978FEE8007EEB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EED85BC1978FEE8007EEB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F89BF55C197002986CA2CAC /* Pods-YoChingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
+		A37B49771CB397DD005B28D4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../Media.xcassets; sourceTree = "<group>"; };
+		A3F35A031CAF154600560B01 /* wrex02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.html; sourceTree = "<group>"; };
+		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
+		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy Italic.otf"; sourceTree = "<group>"; };
+		DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy.otf"; sourceTree = "<group>"; };
+		DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Thin Italic.otf"; sourceTree = "<group>"; };
+		DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Thin.otf"; sourceTree = "<group>"; };
+		DE6B79E91CB7212500C47024 /* Wrexagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrexagram.swift; sourceTree = "<group>"; };
+		DE6B79EC1CB7226100C47024 /* WrexagramListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramListViewController.swift; sourceTree = "<group>"; };
+		FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EED85AD1978FEE8007EEB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0373823B8D641415471834E1 /* Pods_YoChing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EED85BF1978FEE8007EEB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3CCC290F40858FECF2147 /* Pods_YoChingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EED85A71978FEE8007EEB62 = {
+			isa = PBXGroup;
+			children = (
+				3EED85B21978FEE8007EEB62 /* YoChing */,
+				CFB327BF22180A17FDDBD6CF /* Pods */,
+				6AE0E31AC8697ED4E2512BED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EED85B11978FEE8007EEB62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EED85B01978FEE8007EEB62 /* YoChing.app */,
+				3EED85C21978FEE8007EEB62 /* YoChing.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3EED85B21978FEE8007EEB62 /* YoChing */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
+				A3F35A051CAF538100560B01 /* style.css */,
+				A3F35A031CAF154600560B01 /* wrex02.html */,
+				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
+				DE5138C01CADD9560067A31C /* Coin.swift */,
+				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
+				1397CE051BF463AD004523FD /* InfoViewController.swift */,
+				3EED85B71978FEE8007EEB62 /* MainViewController.swift */,
+				3EED85BC1978FEE8007EEB62 /* Images.xcassets */,
+				A37B49771CB397DD005B28D4 /* Media.xcassets */,
+				DE683D4B1CB372100072F98A /* Fonts */,
+				3EED85B91978FEE8007EEB62 /* Main.storyboard */,
+				3EED85B11978FEE8007EEB62 /* Products */,
+				3EED85B31978FEE8007EEB62 /* Supporting Files */,
+			);
+			path = YoChing;
+			sourceTree = "<group>";
+		};
+		3EED85B31978FEE8007EEB62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EED85B41978FEE8007EEB62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AE0E31AC8697ED4E2512BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */,
+				8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB327BF22180A17FDDBD6CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */,
+				D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */,
+				BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */,
+				6F89BF55C197002986CA2CAC /* Pods-YoChingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE683D4B1CB372100072F98A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */,
+				DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */,
+				DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */,
+				DE683D4F1CB372360072F98A /* Uni Sans Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE6B79EB1CB721AF00C47024 /* Wrexagrams */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B79E91CB7212500C47024 /* Wrexagram.swift */,
+				1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */,
+				A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */,
+				1397CE011BF454E1004523FD /* WrexagramViewController.swift */,
+				DE6B79EC1CB7226100C47024 /* WrexagramListViewController.swift */,
+			);
+			path = Wrexagrams;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EED85AF1978FEE8007EEB62 /* YoChing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EED85CC1978FEE8007EEB62 /* Build configuration list for PBXNativeTarget "YoChing" */;
+			buildPhases = (
+				F60A9EC3F1933EC8E60447FA /* 📦 Check Pods Manifest.lock */,
+				3EED85AC1978FEE8007EEB62 /* Sources */,
+				3EED85AD1978FEE8007EEB62 /* Frameworks */,
+				3EED85AE1978FEE8007EEB62 /* Resources */,
+				BDF24BAD3B8BD13D5DD15A50 /* 📦 Embed Pods Frameworks */,
+				B90890821FD0B1DE8C4A4794 /* 📦 Copy Pods Resources */,
+				0400814AF8DFD15FE04F48E1 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoChing;
+			productName = CoinToss;
+			productReference = 3EED85B01978FEE8007EEB62 /* YoChing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EED85C11978FEE8007EEB62 /* YoChingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EED85CF1978FEE8007EEB62 /* Build configuration list for PBXNativeTarget "YoChingTests" */;
+			buildPhases = (
+				E4FEDB4E1F91CF5DE1486A00 /* 📦 Check Pods Manifest.lock */,
+				3EED85BE1978FEE8007EEB62 /* Sources */,
+				3EED85BF1978FEE8007EEB62 /* Frameworks */,
+				3EED85C01978FEE8007EEB62 /* Resources */,
+				4BAAEB642B8DD56C077CD387 /* 📦 Embed Pods Frameworks */,
+				BFA3D15B2E1D289268C8BC17 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EED85C41978FEE8007EEB62 /* PBXTargetDependency */,
+			);
+			name = YoChingTests;
+			productName = CoinTossTests;
+			productReference = 3EED85C21978FEE8007EEB62 /* YoChing.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EED85A81978FEE8007EEB62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Gary.com;
+				TargetAttributes = {
+					3EED85AF1978FEE8007EEB62 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3EED85C11978FEE8007EEB62 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3EED85AF1978FEE8007EEB62;
+					};
+				};
+			};
+			buildConfigurationList = 3EED85AB1978FEE8007EEB62 /* Build configuration list for PBXProject "YoChing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EED85A71978FEE8007EEB62;
+			productRefGroup = 3EED85B11978FEE8007EEB62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EED85AF1978FEE8007EEB62 /* YoChing */,
+				3EED85C11978FEE8007EEB62 /* YoChingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EED85AE1978FEE8007EEB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37B49781CB397DD005B28D4 /* Media.xcassets in Resources */,
+				DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */,
+				DE683D521CB372360072F98A /* Uni Sans Thin Italic.otf in Resources */,
+				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
+				3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */,
+				DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */,
+				A3F35A061CAF538100560B01 /* style.css in Resources */,
+				DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */,
+				A3F35A041CAF154600560B01 /* wrex02.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EED85C01978FEE8007EEB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0400814AF8DFD15FE04F48E1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BAAEB642B8DD56C077CD387 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90890821FD0B1DE8C4A4794 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF24BAD3B8BD13D5DD15A50 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YoChing/Pods-YoChing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA3D15B2E1D289268C8BC17 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FEDB4E1F91CF5DE1486A00 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F60A9EC3F1933EC8E60447FA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EED85AC1978FEE8007EEB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6B79EA1CB7212500C47024 /* Wrexagram.swift in Sources */,
+				1397CE001BF44E6C004523FD /* Extensions.swift in Sources */,
+				3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */,
+				DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */,
+				3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */,
+				1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */,
+				A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */,
+				1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */,
+				1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */,
+				DE5138C11CADD9560067A31C /* Coin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EED85BE1978FEE8007EEB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EED85C41978FEE8007EEB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EED85AF1978FEE8007EEB62 /* YoChing */;
+			targetProxy = 3EED85C31978FEE8007EEB62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EED85B91978FEE8007EEB62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EED85BA1978FEE8007EEB62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EED85CA1978FEE8007EEB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EED85CB1978FEE8007EEB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EED85CD1978FEE8007EEB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YoChing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risney.YoChing;
+				PRODUCT_NAME = YoChing;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EED85CE1978FEE8007EEB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YoChing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risney.YoChing;
+				PRODUCT_NAME = YoChing;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EED85D01978FEE8007EEB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinToss.app/CoinToss";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoinTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YoChing;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3EED85D11978FEE8007EEB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F89BF55C197002986CA2CAC /* Pods-YoChingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinToss.app/CoinToss";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoinTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YoChing;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EED85AB1978FEE8007EEB62 /* Build configuration list for PBXProject "YoChing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EED85CA1978FEE8007EEB62 /* Debug */,
+				3EED85CB1978FEE8007EEB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EED85CC1978FEE8007EEB62 /* Build configuration list for PBXNativeTarget "YoChing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EED85CD1978FEE8007EEB62 /* Debug */,
+				3EED85CE1978FEE8007EEB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EED85CF1978FEE8007EEB62 /* Build configuration list for PBXNativeTarget "YoChingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EED85D01978FEE8007EEB62 /* Debug */,
+				3EED85D11978FEE8007EEB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EED85A81978FEE8007EEB62 /* Project object */;
+}
