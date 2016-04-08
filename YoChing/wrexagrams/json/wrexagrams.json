@@ -2,66 +2,161 @@
   {
     number: 1,
     title: "BRING IT"
-    body:
+    subttile: "Soon to be .."
   },
   {
     number: 2,
     title: "WITH IT"
+    subttile: "Soon to be .."
   },
   {
     number: 3,
     title: "STRESS GETTING STARTED"
+    subttile: "Soon to be .."
   },
   {
     number: 4,
     title: "SHORTY"
+    subttile: "Soon to be .."
   },
   {
     number: 5,
     title: "CHILL"
+    subttile: "Soon to be .."
   },
   {
     number: 6,
     title: "DRAMA"
+    subttile: "Soon to be .."
   },
   {
     number: 7,
     title: "ROLLING"
+    subttile: "Soon to be .."
   },
   {
     number: 8,
     title: "HOLD IT TOGETHER"
+    subttile: "Soon to be .."
   },
   {
     number: 9,
     title: "WAIT A MINUTE"
+    subttile: "Soon to be .."
   },
   {
     number: 10,
     title: "WATCH YOUR STEP"
+    subttile: "Soon to be .."
   },
   {
     number: 11,
     title: "PEACE"
+    subttile: "Soon to be .."
   },
   {
     number: 12,
     title: "STAGNATIN'"
+    subttile: "Soon to be .."
   },
   {
     number: 13,
     title: "GETTING TOGETHER"
+    subttile: "Soon to be .."
   },
   {
-    id: 14,
+    number: 14,
     title: "PAID FOR REAL"
+    subttile: "Soon to be .."
   },
   {
-    id: 15,
+    number: 15,
     title: "LOW KEY"
+    subttile: "Soon to be .."
   },
   {
-    id: 16,
+    number: 16,
     title: "UP FOR IT"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 17,
+    title: "FLOWING"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 18,
+    title: "SHIT BEN SPOILT"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 19,
+    title: "COMING UP"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 20,
+    title: "LOOKING OUT"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 21,
+    title: "BREAK IT DOWN"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 22,
+    title: "STYLE"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 23,
+    title: "FALLING APART"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 24,
+    title: "COME BACK AROUND"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 25,
+    title: "NATURAL"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 26,
+    title: "JUST HANDLE BUSINESS"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 27,
+    title: "TAKING CARE"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 28,
+    title: "PRESSURE"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 29,
+    title: "ILL SHIT"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 30,
+    title: "SHINE"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 31,
+    title: "FEELING IT"
+    subttile: "Soon to be .."
+  },
+  {
+    number: 32,
+    title: "MAINTAIN"
+    subttile: "Soon to be .."
   }
 ]
