@@ -1,162 +1,317 @@
 [
   {
     number: 1,
-    title: "BRING IT"
-    subttile: "Soon to be .."
+    title: "BRING IT",
+    subtitle: "Soon to be .."
   },
   {
     number: 2,
-    title: "WITH IT"
-    subttile: "Soon to be .."
+    title: "WITH IT",
+    subtitle: "Soon to be .."
   },
   {
     number: 3,
-    title: "STRESS GETTING STARTED"
-    subttile: "Soon to be .."
+    title: "STRESS GETTING STARTED",
+    subtitle: "Soon to be .."
   },
   {
     number: 4,
-    title: "SHORTY"
-    subttile: "Soon to be .."
+    title: "SHORTY",
+    subtitle: "Soon to be .."
   },
   {
     number: 5,
-    title: "CHILL"
-    subttile: "Soon to be .."
+    title: "CHILL",
+    subtitle: "Soon to be .."
   },
   {
     number: 6,
-    title: "DRAMA"
-    subttile: "Soon to be .."
+    title: "DRAMA",
+    subtitle: "Soon to be .."
   },
   {
     number: 7,
-    title: "ROLLING"
-    subttile: "Soon to be .."
+    title: "ROLLING",
+    subtitle: "Soon to be .."
   },
   {
     number: 8,
-    title: "HOLD IT TOGETHER"
-    subttile: "Soon to be .."
+    title: "HOLD IT TOGETHER",
+    subtitle: "Soon to be .."
   },
   {
     number: 9,
-    title: "WAIT A MINUTE"
-    subttile: "Soon to be .."
+    title: "WAIT A MINUTE",
+    subtitle: "Soon to be .."
   },
   {
     number: 10,
-    title: "WATCH YOUR STEP"
-    subttile: "Soon to be .."
+    title: "WATCH YOUR STEP",
+    subtitle: "Soon to be .."
   },
   {
     number: 11,
-    title: "PEACE"
+    title: "PEACE",
     subttile: "Soon to be .."
   },
   {
     number: 12,
-    title: "STAGNATIN'"
-    subttile: "Soon to be .."
+    title: "STAGNATIN'",
+    subtitle: "Soon to be .."
   },
   {
     number: 13,
-    title: "GETTING TOGETHER"
-    subttile: "Soon to be .."
+    title: "GETTING TOGETHER",
+    subtitle: "Soon to be .."
   },
   {
     number: 14,
-    title: "PAID FOR REAL"
-    subttile: "Soon to be .."
+    title: "PAID FOR REAL",
+    subtitle: "Soon to be .."
   },
   {
     number: 15,
-    title: "LOW KEY"
-    subttile: "Soon to be .."
+    title: "LOW KEY",
+    subtitle: "Soon to be .."
   },
   {
     number: 16,
-    title: "UP FOR IT"
-    subttile: "Soon to be .."
+    title: "UP FOR IT",
+    subtitle: "Soon to be .."
   },
   {
     number: 17,
-    title: "FLOWING"
-    subttile: "Soon to be .."
+    title: "FLOWING",
+    subtitle: "Soon to be .."
   },
   {
     number: 18,
-    title: "SHIT BEN SPOILT"
+    title: "SHIT BEN SPOILT",
     subttile: "Soon to be .."
   },
   {
     number: 19,
-    title: "COMING UP"
-    subttile: "Soon to be .."
+    title: "COMING UP",
+    subtitle: "Soon to be .."
   },
   {
     number: 20,
-    title: "LOOKING OUT"
-    subttile: "Soon to be .."
+    title: "LOOKING OUT",
+    subtitle: "Soon to be .."
   },
   {
     number: 21,
-    title: "BREAK IT DOWN"
-    subttile: "Soon to be .."
+    title: "BREAK IT DOWN",
+    subtitle: "Soon to be .."
   },
   {
     number: 22,
-    title: "STYLE"
-    subttile: "Soon to be .."
+    title: "STYLE",
+    subtitle: "Soon to be .."
   },
   {
     number: 23,
-    title: "FALLING APART"
-    subttile: "Soon to be .."
+    title: "FALLING APART",
+    subtitle: "Soon to be .."
   },
   {
     number: 24,
-    title: "COME BACK AROUND"
-    subttile: "Soon to be .."
+    title: "COME BACK AROUND",
+    subtitle: "Soon to be .."
   },
   {
     number: 25,
-    title: "NATURAL"
-    subttile: "Soon to be .."
+    title: "NATURAL",
+    subtitle: "Soon to be .."
   },
   {
     number: 26,
-    title: "JUST HANDLE BUSINESS"
-    subttile: "Soon to be .."
+    title: "JUST HANDLE BUSINESS",
+    subtitle: "Soon to be .."
   },
   {
     number: 27,
-    title: "TAKING CARE"
-    subttile: "Soon to be .."
+    title: "TAKING CARE",
+    subtitle: "Soon to be .."
   },
   {
     number: 28,
-    title: "PRESSURE"
-    subttile: "Soon to be .."
+    title: "PRESSURE",
+    subtitle: "Soon to be .."
   },
   {
     number: 29,
-    title: "ILL SHIT"
-    subttile: "Soon to be .."
+    title: "ILL SHIT",
+    subtitle: "Soon to be .."
   },
   {
     number: 30,
-    title: "SHINE"
-    subttile: "Soon to be .."
+    title: "SHINE",
+    subtitle: "Soon to be .."
   },
   {
     number: 31,
-    title: "FEELING IT"
-    subttile: "Soon to be .."
+    title: "FEELING IT",
+    subtitle: "Soon to be .."
   },
   {
     number: 32,
-    title: "MAINTAIN"
-    subttile: "Soon to be .."
+    title: "MAINTAIN",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 33,
+    title: "PULL BACK",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 34,
+    title: "REAL POWER",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 35,
+    title: "RISING",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 36,
+    title: "DARK OUT",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 37,
+    title: "FAMILY",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 38,
+    title: "UP IN YOUR FACE",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 39,
+    title: "SOME BULLSHIT",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 40,
+    title: "BAILED OUT",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 41,
+    title: "LOSING WEIGHT",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 42,
+    title: "BUMP IT UP",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 43,
+    title: "BREKTHROUGH",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 44,
+    title: "SAYING WHAT UP",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 45,
+    title: "BRING IT TOGETHER",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 46,
+    title: "GETTING OVER",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 47,
+    title: "PLAYED",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 48,
+    title: "WATER FOUNTAIN",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 49,
+    title: "THROW SHIT OFF",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 50,
+    title: "THE POT",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 51,
+    title: "BOOM",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 52,
+    title: "STAYING CHILL",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 53,
+    title: "PUSH IT ALONG",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 54,
+    title: "SLIM THING",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 55,
+    title: "LEGENDARY",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 56,
+    title: "BOUNCING",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 57,
+    title: "LIGHT TOUCH",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 58,
+    title: "HAPPY",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 59,
+    title: "LIMITS",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 61,
+    title: "FOR REAL",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 62,
+    title: "LITTLE PLAYS",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 63,
+    title: "AFTER SHIT FINISH",
+    subtitle: "Soon to be .."
+  },
+  {
+    number: 64,
+    title: "RIGHT AROUND THE CORNER",
+    subtitle: "Soon to be .."
   }
 ]
