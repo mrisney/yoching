@@ -112,7 +112,7 @@ class MainViewController: UIViewController {
                     
                     defer {
                         AromaClient.begin().withTitle("Coins Flipped")
-                            .withBody("Result: \(outcome)")
+                            .withBody("Result: \(outcome)\n\nFrom: \(UIDevice.currentDevice().name)")
                             .send()
                     }
                     
