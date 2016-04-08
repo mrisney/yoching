@@ -22,6 +22,23 @@ class WrexagramListViewController : UITableViewController {
     
 }
 
+//MARK: Segues
+extension WrexagramListViewController {
+    
+    private func goToWrexagram(number: Int) {
+        self.performSegueWithIdentifier("ToWrexagram", sender: number)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let destination = segue.destinationViewController
+        
+        if let wrexagram = destination as? WrexagramViewController, let number = sender as? Int {
+            wrexagram.wrexagramNumber = number
+        }
+    }
+}
+
 
 //MARK: Table View Data Methods
 extension WrexagramListViewController {
@@ -52,6 +69,14 @@ extension WrexagramListViewController {
 //MARK: Table View Delegate Methods
 extension WrexagramListViewController {
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let row = indexPath.row
+        
+        guard row < wrexagrams.count else { return }
+        
+        self.goToWrexagram(row)
+    }
 }
 
 class WrexagramListCell : UITableViewCell {

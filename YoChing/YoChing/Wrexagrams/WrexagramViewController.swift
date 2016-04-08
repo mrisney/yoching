@@ -16,19 +16,19 @@ class WrexagramViewController : UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var webView: UIWebView!
     
-    var outcome: Int = -1
+    var wrexagramNumber: Int = -1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if outcome < 0 {
+        if wrexagramNumber < 0 {
             self.parentViewController?.dismissViewControllerAnimated(true, completion: nil)
             return
         }
         
-        navTitle.text = "Wrexagram \(outcome)"
+        navTitle.text = "Wrexagram \(wrexagramNumber)"
         
-        let formattedOutcome = String(format: "%02d", outcome)
+        let formattedOutcome = String(format: "%02d", wrexagramNumber)
         let filename = "wrex\(formattedOutcome)"
         
         if let image = UIImage(named: filename) {

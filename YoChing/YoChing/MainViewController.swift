@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
     private var coinTwo: Coin!
     private var coinThree: Coin!
     
+    private var maxTosses = 6
     private var tosses:Int = 0
     private var hexNum:String = ""
     
@@ -98,7 +99,7 @@ class MainViewController: UIViewController {
                 self.recordCoinTossResult(coinsOutcome)
                 self.flipButton.enabled = true
                 
-                if self.tosses ==  6 {
+                if self.tosses ==  self.maxTosses {
                     
                     defer {
                         self.tosses = 0
@@ -138,7 +139,7 @@ class MainViewController: UIViewController {
         if let wrexegramView = segue.destinationViewController as? WrexagramViewController {
             if let outcome = sender as? Int {
                 print("transitioning to wrexagram with outcome \(outcome)")
-                wrexegramView.outcome = outcome
+                wrexegramView.wrexagramNumber = outcome
             }
         }
         
