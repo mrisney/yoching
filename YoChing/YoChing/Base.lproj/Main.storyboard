@@ -9,14 +9,16 @@
     <customFonts key="customFonts">
         <mutableArray key="Exo-Bold.otf">
             <string>Exo-Bold</string>
-            <string>Exo-Bold</string>
+        </mutableArray>
+        <mutableArray key="Exo-Light.otf">
+            <string>Exo-Light</string>
+            <string>Exo-Light</string>
+            <string>Exo-Light</string>
         </mutableArray>
         <mutableArray key="Exo-SemiBold.otf">
             <string>Exo-DemiBold</string>
         </mutableArray>
         <mutableArray key="Uni Sans Heavy.otf">
-            <string>UniSansHeavyCAPS</string>
-            <string>UniSansHeavyCAPS</string>
             <string>UniSansHeavyCAPS</string>
         </mutableArray>
     </customFonts>
@@ -107,27 +109,23 @@
                     <navigationItem key="navigationItem" id="YVy-Ap-8vl">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="pAU-uy-R6V"/>
-                        <view key="titleView" contentMode="scaleToFill" id="JZ8-d4-Bb4">
-                            <rect key="frame" x="284.5" y="5.5" width="31" height="33"/>
+                        <view key="titleView" contentMode="scaleToFill" id="7Wa-DX-U0o">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-<<<<<<< Updated upstream
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="64 Wrexagrams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTr-8e-1dd">
-                                    <rect key="frame" x="-97" y="3" width="225" height="28"/>
-                                    <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="28"/>
-=======
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="64 Wrexagrams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTr-8e-1dd">
-                                    <rect key="frame" x="-87" y="-2" width="205" height="38"/>
-                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="28"/>
->>>>>>> Stashed changes
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="64 WREXAGRAMS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlx-Gi-rdU">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="26"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="ZTr-8e-1dd" firstAttribute="centerX" secondItem="JZ8-d4-Bb4" secondAttribute="centerX" id="Wsd-Vu-h1o"/>
-                                <constraint firstItem="ZTr-8e-1dd" firstAttribute="centerY" secondItem="JZ8-d4-Bb4" secondAttribute="centerY" id="jYt-OB-Q9l"/>
+                                <constraint firstAttribute="trailing" secondItem="Nlx-Gi-rdU" secondAttribute="trailing" id="2Xa-eF-qWm"/>
+                                <constraint firstItem="Nlx-Gi-rdU" firstAttribute="top" secondItem="7Wa-DX-U0o" secondAttribute="top" id="7iZ-5h-ia0"/>
+                                <constraint firstAttribute="bottom" secondItem="Nlx-Gi-rdU" secondAttribute="bottom" id="ks7-n3-w8r"/>
+                                <constraint firstItem="Nlx-Gi-rdU" firstAttribute="leading" secondItem="7Wa-DX-U0o" secondAttribute="leading" id="obe-Be-VCq"/>
                             </constraints>
                         </view>
                     </navigationItem>
@@ -222,21 +220,23 @@
                     <navigationItem key="navigationItem" id="w9R-Ii-Nga">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="le8-wh-hvL"/>
-                        <view key="titleView" contentMode="scaleToFill" id="YH0-Tn-yhm">
-                            <rect key="frame" x="284.5" y="5.5" width="31" height="33"/>
+                        <view key="titleView" contentMode="scaleToFill" id="OCS-oQ-I3E">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo Ching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-Tc-V3N">
-                                    <rect key="frame" x="-45" y="3" width="121" height="28"/>
-                                    <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="28"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YO CHING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb0-gK-1rK">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="26"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="XyC-Tc-V3N" firstAttribute="centerY" secondItem="YH0-Tn-yhm" secondAttribute="centerY" id="MCm-Aq-7UW"/>
-                                <constraint firstItem="XyC-Tc-V3N" firstAttribute="centerX" secondItem="YH0-Tn-yhm" secondAttribute="centerX" id="uAg-VP-GYd"/>
+                                <constraint firstItem="eb0-gK-1rK" firstAttribute="leading" secondItem="OCS-oQ-I3E" secondAttribute="leading" id="QX2-SP-oeB"/>
+                                <constraint firstItem="eb0-gK-1rK" firstAttribute="top" secondItem="OCS-oQ-I3E" secondAttribute="top" id="hOz-rm-hjE"/>
+                                <constraint firstAttribute="bottom" secondItem="eb0-gK-1rK" secondAttribute="bottom" id="lJr-h6-Eme"/>
+                                <constraint firstAttribute="trailing" secondItem="eb0-gK-1rK" secondAttribute="trailing" id="oF0-1G-RqN"/>
                             </constraints>
                         </view>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="y61-as-oo1">
@@ -306,23 +306,23 @@
                     <navigationItem key="navigationItem" id="ogN-Ac-pPR">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="QUZ-jt-NGa"/>
-                        <view key="titleView" contentMode="scaleToFill" id="Rn4-JA-dT4">
-                            <rect key="frame" x="180" y="5.5" width="240" height="33"/>
+                        <view key="titleView" contentMode="scaleToFill" id="xH2-eb-avB">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6H-Ti-hl5">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WREXAGRAM 22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpS-qJ-9ww">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
-                                    <fontDescription key="fontDescription" name="UniSansHeavyCAPS" family="Uni Sans" pointSize="24"/>
+                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="26"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="n6H-Ti-hl5" secondAttribute="trailing" id="Gn4-34-duG"/>
-                                <constraint firstAttribute="bottom" secondItem="n6H-Ti-hl5" secondAttribute="bottom" id="LWa-1i-fvz"/>
-                                <constraint firstItem="n6H-Ti-hl5" firstAttribute="leading" secondItem="Rn4-JA-dT4" secondAttribute="leading" id="TUe-UY-aq2"/>
-                                <constraint firstItem="n6H-Ti-hl5" firstAttribute="top" secondItem="Rn4-JA-dT4" secondAttribute="top" id="t51-fn-EIK"/>
+                                <constraint firstAttribute="bottom" secondItem="FpS-qJ-9ww" secondAttribute="bottom" id="6xR-KY-zVb"/>
+                                <constraint firstAttribute="trailing" secondItem="FpS-qJ-9ww" secondAttribute="trailing" id="cj3-rA-Moc"/>
+                                <constraint firstItem="FpS-qJ-9ww" firstAttribute="leading" secondItem="xH2-eb-avB" secondAttribute="leading" id="hxg-vN-i9s"/>
+                                <constraint firstItem="FpS-qJ-9ww" firstAttribute="top" secondItem="xH2-eb-avB" secondAttribute="top" id="tbs-gu-Whc"/>
                             </constraints>
                         </view>
                         <barButtonItem key="rightBarButtonItem" image="arrow_right" id="iCv-b8-ana">
@@ -332,6 +332,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="navTitle" destination="FpS-qJ-9ww" id="OSk-sh-LKo"/>
                         <outlet property="textView" destination="7Rd-wy-cNv" id="1Zq-Rq-Egp"/>
                         <outlet property="webView" destination="8Jr-yJ-TWo" id="vxg-E9-L1X"/>
                         <outlet property="wrexegramImage" destination="sen-WV-L48" id="7va-Ft-Vpn"/>
@@ -340,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTv-eX-rhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370" y="-370"/>
+            <point key="canvasLocation" x="378" y="-370"/>
         </scene>
         <!--Wrexagram Breaks View Controller-->
         <scene sceneID="V8U-Id-o6e">

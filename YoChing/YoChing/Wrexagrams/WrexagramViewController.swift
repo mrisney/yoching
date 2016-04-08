@@ -11,6 +11,7 @@ import UIKit
 
 class WrexagramViewController : UIViewController {
     
+    @IBOutlet weak var navTitle: UILabel!
     @IBOutlet weak var wrexegramImage: UIImageView!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var webView: UIWebView!
@@ -24,6 +25,8 @@ class WrexagramViewController : UIViewController {
             self.parentViewController?.dismissViewControllerAnimated(true, completion: nil)
             return
         }
+        
+        navTitle.text = "Wrexagram \(outcome)"
         
         let formattedOutcome = String(format: "%02d", outcome)
         let filename = "wrex\(formattedOutcome)"
