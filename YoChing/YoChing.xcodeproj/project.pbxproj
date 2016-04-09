@@ -20,6 +20,7 @@
 		A32EAB351CB87F870043C588 /* html in Resources */ = {isa = PBXBuildFile; fileRef = A32EAB341CB87F870043C588 /* html */; };
 		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
 		DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */; };
+		DE468E8F1CB960C900AC1199 /* wrexagrams.json in Resources */ = {isa = PBXBuildFile; fileRef = DE468E8E1CB960C900AC1199 /* wrexagrams.json */; };
 		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
 		DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */; };
 		DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */; };
@@ -88,6 +89,7 @@
 		BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
 		DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DE468E8E1CB960C900AC1199 /* wrexagrams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrexagrams.json; sourceTree = "<group>"; };
 		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy Italic.otf"; sourceTree = "<group>"; };
 		DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy.otf"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		3EED85B21978FEE8007EEB62 /* YoChing */ = {
 			isa = PBXGroup;
 			children = (
+				DE468E8D1CB960C900AC1199 /* json */,
 				A32EAB341CB87F870043C588 /* html */,
 				DE2CC9601CB8071D003233F2 /* Settings */,
 				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
@@ -226,6 +229,15 @@
 			children = (
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		DE468E8D1CB960C900AC1199 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				DE468E8E1CB960C900AC1199 /* wrexagrams.json */,
+			);
+			name = json;
+			path = media/wrexagrams/json;
 			sourceTree = "<group>";
 		};
 		DE683D4B1CB372100072F98A /* Fonts */ = {
@@ -400,6 +412,7 @@
 				DE6B7A111CB73B3300C47024 /* Exo-ThinItalic.otf in Resources */,
 				DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */,
 				DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */,
+				DE468E8F1CB960C900AC1199 /* wrexagrams.json in Resources */,
 				DE6B7A001CB73B3300C47024 /* Exo-Black.otf in Resources */,
 				DE71A3551CB8055300F5BEF2 /* PTF76F.ttf in Resources */,
 				DE6B7A061CB73B3300C47024 /* Exo-ExtraLight.otf in Resources */,

@@ -7,11 +7,11 @@
 //
 
 import Foundation
-
+import SwiftyJSON
 
 class WrexagramLibrary {
     
-    class  func getOutcome(hexNum: Int) -> String {
+    class func getOutcome(hexNum: Int) -> String {
         
         switch (hexNum) {
             
@@ -82,5 +82,25 @@ class WrexagramLibrary {
             
             default: return "wrexagram01"
         }
+    }
+    
+    private static let JSON_FILE = "wrexagrams.json"
+    
+    static var wrexagrams: [Wrexagram] {
+        
+        guard let url = NSBundle.mainBundle().URLForResource(JSON_FILE, withExtension: nil)
+        else { return [] }
+        
+        guard let data = try? NSData(contentsOfURL: url, options: NSDataReadingOptions.DataReadingMappedIfSafe),
+              let json = JSON(url).array
+        else { return [] }
+        
+        var wrexagrams: [Wrexagram] = []
+        for element in json {
+            let wrexagram = Wrexagram.fromJson(element)
+            wrexagrams.append(wrexagram)
+        }
+        
+        return wrexagrams
     }
 }

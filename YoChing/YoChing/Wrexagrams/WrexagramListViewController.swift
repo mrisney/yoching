@@ -10,16 +10,17 @@ import Foundation
 import UIKit
 
 class WrexagramListViewController : UITableViewController {
+//    
+//    let wrexagrams: [Wrexagram] = [
+//        Wrexagram(title: "Bring It"),
+//        Wrexagram(title: "With It"),
+//        Wrexagram(title: "Stress Getting Started"),
+//        Wrexagram(title: "Shorty"),
+//        Wrexagram(title: "Looking Out"),
+//        Wrexagram(title: "Drama"),
+//    ]
     
-    let wrexagrams: [Wrexagram] = [
-        Wrexagram(title: "Bring It"),
-        Wrexagram(title: "With It"),
-        Wrexagram(title: "Stress Getting Started"),
-        Wrexagram(title: "Shorty"),
-        Wrexagram(title: "Looking Out"),
-        Wrexagram(title: "Drama"),
-    ]
-    
+    lazy var wrexagrams = WrexagramLibrary.wrexagrams
 }
 
 //MARK: Segues

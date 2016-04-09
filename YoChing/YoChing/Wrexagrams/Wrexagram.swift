@@ -7,26 +7,34 @@
 //
 
 import Foundation
+import SwiftyJSON
 import UIKit
 
 
 struct Wrexagram {
     
     let title: String
+    let subtitle: String?
     let body: String?
     let number: Int?
     
     init(title: String) {
-        self.init(title: title, body: nil, number: nil)
+        self.init(title: title, subtitle: nil, body: nil, number: nil)
     }
     
-    init(title: String, body: String?, number: Int?) {
+    init(title: String, subtitle: String?, body: String?, number: Int?) {
         self.title = title
+        self.subtitle = subtitle
         self.body = body
         self.number = number
     }
     
-    static func fromJson(jsonString: String) -> Wrexagram {
-        return Wrexagram(title: "BREAK IT DOWN", body: "When Shit's Popping Off, True Player BRING IT", number: 1)
+    static func fromJson(json: JSON) -> Wrexagram {
+        
+        let title = json["title"].string ?? ""
+        let subtitle = json["subtitle"].string ?? ""
+        let number = json["number"].int ?? 0
+    
+        return Wrexagram(title: title, subtitle: subtitle, body: nil, number: number)
     }
 }

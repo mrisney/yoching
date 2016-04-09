@@ -31,6 +31,10 @@ pod 'AromaSwiftClient', :git => 'https://github.com/RedRoma/aroma-swift-client.g
 pod 'BRYXBanner'
 #===============================
 
+#===============================
+# JSON LIBRARY
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+#===============================
 
 end
 
