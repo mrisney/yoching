@@ -10,7 +10,6 @@ import AromaSwiftClient
 import UIKit
 import QuartzCore
 
-
 class MainViewController: UIViewController {
                             
     @IBOutlet weak var coinOneImage: UIImageView!
@@ -109,9 +108,10 @@ class MainViewController: UIViewController {
                     // confusing needs to be cleaned up, but works
                     
                     var outcome:String
-                    // only 1 toss ? get a random number (1-64) and append to wrexagram
+         
+                    // only 1 toss ? get a random wrexagram
                     if  (self.maxTosses == 1) {
-                        outcome = "wrexagram" + String(self.randomNumber())
+                        outcome = self.randomWrexagram()
                     } else{
                         let hexNumber = Int(self.hexNum) ?? 111111
                         outcome  = WrexagramLibrary.getOutcome(hexNumber)
@@ -156,8 +156,16 @@ class MainViewController: UIViewController {
     }
     
     
-    private func randomNumber() -> Int{
-            return arc4random_uniform(UInt32(64)) +  UInt32(1)
+    private func randomWrexagram() -> String {
+        let randomNum = Int(arc4random_uniform(63) + 1)
+        var wrex = "wrexagram"
+        if (randomNum < 10) {
+            wrex += "0" + String(randomNum)
+        }
+        else{
+            wrex += String(randomNum)
+        }
+        return wrex
     }
     
     private func delay(delay: Double, closure: ()->()) {
