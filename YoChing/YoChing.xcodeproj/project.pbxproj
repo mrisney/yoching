@@ -17,10 +17,10 @@
 		3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B71978FEE8007EEB62 /* MainViewController.swift */; };
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
-		A32EAB351CB87F870043C588 /* html in Resources */ = {isa = PBXBuildFile; fileRef = A32EAB341CB87F870043C588 /* html */; };
 		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
 		DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */; };
-		DE468E8F1CB960C900AC1199 /* wrexagrams.json in Resources */ = {isa = PBXBuildFile; fileRef = DE468E8E1CB960C900AC1199 /* wrexagrams.json */; };
+		DE468E921CB968F000AC1199 /* html in Resources */ = {isa = PBXBuildFile; fileRef = DE468E901CB968F000AC1199 /* html */; };
+		DE468E931CB968F000AC1199 /* json in Resources */ = {isa = PBXBuildFile; fileRef = DE468E911CB968F000AC1199 /* json */; };
 		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
 		DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */; };
 		DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */; };
@@ -84,12 +84,12 @@
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F89BF55C197002986CA2CAC /* Pods-YoChingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A32EAB341CB87F870043C588 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = media/wrexagrams/html; sourceTree = "<group>"; };
 		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
 		BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
 		DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		DE468E8E1CB960C900AC1199 /* wrexagrams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrexagrams.json; sourceTree = "<group>"; };
+		DE468E901CB968F000AC1199 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = media/html; sourceTree = "<group>"; };
+		DE468E911CB968F000AC1199 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; name = json; path = media/json; sourceTree = "<group>"; };
 		DE5138C01CADD9560067A31C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy Italic.otf"; sourceTree = "<group>"; };
 		DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uni Sans Heavy.otf"; sourceTree = "<group>"; };
@@ -177,8 +177,8 @@
 		3EED85B21978FEE8007EEB62 /* YoChing */ = {
 			isa = PBXGroup;
 			children = (
-				DE468E8D1CB960C900AC1199 /* json */,
-				A32EAB341CB87F870043C588 /* html */,
+				DE468E901CB968F000AC1199 /* html */,
+				DE468E911CB968F000AC1199 /* json */,
 				DE2CC9601CB8071D003233F2 /* Settings */,
 				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
@@ -229,15 +229,6 @@
 			children = (
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		DE468E8D1CB960C900AC1199 /* json */ = {
-			isa = PBXGroup;
-			children = (
-				DE468E8E1CB960C900AC1199 /* wrexagrams.json */,
-			);
-			name = json;
-			path = media/wrexagrams/json;
 			sourceTree = "<group>";
 		};
 		DE683D4B1CB372100072F98A /* Fonts */ = {
@@ -394,7 +385,7 @@
 				DE6B7A0E1CB73B3300C47024 /* Exo-SemiBold.otf in Resources */,
 				DE71A35F1CB8055300F5BEF2 /* PTZ56F.ttf in Resources */,
 				DE6B7A041CB73B3300C47024 /* Exo-ExtraBold.otf in Resources */,
-				A32EAB351CB87F870043C588 /* html in Resources */,
+				DE468E921CB968F000AC1199 /* html in Resources */,
 				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
 				DE71A35E1CB8055300F5BEF2 /* PTZ55F.ttf in Resources */,
 				DE71A35D1CB8055300F5BEF2 /* PTS76F.ttf in Resources */,
@@ -412,7 +403,6 @@
 				DE6B7A111CB73B3300C47024 /* Exo-ThinItalic.otf in Resources */,
 				DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */,
 				DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */,
-				DE468E8F1CB960C900AC1199 /* wrexagrams.json in Resources */,
 				DE6B7A001CB73B3300C47024 /* Exo-Black.otf in Resources */,
 				DE71A3551CB8055300F5BEF2 /* PTF76F.ttf in Resources */,
 				DE6B7A061CB73B3300C47024 /* Exo-ExtraLight.otf in Resources */,
@@ -423,6 +413,7 @@
 				DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */,
 				DE6B7A071CB73B3300C47024 /* Exo-ExtraLightItalic.otf in Resources */,
 				DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */,
+				DE468E931CB968F000AC1199 /* json in Resources */,
 				DE71A3561CB8055300F5BEF2 /* PTM55F.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
