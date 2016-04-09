@@ -6,6 +6,7 @@
 //  Copyright © 2015 Gary.com. All rights reserved.
 //
 
+import AromaSwiftClient
 import Foundation
 import UIKit
 
@@ -21,15 +22,15 @@ class WrexagramViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if wrexagramNumber < 0 {
+        guard wrexagramNumber > 0 else {
             self.parentViewController?.dismissViewControllerAnimated(true, completion: nil)
             return
         }
         
         navTitle.text = "Wrexagram \(wrexagramNumber)"
         
-        let formattedOutcome = String(format: "%02d", wrexagramNumber)
-        let filename = "wrex\(formattedOutcome)"
+        let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
+        let filename = "html/\(formattedOutcome)"
         
         if let image = UIImage(named: filename) {
             wrexegramImage.image = image
@@ -39,8 +40,11 @@ class WrexagramViewController : UIViewController {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
                 webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
-            } catch {
-                
+            } catch let ex {
+                AromaClient.begin()
+                    .withTitle("Operation Failed")
+                    .withBody("\(ex)\n\(UIDevice.currentDevice().name)")
+                    .send()
             }
         }
     }

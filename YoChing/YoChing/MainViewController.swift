@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     private var coinTwo: Coin!
     private var coinThree: Coin!
     
-    private var maxTosses = 6
+    private var maxTosses = 1
     private var tosses:Int = 0
     private var hexNum:String = ""
     
@@ -110,9 +110,9 @@ class MainViewController: UIViewController {
                     var outcome:String
          
                     // only 1 toss ? get a random wrexagram
-                    if  (self.maxTosses == 1) {
+                    if self.maxTosses == 1 {
                         outcome = self.randomWrexagram()
-                    } else{
+                    } else {
                         let hexNumber = Int(self.hexNum) ?? 111111
                         outcome  = WrexagramLibrary.getOutcome(hexNumber)
                     }
@@ -158,13 +158,7 @@ class MainViewController: UIViewController {
     
     private func randomWrexagram() -> String {
         let randomNum = Int(arc4random_uniform(63) + 1)
-        var wrex = "wrexagram"
-        if (randomNum < 10) {
-            wrex += "0" + String(randomNum)
-        }
-        else{
-            wrex += String(randomNum)
-        }
+        let wrex = String(format: "wrexagram%02d", randomNum)
         return wrex
     }
     
