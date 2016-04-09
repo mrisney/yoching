@@ -22,7 +22,7 @@ struct Wrexagram {
         self.init(title: title, subtitle: nil, body: nil, number: nil)
     }
     
-    init(title: String, subtitle: String?, body: String?, number: Int?) {
+    init(title: String, subtitle: String? = nil, body: String? = nil, number: Int? = nil) {
         self.title = title
         self.subtitle = subtitle
         self.body = body
@@ -36,5 +36,9 @@ struct Wrexagram {
         let number = json["number"].int ?? 0
     
         return Wrexagram(title: title, subtitle: subtitle, body: nil, number: number)
+    }
+    
+    var asString: String {
+        return "Wrexagram \(number ?? 0) - \(title)"
     }
 }

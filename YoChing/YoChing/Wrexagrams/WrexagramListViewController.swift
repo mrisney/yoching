@@ -34,8 +34,10 @@ extension WrexagramListViewController {
         
         let destination = segue.destinationViewController
         
-        if let wrexagram = destination as? WrexagramViewController, let number = sender as? Int {
-            wrexagram.wrexagramNumber = number + 1
+        if let viewController = destination as? WrexagramViewController, let number = sender as? Int {
+            viewController.wrexagramNumber = number + 1
+            let wrexagram = wrexagrams[number]
+            viewController.wrexagram = wrexagram
         }
     }
 }

@@ -17,6 +17,7 @@ class WrexagramViewController : UIViewController {
     @IBOutlet weak var webView: UIWebView!
     
     var wrexagramNumber: Int = -1
+    var wrexagram: Wrexagram?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,17 +29,30 @@ class WrexagramViewController : UIViewController {
         
         navTitle.text = "Wrexagram \(wrexagramNumber)"
         
+        loadImage()
+        loadMessage()
+        
+        let wrexagram = self.wrexagram ?? Wrexagram(title: "Wrexagram \(wrexagramNumber)", number: wrexagramNumber)
+        
+        AromaClient.begin()
+            .withTitle("Wrexagram Viewed")
+            .withBody("\(wrexagram.asString)\n\nBy \(UIDevice.currentDevice().name)")
+            .send()
+    }
+    
+    private func loadImage() {
+        
+    }
+    
+    private func loadMessage() {
+        
         let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
         let filename = "html/\(formattedOutcome)"
         
-        if let image = UIImage(named: filename) {
-            wrexegramImage.image = image
-        }
-                
         if let html = NSBundle.mainBundle().pathForResource(filename, ofType: "html") {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
-
+                
                 webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
                 
             } catch let ex {
@@ -48,8 +62,6 @@ class WrexagramViewController : UIViewController {
                     .send()
             }
         }
-        
-    
     }
     
 }
