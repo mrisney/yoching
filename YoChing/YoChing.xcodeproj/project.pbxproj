@@ -17,6 +17,7 @@
 		3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B71978FEE8007EEB62 /* MainViewController.swift */; };
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
+		A32EAB351CB87F870043C588 /* html in Resources */ = {isa = PBXBuildFile; fileRef = A32EAB341CB87F870043C588 /* html */; };
 		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
 		A3F35A041CAF154600560B01 /* wrex02.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.html */; };
 		A3F35A061CAF538100560B01 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A051CAF538100560B01 /* style.css */; };
@@ -84,6 +85,7 @@
 		3EED85C21978FEE8007EEB62 /* YoChing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoChing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F89BF55C197002986CA2CAC /* Pods-YoChingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32EAB341CB87F870043C588 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = media/wrexagrams/html; sourceTree = "<group>"; };
 		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
 		A3F35A031CAF154600560B01 /* wrex02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.html; sourceTree = "<group>"; };
 		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		3EED85B21978FEE8007EEB62 /* YoChing */ = {
 			isa = PBXGroup;
 			children = (
+				A32EAB341CB87F870043C588 /* html */,
 				DE2CC9601CB8071D003233F2 /* Settings */,
 				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
 				A3F35A051CAF538100560B01 /* style.css */,
@@ -385,6 +388,7 @@
 				DE6B7A0E1CB73B3300C47024 /* Exo-SemiBold.otf in Resources */,
 				DE71A35F1CB8055300F5BEF2 /* PTZ56F.ttf in Resources */,
 				DE6B7A041CB73B3300C47024 /* Exo-ExtraBold.otf in Resources */,
+				A32EAB351CB87F870043C588 /* html in Resources */,
 				3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */,
 				DE71A35E1CB8055300F5BEF2 /* PTZ55F.ttf in Resources */,
 				DE71A35D1CB8055300F5BEF2 /* PTS76F.ttf in Resources */,
