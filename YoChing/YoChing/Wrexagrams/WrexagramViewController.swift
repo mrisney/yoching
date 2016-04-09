@@ -27,6 +27,9 @@ class WrexagramViewController : UIViewController {
             return
         }
         
+        textView.hidden = true
+        webView.hidden = false
+        
         navTitle.text = "Wrexagram \(wrexagramNumber)"
         
         let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
@@ -39,7 +42,12 @@ class WrexagramViewController : UIViewController {
         if let html = NSBundle.mainBundle().pathForResource(filename, ofType: "html") {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
+                guard let text = self.toAttributedString(htmlString) else { return }
+                
+                textView.attributedText = text
                 webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
+                
+                
             } catch let ex {
                 AromaClient.begin()
                     .withTitle("Operation Failed")
@@ -47,6 +55,31 @@ class WrexagramViewController : UIViewController {
                     .send()
             }
         }
+        
+    
     }
     
+}
+
+//MARK: Utility Methods
+extension WrexagramViewController {
+    
+    private func toAttributedString(html: String) -> NSAttributedString? {
+        
+        guard let data = html.dataUsingEncoding(NSUnicodeStringEncoding) else { return nil }
+        
+        let options: [String : String] = [
+            NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType
+        ]
+        
+        guard let string = try? NSMutableAttributedString(data: data, options: options, documentAttributes: nil) else { return nil }
+        
+        if let font = UIFont.init(name: "Exo-Bold", size: 24) {
+            string.addAttribute(NSFontAttributeName, value: font, range: NSRangeFromString(string.string))
+            print("Font Loaded")
+            
+        }
+        
+        return string
+    }
 }

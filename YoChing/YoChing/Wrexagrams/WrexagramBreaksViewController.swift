@@ -13,6 +13,7 @@ class WrexagramBreaksViewController : UIViewController {
     
     @IBOutlet weak var wrexegramImage: UIImageView!
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var textView: UITextView!
     
     var outcome: Int = -1
     

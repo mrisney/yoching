@@ -1,29 +1,37 @@
 body {
-        font-family:Helvetica
+    font-family: PT Sans;
+    font-size: 14pt;
+    text-align: justify;
 }
+
 h1 {
     color: #000000;
-    font-family:Helvetica;
-    font-size: 18pt}
-
-div {
-    text-align: justify;
-    text-justify: inter-word;
+    font-family: Exo-Bold;
+    font-size: 24pt;
+    text-align: center;
 }
 
-a{
-    font-family:Helvetica;
-    font-weight: bold;
+/*div {*/
+/*    text-align: justify;*/
+/*    text-justify: inter-word;*/
+/*    font-family: Exo;*/
+/*    font-size: 20;*/
+/*}*/
+
+a {
+    font-family: Exo-Medium;
     color: #ffffaa;
     text-decoration:none;
     padding-left: 5px;
 }
-img{
+
+img {
     padding-left:0;
     max-width: 90%;
     max-height: 90%;
     box-shadow: 3px 3px 3px 0px #202020
 }
+
 .navbar {
     background-color: #000000;
     color: white;

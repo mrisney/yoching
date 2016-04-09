@@ -19,8 +19,6 @@
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
 		A32EAB351CB87F870043C588 /* html in Resources */ = {isa = PBXBuildFile; fileRef = A32EAB341CB87F870043C588 /* html */; };
 		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
-		A3F35A041CAF154600560B01 /* wrex02.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A031CAF154600560B01 /* wrex02.html */; };
-		A3F35A061CAF538100560B01 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A3F35A051CAF538100560B01 /* style.css */; };
 		DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */; };
 		DE5138C11CADD9560067A31C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5138C01CADD9560067A31C /* Coin.swift */; };
 		DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */; };
@@ -87,8 +85,6 @@
 		8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32EAB341CB87F870043C588 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = media/wrexagrams/html; sourceTree = "<group>"; };
 		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
-		A3F35A031CAF154600560B01 /* wrex02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrex02.html; sourceTree = "<group>"; };
-		A3F35A051CAF538100560B01 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
 		DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -182,8 +178,6 @@
 				A32EAB341CB87F870043C588 /* html */,
 				DE2CC9601CB8071D003233F2 /* Settings */,
 				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
-				A3F35A051CAF538100560B01 /* style.css */,
-				A3F35A031CAF154600560B01 /* wrex02.html */,
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
 				DE5138C01CADD9560067A31C /* Coin.swift */,
 				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
@@ -405,7 +399,6 @@
 				DE71A3591CB8055300F5BEF2 /* PTN77F.ttf in Resources */,
 				DE6B7A111CB73B3300C47024 /* Exo-ThinItalic.otf in Resources */,
 				DE683D531CB372360072F98A /* Uni Sans Thin.otf in Resources */,
-				A3F35A061CAF538100560B01 /* style.css in Resources */,
 				DE683D501CB372360072F98A /* Uni Sans Heavy Italic.otf in Resources */,
 				DE6B7A001CB73B3300C47024 /* Exo-Black.otf in Resources */,
 				DE71A3551CB8055300F5BEF2 /* PTF76F.ttf in Resources */,
@@ -415,7 +408,6 @@
 				DE71A3571CB8055300F5BEF2 /* PTM75F.ttf in Resources */,
 				DE6B7A0C1CB73B3300C47024 /* Exo-MediumItalic.otf in Resources */,
 				DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */,
-				A3F35A041CAF154600560B01 /* wrex02.html in Resources */,
 				DE6B7A071CB73B3300C47024 /* Exo-ExtraLightItalic.otf in Resources */,
 				DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */,
 				DE71A3561CB8055300F5BEF2 /* PTM55F.ttf in Resources */,

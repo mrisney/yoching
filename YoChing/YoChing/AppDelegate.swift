@@ -24,12 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         AromaClient.begin().withTitle("App Launched")
             .withBody("From Device: " + UIDevice.currentDevice().name)
+            .withUrgency(.LOW)                                                      
             .send()
         
         NSSetUncaughtExceptionHandler() { ex in
             AromaClient.begin()
                 .withTitle("App Crashed")
                 .withBody("\(ex)")
+                .withUrgency(.HIGH)
                 .send()
         }
         
