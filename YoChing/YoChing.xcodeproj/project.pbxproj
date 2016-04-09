@@ -282,8 +282,8 @@
 				DE6B79E91CB7212500C47024 /* Wrexagram.swift */,
 				1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */,
 				A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */,
-				1397CE011BF454E1004523FD /* WrexagramViewController.swift */,
 				DE6B79EC1CB7226100C47024 /* WrexagramListViewController.swift */,
+				1397CE011BF454E1004523FD /* WrexagramViewController.swift */,
 			);
 			path = Wrexagrams;
 			sourceTree = "<group>";
