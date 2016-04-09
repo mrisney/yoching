@@ -84,7 +84,7 @@ class WrexagramLibrary {
         }
     }
     
-    private static let JSON_FILE = "wrexagrams.json"
+    private static let JSON_FILE = "json/wrexagrams.json"
     
     static var wrexagrams: [Wrexagram] {
         
@@ -92,7 +92,7 @@ class WrexagramLibrary {
         else { return [] }
         
         guard let data = try? NSData(contentsOfURL: url, options: NSDataReadingOptions.DataReadingMappedIfSafe),
-              let json = JSON(url).array
+              let json = JSON(data).array
         else { return [] }
         
         var wrexagrams: [Wrexagram] = []
