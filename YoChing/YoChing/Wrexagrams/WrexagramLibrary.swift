@@ -91,12 +91,14 @@ class WrexagramLibrary {
         guard let url = NSBundle.mainBundle().URLForResource(JSON_FILE, withExtension: nil)
         else { return [] }
         
-        guard let data = try? NSData(contentsOfURL: url, options: NSDataReadingOptions.DataReadingMappedIfSafe),
-              let json = JSON(data).array
+        guard let string = try? String(contentsOfURL: url),
+              let data = string.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
         else { return [] }
         
+        let json = JSON(data: data)
+        
         var wrexagrams: [Wrexagram] = []
-        for element in json {
+        for (_, element) in json {
             let wrexagram = Wrexagram.fromJson(element)
             wrexagrams.append(wrexagram)
         }

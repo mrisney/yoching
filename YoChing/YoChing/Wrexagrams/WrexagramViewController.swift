@@ -14,7 +14,6 @@ class WrexagramViewController : UIViewController {
     
     @IBOutlet weak var navTitle: UILabel!
     @IBOutlet weak var wrexegramImage: UIImageView!
-    @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var webView: UIWebView!
     
     var wrexagramNumber: Int = -1
@@ -26,9 +25,6 @@ class WrexagramViewController : UIViewController {
             self.parentViewController?.dismissViewControllerAnimated(true, completion: nil)
             return
         }
-        
-        textView.hidden = true
-        webView.hidden = false
         
         navTitle.text = "Wrexagram \(wrexagramNumber)"
         
@@ -42,11 +38,8 @@ class WrexagramViewController : UIViewController {
         if let html = NSBundle.mainBundle().pathForResource(filename, ofType: "html") {
             do {
                 let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
-                guard let text = self.toAttributedString(htmlString) else { return }
-                
-                textView.attributedText = text
+
                 webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
-                
                 
             } catch let ex {
                 AromaClient.begin()

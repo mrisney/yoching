@@ -45,7 +45,9 @@ extension WrexagramListViewController {
 extension WrexagramListViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return wrexagrams.count
+        let count = wrexagrams.count
+        print("Loading \(count) Wrexagrams")
+        return count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -60,10 +62,21 @@ extension WrexagramListViewController {
         
         let wrexagram = wrexagrams[row]
         
-        cell.numberLabel.text = "\(row + 1)"
+        let number = wrexagram.number ?? row + 1
+        
+        if number == 64 {
+            print("Setting number to \(number)")
+        }
+        
+        cell.numberLabel.text = "\(number)"
         cell.title.text = wrexagram.title
+        cell.subtitle?.text = wrexagram.subtitle
         
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 120
     }
 }
 
@@ -85,6 +98,7 @@ class WrexagramListCell : UITableViewCell {
     @IBOutlet weak var numberLabel: UILabel!
     @IBOutlet weak var wrexagramImage: UIButton!
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var subtitle: UILabel!
     @IBOutlet weak var arrow: UIButton!
     
 }
