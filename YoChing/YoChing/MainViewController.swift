@@ -99,23 +99,29 @@ class MainViewController: UIViewController {
                 self.recordCoinTossResult(coinsOutcome)
                 self.flipButton.enabled = true
                 
-                if self.tosses ==  self.maxTosses {
+                if self.tosses == self.maxTosses {
                     
                     defer {
                         self.tosses = 0
                         self.hexNum = ""
                     }
                     
-                    let hexNumber = Int(self.hexNum) ?? 111111
-                    let outcome  = WrexagramLibrary.getOutcome(hexNumber)
-                    print(outcome)
+                    // confusing needs to be cleaned up, but works
+                    
+                    var outcome:String
+                    // only 1 toss ? get a random number (1-64) and append to wrexagram
+                    if  (self.maxTosses == 1) {
+                        outcome = "wrexagram" + String(self.randomNumber())
+                    } else{
+                        let hexNumber = Int(self.hexNum) ?? 111111
+                        outcome  = WrexagramLibrary.getOutcome(hexNumber)
+                    }
                     
                     defer {
                         AromaClient.begin().withTitle("Coins Flipped")
                             .withBody("Result: \(outcome)\n\nFrom: \(UIDevice.currentDevice().name)")
                             .send()
                     }
-                    
                     
                     let wrexNumber = Int(outcome.stringByReplacingOccurrencesOfString("wrexagram", withString: "")) ?? 01
                     self.goToWrex(wrexNumber)
@@ -149,6 +155,11 @@ class MainViewController: UIViewController {
         return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
     }
     
+    
+    private func randomNumber() -> Int{
+            return arc4random_uniform(UInt32(64)) +  UInt32(1)
+    }
+    
     private func delay(delay: Double, closure: ()->()) {
         dispatch_after(
             dispatch_time(
@@ -166,6 +177,8 @@ class MainViewController: UIViewController {
         (headCount >= 2) ? (hexNum += "2") : (hexNum += "1")
 
     }
+    
+
 
 }
 
