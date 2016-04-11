@@ -11,7 +11,6 @@
 		1397CE001BF44E6C004523FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CDFF1BF44E6C004523FD /* Extensions.swift */; };
 		1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE011BF454E1004523FD /* WrexagramViewController.swift */; };
 		1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */; };
-		1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397CE051BF463AD004523FD /* InfoViewController.swift */; };
 		27C3CCC290F40858FECF2147 /* Pods_YoChingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C996FB898E39F38827B5001 /* Pods_YoChingTests.framework */; };
 		3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B51978FEE8007EEB62 /* AppDelegate.swift */; };
 		3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED85B71978FEE8007EEB62 /* MainViewController.swift */; };
@@ -77,7 +76,6 @@
 		1397CDFF1BF44E6C004523FD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1397CE011BF454E1004523FD /* WrexagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramViewController.swift; sourceTree = "<group>"; };
 		1397CE031BF45CAE004523FD /* WrexagramBreaksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramBreaksViewController.swift; sourceTree = "<group>"; };
-		1397CE051BF463AD004523FD /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3EED85B01978FEE8007EEB62 /* YoChing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoChing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EED85B41978FEE8007EEB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EED85B51978FEE8007EEB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -191,7 +189,6 @@
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
 				DE5138C01CADD9560067A31C /* Coin.swift */,
 				1397CDFF1BF44E6C004523FD /* Extensions.swift */,
-				1397CE051BF463AD004523FD /* InfoViewController.swift */,
 				3EED85B71978FEE8007EEB62 /* MainViewController.swift */,
 				3EED85BC1978FEE8007EEB62 /* Images.xcassets */,
 				DE683D4B1CB372100072F98A /* Fonts */,
@@ -565,7 +562,6 @@
 				DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */,
 				DE23674D1CBC356B00D9E87D /* Animations.swift in Sources */,
 				3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */,
-				1397CE061BF463AD004523FD /* InfoViewController.swift in Sources */,
 				A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */,
 				1397CE021BF454E1004523FD /* WrexagramViewController.swift in Sources */,
 				1397CE041BF45CAE004523FD /* WrexagramBreaksViewController.swift in Sources */,

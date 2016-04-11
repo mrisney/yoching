@@ -179,6 +179,9 @@
                                     <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spray.galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-7K-33l">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wrexagram-Icon" translatesAutoresizingMaskIntoConstraints="NO" id="M3c-dk-mIp">
+                                        <rect key="frame" x="164" y="31" width="240" height="128"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
