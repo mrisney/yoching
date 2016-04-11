@@ -32,12 +32,18 @@ class WrexagramViewController : UIViewController {
         loadImage()
         loadMessage()
         
-        let wrexagram = self.wrexagram ?? Wrexagram(title: "Wrexagram \(wrexagramNumber)", number: wrexagramNumber)
-        
-        AromaClient.begin()
-            .withTitle("Wrexagram Viewed")
-            .withBody("\(wrexagram.asString)\n\nBy \(UIDevice.currentDevice().name)")
-            .send()
+        if let wrexagram = self.wrexagram ?? determineWrexagramFromNumber(wrexagramNumber) {
+            AromaClient.begin()
+                .withTitle("Wrexagram Viewed")
+                .withBody("\(wrexagram.asString)\n\nBy \(UIDevice.currentDevice().name)")
+                .send()
+        }
+        else {
+            AromaClient.begin()
+                .withTitle("Wrexagram Viewed")
+                .withBody("Wrexagram \(wrexagramNumber)\n\nBy \(UIDevice.currentDevice().name)")
+                .send()
+        }
     }
     
     private func loadImage() {
@@ -86,5 +92,13 @@ extension WrexagramViewController {
         }
         
         return string
+    }
+    
+    private func determineWrexagramFromNumber(number: Int) -> Wrexagram? {
+        let index = number - 1
+        
+        guard index < WrexagramLibrary.wrexagrams.count else { return nil }
+        
+        return WrexagramLibrary.wrexagrams[index]
     }
 }

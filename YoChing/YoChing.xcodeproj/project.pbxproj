@@ -18,6 +18,7 @@
 		3EED85BB1978FEE8007EEB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85B91978FEE8007EEB62 /* Main.storyboard */; };
 		3EED85BD1978FEE8007EEB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED85BC1978FEE8007EEB62 /* Images.xcassets */; };
 		A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */; };
+		DE0076901CBB95F1005B3DB1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00768F1CBB95F1005B3DB1 /* SettingsViewController.swift */; };
 		DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */; };
 		DE468E921CB968F000AC1199 /* html in Resources */ = {isa = PBXBuildFile; fileRef = DE468E901CB968F000AC1199 /* html */; };
 		DE468E931CB968F000AC1199 /* json in Resources */ = {isa = PBXBuildFile; fileRef = DE468E911CB968F000AC1199 /* json */; };
@@ -87,6 +88,7 @@
 		A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramLibrary.swift; sourceTree = "<group>"; };
 		BB8BA239BB98947BEE558160 /* Pods-YoChingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChingTests/Pods-YoChingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F61F570B70A6455AF6A0A4 /* Pods-YoChing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.release.xcconfig"; sourceTree = "<group>"; };
+		DE00768F1CBB95F1005B3DB1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DE468E891CB84BDB00AC1199 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DE468E901CB968F000AC1199 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = media/html; sourceTree = "<group>"; };
 		DE468E911CB968F000AC1199 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; name = json; path = media/json; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		DE2CC9601CB8071D003233F2 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DE00768F1CBB95F1005B3DB1 /* SettingsViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 			files = (
 				DE6B79EA1CB7212500C47024 /* Wrexagram.swift in Sources */,
 				1397CE001BF44E6C004523FD /* Extensions.swift in Sources */,
+				DE0076901CBB95F1005B3DB1 /* SettingsViewController.swift in Sources */,
 				3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */,
 				DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */,
 				3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */,

@@ -66,13 +66,10 @@ extension WrexagramListViewController {
         
         let number = wrexagram.number ?? row + 1
         
-        if number == 64 {
-            print("Setting number to \(number)")
-        }
-        
         cell.numberLabel.text = "\(number)"
         cell.title.text = wrexagram.title
         cell.subtitle?.text = wrexagram.subtitle
+        //cell.arrow.image = cell.arrow.image?.imageWithRenderingMode(.AlwaysTemplate)
         
         return cell
     }
@@ -101,6 +98,6 @@ class WrexagramListCell : UITableViewCell {
     @IBOutlet weak var wrexagramImage: UIButton!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var subtitle: UILabel!
-    @IBOutlet weak var arrow: UIButton!
+    @IBOutlet weak var arrow: UIImageView!
     
 }

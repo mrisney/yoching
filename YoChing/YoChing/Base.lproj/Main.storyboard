@@ -14,6 +14,7 @@
             <string>Exo-Light</string>
             <string>Exo-Light</string>
             <string>Exo-Light</string>
+            <string>Exo-Light</string>
         </mutableArray>
         <mutableArray key="Exo-SemiBold.otf">
             <string>Exo-DemiBold</string>
@@ -49,16 +50,6 @@
                                             </constraints>
                                             <state key="normal" title="Button" image="wrex01"/>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihq-N3-M1h">
-                                            <rect key="frame" x="554" y="18" width="30" height="84"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="Ihq-N3-M1h" secondAttribute="height" multiplier="5:14" id="1KZ-1s-5Gk"/>
-                                            </constraints>
-                                            <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            <state key="normal" image="arrow_right">
-                                                <color key="titleColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            </state>
-                                        </button>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-IB-bBe" userLabel="LINE">
                                             <rect key="frame" x="0.0" y="119" width="600" height="1"/>
                                             <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -73,7 +64,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" text="Before shit pops off, it has to come together. That’s a hard time. Always STRESS GETTING STARTED." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-zw-z3q">
-                                            <rect key="frame" x="85" y="67" width="461" height="32"/>
+                                            <rect key="frame" x="85" y="67" width="456" height="32"/>
                                             <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="12"/>
                                             <color key="textColor" red="0.35288461539999999" green="0.35288461539999999" blue="0.35288461539999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -84,29 +75,36 @@
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="247" verticalHuggingPriority="251" horizontalCompressionResistancePriority="746" image="arrow_right-thick-dark" translatesAutoresizingMaskIntoConstraints="NO" id="bSl-5X-qxc">
+                                            <rect key="frame" x="556" y="42" width="36" height="36"/>
+                                            <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="bSl-5X-qxc" secondAttribute="height" multiplier="1:1" id="3Co-sA-hWg"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="bSl-5X-qxc" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="6ob-6e-v4x"/>
                                         <constraint firstItem="jwu-EP-Ccx" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="9h8-GU-joB"/>
                                         <constraint firstItem="lRZ-zw-z3q" firstAttribute="leading" secondItem="Pst-7P-LpV" secondAttribute="leading" id="CBV-Hf-b5e"/>
+                                        <constraint firstItem="bSl-5X-qxc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lRZ-zw-z3q" secondAttribute="trailing" id="Dfe-jz-f48"/>
                                         <constraint firstItem="Pst-7P-LpV" firstAttribute="leading" secondItem="jwu-EP-Ccx" secondAttribute="trailing" id="E7c-1e-LHr"/>
                                         <constraint firstItem="f5p-IB-bBe" firstAttribute="leading" secondItem="WWF-d4-Io2" secondAttribute="leading" id="JpI-cB-Thn"/>
                                         <constraint firstItem="zdK-kf-nQB" firstAttribute="leading" secondItem="WWF-d4-Io2" secondAttribute="leadingMargin" constant="8" id="L1E-Z4-qme"/>
-                                        <constraint firstItem="Ihq-N3-M1h" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Pst-7P-LpV" secondAttribute="trailing" id="Ru2-wF-XsK"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="bSl-5X-qxc" secondAttribute="trailing" id="NoS-cn-6sY"/>
                                         <constraint firstItem="Pst-7P-LpV" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" constant="-10" id="X3z-UA-8Kg"/>
                                         <constraint firstAttribute="trailing" secondItem="f5p-IB-bBe" secondAttribute="trailing" id="YGs-xx-0Ls"/>
-                                        <constraint firstItem="Ihq-N3-M1h" firstAttribute="height" secondItem="WWF-d4-Io2" secondAttribute="height" multiplier="0.7" id="bK7-ey-d5B"/>
-                                        <constraint firstItem="Ihq-N3-M1h" firstAttribute="leading" secondItem="lRZ-zw-z3q" secondAttribute="trailing" constant="8" id="fSg-Wg-Lqk"/>
+                                        <constraint firstItem="bSl-5X-qxc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Pst-7P-LpV" secondAttribute="trailing" id="gPT-pe-Mep"/>
                                         <constraint firstItem="zdK-kf-nQB" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="hpf-gx-4jp"/>
+                                        <constraint firstItem="bSl-5X-qxc" firstAttribute="height" secondItem="WWF-d4-Io2" secondAttribute="height" multiplier="0.3" id="i0c-1Y-CEg"/>
                                         <constraint firstItem="lRZ-zw-z3q" firstAttribute="top" secondItem="Pst-7P-LpV" secondAttribute="bottom" id="ivQ-tf-Kbg"/>
-                                        <constraint firstItem="Ihq-N3-M1h" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="juO-M1-X6s"/>
                                         <constraint firstAttribute="bottom" secondItem="f5p-IB-bBe" secondAttribute="bottom" id="kfs-uZ-fq2"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="Ihq-N3-M1h" secondAttribute="trailing" constant="8" id="p7b-ca-U5b"/>
                                         <constraint firstItem="jwu-EP-Ccx" firstAttribute="leading" secondItem="zdK-kf-nQB" secondAttribute="trailing" id="vOb-1C-bPE"/>
                                         <constraint firstItem="jwu-EP-Ccx" firstAttribute="height" secondItem="WWF-d4-Io2" secondAttribute="height" multiplier="0.5" id="vuJ-JM-2xG"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="arrow" destination="Ihq-N3-M1h" id="xmq-vR-tvh"/>
+                                    <outlet property="arrow" destination="bSl-5X-qxc" id="Hut-Ph-3NO"/>
                                     <outlet property="numberLabel" destination="zdK-kf-nQB" id="rCt-9t-rwu"/>
                                     <outlet property="subtitle" destination="lRZ-zw-z3q" id="M6T-gG-l2y"/>
                                     <outlet property="title" destination="Pst-7P-LpV" id="RaI-Vc-bdy"/>
@@ -236,6 +234,11 @@
                     <navigationItem key="navigationItem" id="w9R-Ii-Nga">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="le8-wh-hvL"/>
+                        <barButtonItem key="leftBarButtonItem" image="Settings" id="ukv-E3-2nc">
+                            <connections>
+                                <segue destination="yBe-gR-y53" kind="show" id="hDK-Io-SSL"/>
+                            </connections>
+                        </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="OCS-oQ-I3E">
                             <rect key="frame" x="180" y="6" width="240" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -255,7 +258,7 @@
                                 <constraint firstAttribute="trailing" secondItem="eb0-gK-1rK" secondAttribute="trailing" id="oF0-1G-RqN"/>
                             </constraints>
                         </view>
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="y61-as-oo1">
+                        <barButtonItem key="rightBarButtonItem" image="Wrexagram-Icon" id="y61-as-oo1">
                             <connections>
                                 <segue destination="5MJ-DA-mrH" kind="show" id="sfe-EY-h06"/>
                             </connections>
@@ -272,6 +275,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qiX-tn-6S1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-444" y="-370"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="6Ho-tA-zOy">
+            <objects>
+                <tableViewController id="yBe-gR-y53" customClass="SettingsViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZA1-gg-6RR">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="CHy-D1-4eO">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="238" id="K2n-AR-iZO">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="238"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K2n-AR-iZO" id="wXv-jj-L0p">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="238"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="yBe-gR-y53" id="8l7-nV-Puy"/>
+                            <outlet property="delegate" destination="yBe-gR-y53" id="2Th-C9-PE6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8fH-pG-TUf">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="gOR-74-laO"/>
+                        <view key="titleView" contentMode="scaleToFill" id="vpb-Wg-TbO">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icg-Qp-lz2">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="26"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Icg-Qp-lz2" secondAttribute="bottom" id="U6H-ua-n0E"/>
+                                <constraint firstItem="Icg-Qp-lz2" firstAttribute="top" secondItem="vpb-Wg-TbO" secondAttribute="top" id="WQN-rO-Ziz"/>
+                                <constraint firstItem="Icg-Qp-lz2" firstAttribute="leading" secondItem="vpb-Wg-TbO" secondAttribute="leading" id="bwD-P8-169"/>
+                                <constraint firstAttribute="trailing" secondItem="Icg-Qp-lz2" secondAttribute="trailing" id="t42-NA-feg"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3B3-gl-TF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-444" y="353"/>
         </scene>
         <!--Wrexagram View Controller-->
         <scene sceneID="nH8-6n-IHA">
@@ -364,7 +424,9 @@
     </scenes>
     <resources>
         <image name="Coin_Heads" width="512" height="512"/>
-        <image name="arrow_right" width="25" height="25"/>
+        <image name="Settings" width="40" height="40"/>
+        <image name="Wrexagram-Icon" width="40" height="40"/>
+        <image name="arrow_right-thick-dark" width="100" height="100"/>
         <image name="spray.galaxy" width="2445" height="1630"/>
         <image name="wrex01" width="432" height="432"/>
         <image name="wrex52" width="432" height="432"/>
