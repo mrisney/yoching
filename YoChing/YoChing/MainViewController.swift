@@ -21,8 +21,8 @@ class MainViewController: UIViewController {
     private var coinThree: Coin!
     
     private var maxTosses = 1
-    private var tosses:Int = 0
-    private var hexNum:String = ""
+    private var tosses  = 0
+    private var hexNum = ""
     
     private var coinsInTheAir = 0
     private let main = NSOperationQueue.mainQueue()
@@ -40,6 +40,13 @@ class MainViewController: UIViewController {
         coinThree = Coin(image: coinThreeImage)
         
         async.maxConcurrentOperationCount = 1
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+         self.maxTosses = Settings.isClassicEnabled ? 6 : 1
     }
     
     override func canBecomeFirstResponder() -> Bool {
@@ -100,7 +107,7 @@ class MainViewController: UIViewController {
                 self.recordCoinTossResult(coinsOutcome)
                 self.flipButton.enabled = true
                 
-                if self.tosses == self.maxTosses {
+                if self.tosses >= self.maxTosses {
                     
                     defer {
                         self.tosses = 0

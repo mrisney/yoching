@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YoChing/YoChing/Wrexagrams/WrexagramLibrary.swift"
-            timestampString = "481928459.548008"
+            timestampString = "482109429.280469"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "wrexagrams"
             landmarkType = "19">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YoChing/YoChing/Wrexagrams/WrexagramLibrary.swift"
-            timestampString = "481928498.856172"
+            timestampString = "482109429.280469"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "wrexagrams"
             landmarkType = "19">
          </BreakpointContent>
@@ -64,6 +64,102 @@
             startingLineNumber = "123"
             endingLineNumber = "123"
             landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+            timestampString = "482107258.898931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoChing.WrexagramViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "YoChing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SirWellington/Documents/Code/yoching/YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+                  timestampString = "482107258.982405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoChing.WrexagramViewController.(viewDidLoad () -&gt; ()).($defer #1) () -&gt; ()"
+                  moduleName = "YoChing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SirWellington/Documents/Code/yoching/YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+                  timestampString = "482107258.982523"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+            timestampString = "482109429.280469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "determineWrexagramFromNumber(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+            timestampString = "482107258.898931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YoChing/YoChing/Wrexagrams/WrexagramViewController.swift"
+            timestampString = "482107258.898931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "loadTitle()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

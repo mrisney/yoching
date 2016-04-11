@@ -7,6 +7,9 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
+        <mutableArray key="Exo-Black.otf">
+            <string>Exo-Black</string>
+        </mutableArray>
         <mutableArray key="Exo-Bold.otf">
             <string>Exo-Bold</string>
             <string>Exo-Bold</string>
@@ -643,26 +646,64 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wrex52" translatesAutoresizingMaskIntoConstraints="NO" id="sen-WV-L48">
-                                <rect key="frame" x="233" y="15" width="135" height="135"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="sen-WV-L48" secondAttribute="height" multiplier="1:1" id="Ywa-jZ-NCW"/>
-                                    <constraint firstAttribute="width" constant="135" id="edH-c0-NgT"/>
-                                </constraints>
-                            </imageView>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Jr-yJ-TWo">
-                                <rect key="frame" x="20" y="150" width="560" height="386"/>
+                                <rect key="frame" x="20" y="100" width="560" height="436"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAz-iE-RmR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spray.galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="rgn-Ug-Oyn">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wrexagram21" translatesAutoresizingMaskIntoConstraints="NO" id="Iq7-zX-NYy">
+                                        <rect key="frame" x="24" y="15" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Iq7-zX-NYy" secondAttribute="height" multiplier="1:1" id="3dI-1J-kV6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UP IN YOUR FACE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR0-8V-xY5">
+                                        <rect key="frame" x="126" y="33" width="204" height="35"/>
+                                        <fontDescription key="fontDescription" name="Exo-Black" family="Exo" pointSize="26"/>
+                                        <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ixY-Sr-tSk" userLabel="Line">
+                                        <rect key="frame" x="60" y="99" width="480" height="1"/>
+                                        <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="VC9-iW-cau"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="rgn-Ug-Oyn" firstAttribute="leading" secondItem="eAz-iE-RmR" secondAttribute="leading" id="2YG-dz-E0Z"/>
+                                    <constraint firstItem="rgn-Ug-Oyn" firstAttribute="top" secondItem="eAz-iE-RmR" secondAttribute="top" id="7iH-ie-Yb7"/>
+                                    <constraint firstItem="Iq7-zX-NYy" firstAttribute="height" secondItem="eAz-iE-RmR" secondAttribute="height" multiplier="0.7" id="C9U-zg-0A4"/>
+                                    <constraint firstItem="gR0-8V-xY5" firstAttribute="leading" secondItem="Iq7-zX-NYy" secondAttribute="trailing" constant="32" id="DT1-tb-rFH"/>
+                                    <constraint firstItem="ixY-Sr-tSk" firstAttribute="centerX" secondItem="eAz-iE-RmR" secondAttribute="centerX" id="HcF-lh-UYh"/>
+                                    <constraint firstAttribute="bottom" secondItem="ixY-Sr-tSk" secondAttribute="bottom" id="OP3-Kd-dSG"/>
+                                    <constraint firstAttribute="height" constant="100" id="PC7-IP-Opm"/>
+                                    <constraint firstItem="gR0-8V-xY5" firstAttribute="centerY" secondItem="eAz-iE-RmR" secondAttribute="centerY" id="QxX-uE-fdJ"/>
+                                    <constraint firstItem="ixY-Sr-tSk" firstAttribute="top" secondItem="rgn-Ug-Oyn" secondAttribute="bottom" id="UJs-Ve-4Bo"/>
+                                    <constraint firstItem="ixY-Sr-tSk" firstAttribute="width" secondItem="eAz-iE-RmR" secondAttribute="width" multiplier="0.8" id="fKN-Tl-mbD"/>
+                                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="gR0-8V-xY5" secondAttribute="trailing" id="fXv-cm-lLS"/>
+                                    <constraint firstAttribute="trailing" secondItem="rgn-Ug-Oyn" secondAttribute="trailing" id="rEr-DI-Gb9"/>
+                                    <constraint firstItem="Iq7-zX-NYy" firstAttribute="leading" secondItem="eAz-iE-RmR" secondAttribute="leading" constant="24" id="xDy-RX-PKo"/>
+                                    <constraint firstItem="Iq7-zX-NYy" firstAttribute="centerY" secondItem="eAz-iE-RmR" secondAttribute="centerY" id="zWn-Mz-C9P"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sen-WV-L48" firstAttribute="top" secondItem="khk-we-qKu" secondAttribute="bottom" constant="15" id="CBz-QS-pQY"/>
-                            <constraint firstItem="8Jr-yJ-TWo" firstAttribute="top" secondItem="sen-WV-L48" secondAttribute="bottom" id="MmM-XD-yPM"/>
+                            <constraint firstItem="eAz-iE-RmR" firstAttribute="leading" secondItem="8Wn-jO-P8s" secondAttribute="leading" id="Aq8-bH-ek0"/>
                             <constraint firstItem="TVe-vC-Baw" firstAttribute="top" secondItem="8Jr-yJ-TWo" secondAttribute="bottom" id="Omi-0S-1Ki"/>
-                            <constraint firstItem="sen-WV-L48" firstAttribute="centerX" secondItem="8Wn-jO-P8s" secondAttribute="centerX" id="Te3-LT-b0s"/>
+                            <constraint firstItem="8Jr-yJ-TWo" firstAttribute="top" secondItem="eAz-iE-RmR" secondAttribute="bottom" id="UYj-lA-Hoa"/>
+                            <constraint firstAttribute="trailing" secondItem="eAz-iE-RmR" secondAttribute="trailing" id="f1x-LR-vrl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Jr-yJ-TWo" secondAttribute="trailing" id="f7U-Mw-6fN"/>
                             <constraint firstItem="8Jr-yJ-TWo" firstAttribute="leading" secondItem="8Wn-jO-P8s" secondAttribute="leadingMargin" id="fS2-xd-YGt"/>
+                            <constraint firstItem="eAz-iE-RmR" firstAttribute="top" secondItem="khk-we-qKu" secondAttribute="bottom" id="mXT-C0-Hwa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ogN-Ac-pPR">
@@ -691,7 +732,8 @@
                     <connections>
                         <outlet property="navTitle" destination="FpS-qJ-9ww" id="OSk-sh-LKo"/>
                         <outlet property="webView" destination="8Jr-yJ-TWo" id="vxg-E9-L1X"/>
-                        <outlet property="wrexegramImage" destination="sen-WV-L48" id="7va-Ft-Vpn"/>
+                        <outlet property="wrexagramTitle" destination="gR0-8V-xY5" id="hgD-ef-Bos"/>
+                        <outlet property="wrexegramImage" destination="Iq7-zX-NYy" id="pdY-2k-E1I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTv-eX-rhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -730,7 +772,7 @@
         <image name="arrow_right-thick-dark" width="100" height="100"/>
         <image name="spray.galaxy" width="2445" height="1630"/>
         <image name="wrex01" width="432" height="432"/>
-        <image name="wrex52" width="432" height="432"/>
+        <image name="wrexagram21" width="432" height="432"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="A7i-ez-YTE"/>

@@ -10,17 +10,11 @@ import Foundation
 import UIKit
 
 class WrexagramListViewController : UITableViewController {
-//    
-//    let wrexagrams: [Wrexagram] = [
-//        Wrexagram(title: "Bring It"),
-//        Wrexagram(title: "With It"),
-//        Wrexagram(title: "Stress Getting Started"),
-//        Wrexagram(title: "Shorty"),
-//        Wrexagram(title: "Looking Out"),
-//        Wrexagram(title: "Drama"),
-//    ]
-    
+
     lazy var wrexagrams = WrexagramLibrary.wrexagrams
+    
+    private let async = NSOperationQueue()
+    private let main = NSOperationQueue.mainQueue()
 }
 
 //MARK: Segues
@@ -48,7 +42,6 @@ extension WrexagramListViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = wrexagrams.count
-        print("Loading \(count) Wrexagrams")
         return count
     }
     
@@ -69,7 +62,16 @@ extension WrexagramListViewController {
         cell.numberLabel.text = "\(number)"
         cell.title.text = wrexagram.title
         cell.subtitle?.text = wrexagram.subtitle
-        //cell.arrow.image = cell.arrow.image?.imageWithRenderingMode(.AlwaysTemplate)
+        
+        async.addOperationWithBlock() { [weak cell, main] in
+            guard let cell = cell else { return }
+            
+            if let image = WrexagramLibrary.imageForWrexagram(number) {
+                main.addOperationWithBlock() {
+                    cell.wrexagramImage?.imageView?.image = image
+                }
+            }
+        }
         
         return cell
     }

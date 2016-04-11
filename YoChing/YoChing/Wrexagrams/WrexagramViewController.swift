@@ -14,6 +14,7 @@ class WrexagramViewController : UIViewController {
     
     @IBOutlet weak var navTitle: UILabel!
     @IBOutlet weak var wrexegramImage: UIImageView!
+    @IBOutlet weak var wrexagramTitle: UILabel!
     @IBOutlet weak var webView: UIWebView!
     
     var wrexagramNumber: Int = -1
@@ -27,12 +28,10 @@ class WrexagramViewController : UIViewController {
             return
         }
         
-        navTitle.text = "Wrexagram \(wrexagramNumber)"
-        
-        loadImage()
-        loadMessage()
-        
         if let wrexagram = self.wrexagram ?? determineWrexagramFromNumber(wrexagramNumber) {
+            
+            defer { self.wrexagram = wrexagram }
+            
             AromaClient.begin()
                 .withTitle("Wrexagram Viewed")
                 .withBody("\(wrexagram.asString)\n\nBy \(UIDevice.currentDevice().name)")
@@ -44,10 +43,21 @@ class WrexagramViewController : UIViewController {
                 .withBody("Wrexagram \(wrexagramNumber)\n\nBy \(UIDevice.currentDevice().name)")
                 .send()
         }
+        
+        loadTitle()
+        loadImage()
+        loadMessage()
+    }
+    
+    private func loadTitle() {
+        navTitle.text = "Wrexagram \(wrexagramNumber)"
+        wrexagramTitle.text = wrexagram?.title ?? ""
     }
     
     private func loadImage() {
-        
+        if let image = WrexagramLibrary.imageForWrexagram(wrexagramNumber) {
+            self.wrexegramImage.image = image
+        }
     }
     
     private func loadMessage() {

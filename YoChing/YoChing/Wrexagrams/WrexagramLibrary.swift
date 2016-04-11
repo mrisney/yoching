@@ -84,9 +84,16 @@ class WrexagramLibrary {
         }
     }
     
+    static func imageForWrexagram(number: Int) -> UIImage? {
+        let imageName = String(format: "wrexagram%02d", number)
+        return UIImage(named: imageName)
+    }
+    
     private static let JSON_FILE = "json/wrexagrams.json"
     
     static var wrexagrams: [Wrexagram] = {
+        
+        print("Loading Wrexagrams from Memory")
         
         guard let url = NSBundle.mainBundle().URLForResource(JSON_FILE, withExtension: nil)
         else { return [] }
