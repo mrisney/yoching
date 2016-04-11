@@ -41,3 +41,12 @@ public extension String {
         return NSURL(string: self)
     }
 }
+
+//MARK: UITableView Controllers
+extension UITableViewController {
+    func reloadSection(section: Int, animation: UITableViewRowAnimation = .Automatic) {
+        
+        let section = NSIndexSet(index: section)
+        self.tableView?.reloadSections(section, withRowAnimation: animation)
+    }
+}
