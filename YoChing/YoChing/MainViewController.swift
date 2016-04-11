@@ -30,6 +30,8 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak private var flipButton: UIButton!
     
+    private let transition = AnimateLeft()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       
@@ -131,26 +133,6 @@ class MainViewController: UIViewController {
         }
     }
     
-
-    @IBAction func onGoToNext(sender: AnyObject) {
-        self.performSegueWithIdentifier("ToCoinResults", sender: sender)
-    }
-    
-    private func goToWrex(outcome: Int) {
-        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
-    }
-  
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-        if let wrexegramView = segue.destinationViewController as? WrexagramViewController {
-            if let outcome = sender as? Int {
-                print("transitioning to wrexagram with outcome \(outcome)")
-                wrexegramView.wrexagramNumber = outcome
-            }
-        }
-        
-    }
-    
     private func randomDouble(lower: Double = 0.0, _ upper: Double = 0.35) -> Double {
         return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
     }
@@ -181,6 +163,36 @@ class MainViewController: UIViewController {
     }
     
 
-
 }
 
+//MARK: Segues
+extension MainViewController {
+    
+    @IBAction func onGoToNext(sender: AnyObject) {
+        self.performSegueWithIdentifier("ToCoinResults", sender: sender)
+    }
+    
+    private func goToWrex(outcome: Int) {
+        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if let wrexegramView = segue.destinationViewController as? WrexagramViewController {
+            if let outcome = sender as? Int {
+                print("transitioning to wrexagram with outcome \(outcome)")
+                wrexegramView.wrexagramNumber = outcome
+            }
+        }
+        
+        if let settings = segue.destinationViewController as? SettingsViewController {
+            settings.transitioningDelegate = self.transition
+        }
+        
+    }
+    
+    
+    @IBAction func unwindFromSettings(segue: UIStoryboardSegue) {
+        print("Unwinding")
+    }
+}

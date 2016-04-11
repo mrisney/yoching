@@ -31,3 +31,13 @@ extension UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(emptyImage, forBarMetrics: UIBarMetrics.Default)
     }
 }
+
+
+//MARK: String Operations
+public extension String {
+    public var length: Int { return self.characters.count }
+    
+    public func toURL() -> NSURL? {
+        return NSURL(string: self)
+    }
+}

@@ -86,7 +86,7 @@ class WrexagramLibrary {
     
     private static let JSON_FILE = "json/wrexagrams.json"
     
-    static var wrexagrams: [Wrexagram] {
+    static var wrexagrams: [Wrexagram] = {
         
         guard let url = NSBundle.mainBundle().URLForResource(JSON_FILE, withExtension: nil)
         else { return [] }
@@ -104,5 +104,5 @@ class WrexagramLibrary {
         }
         
         return wrexagrams
-    }
+    }()
 }
