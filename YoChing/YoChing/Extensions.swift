@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension Int {
     
@@ -16,5 +17,17 @@ extension Int {
     
     func isOdd() -> Bool {
         return !self.isEven()
+    }
+}
+
+//MARK: UIViewController
+
+//Hides the Navigation Bar Lip
+extension UIViewController {
+    
+    func hideNavigationBarShadow() {
+        let emptyImage = UIImage()
+        self.navigationController?.navigationBar.shadowImage = emptyImage
+        self.navigationController?.navigationBar.setBackgroundImage(emptyImage, forBarMetrics: UIBarMetrics.Default)
     }
 }

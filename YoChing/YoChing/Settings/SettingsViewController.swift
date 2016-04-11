@@ -11,4 +11,10 @@ import Foundation
 
 class SettingsViewController : UITableViewController {
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.hideNavigationBarShadow()
+    }
 }
