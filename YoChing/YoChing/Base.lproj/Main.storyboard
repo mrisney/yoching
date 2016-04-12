@@ -26,6 +26,7 @@
             <string>Exo-Light</string>
             <string>Exo-Light</string>
             <string>Exo-Light</string>
+            <string>Exo-Light</string>
         </mutableArray>
         <mutableArray key="Exo-Medium.otf">
             <string>Exo-Medium</string>
@@ -160,6 +161,7 @@
                     </navigationItem>
                     <connections>
                         <segue destination="bpp-vM-tae" kind="show" identifier="ToWrexagram" id="bV1-vb-shR"/>
+                        <segue destination="mZ2-ZW-zjx" kind="show" identifier="ToPager" id="HDs-Lu-ahA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWY-DB-3ck" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -634,10 +636,45 @@
             </objects>
             <point key="canvasLocation" x="-444" y="387"/>
         </scene>
+        <!--Wrexagram Pager View Controller-->
+        <scene sceneID="CG0-IG-jZP">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="mZ2-ZW-zjx" customClass="WrexagramPagerViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HoY-Nu-0R1">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="JYm-u8-D4N"/>
+                        <view key="titleView" contentMode="scaleToFill" id="Q9b-E2-0V3">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WREXAGRAM 22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydG-al-XNI">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="26"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ydG-al-XNI" secondAttribute="bottom" id="5X8-b2-taH"/>
+                                <constraint firstItem="ydG-al-XNI" firstAttribute="top" secondItem="Q9b-E2-0V3" secondAttribute="top" id="M4q-Jy-BHm"/>
+                                <constraint firstAttribute="trailing" secondItem="ydG-al-XNI" secondAttribute="trailing" id="a06-Be-ydQ"/>
+                                <constraint firstItem="ydG-al-XNI" firstAttribute="leading" secondItem="Q9b-E2-0V3" secondAttribute="leading" id="gCU-tK-VuW"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="navTitle" destination="ydG-al-XNI" id="WPA-dC-Ry5"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDg-e9-F8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417" y="-1065"/>
+        </scene>
         <!--Wrexagram View Controller-->
         <scene sceneID="nH8-6n-IHA">
             <objects>
-                <viewController id="bpp-vM-tae" customClass="WrexagramViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WrexagramViewController" id="bpp-vM-tae" customClass="WrexagramViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="khk-we-qKu"/>
                         <viewControllerLayoutGuide type="bottom" id="TVe-vC-Baw"/>
@@ -775,7 +812,7 @@
         <image name="wrexagram21" width="432" height="432"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A7i-ez-YTE"/>
+        <segue reference="bV1-vb-shR"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

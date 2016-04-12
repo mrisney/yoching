@@ -21,7 +21,7 @@ class WrexagramListViewController : UITableViewController {
 extension WrexagramListViewController {
     
     private func goToWrexagram(number: Int) {
-        self.performSegueWithIdentifier("ToWrexagram", sender: number)
+        self.performSegueWithIdentifier("ToPager", sender: number)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -32,6 +32,11 @@ extension WrexagramListViewController {
             viewController.wrexagramNumber = number + 1
             let wrexagram = wrexagrams[number]
             viewController.wrexagram = wrexagram
+        }
+        
+        if let viewController = destination as? WrexagramPagerViewController, let number = sender as? Int {
+            viewController.initialIndex = number
+            viewController.wrexagrams = self.wrexagrams
         }
     }
 }

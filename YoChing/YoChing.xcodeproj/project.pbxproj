@@ -60,6 +60,7 @@
 		DE71A35D1CB8055300F5BEF2 /* PTS76F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A34D1CB8055300F5BEF2 /* PTS76F.ttf */; };
 		DE71A35E1CB8055300F5BEF2 /* PTZ55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A34E1CB8055300F5BEF2 /* PTZ55F.ttf */; };
 		DE71A35F1CB8055300F5BEF2 /* PTZ56F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A34F1CB8055300F5BEF2 /* PTZ56F.ttf */; };
+		DE8362B01CBCB4A300C73BA4 /* WrexagramPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8362AF1CBCB4A300C73BA4 /* WrexagramPagerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,7 @@
 		DE71A34D1CB8055300F5BEF2 /* PTS76F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTS76F.ttf; sourceTree = "<group>"; };
 		DE71A34E1CB8055300F5BEF2 /* PTZ55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTZ55F.ttf; sourceTree = "<group>"; };
 		DE71A34F1CB8055300F5BEF2 /* PTZ56F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTZ56F.ttf; sourceTree = "<group>"; };
+		DE8362AF1CBCB4A300C73BA4 /* WrexagramPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrexagramPagerViewController.swift; sourceTree = "<group>"; };
 		FC05695ED601CAB2DFF5DB0F /* Pods-YoChing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoChing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YoChing/Pods-YoChing.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA493FE538E6ADC2394AAC6 /* Pods_YoChing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoChing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -298,6 +300,7 @@
 				A368216B1CB23F6300B2DA44 /* WrexagramLibrary.swift */,
 				DE6B79EC1CB7226100C47024 /* WrexagramListViewController.swift */,
 				1397CE011BF454E1004523FD /* WrexagramViewController.swift */,
+				DE8362AF1CBCB4A300C73BA4 /* WrexagramPagerViewController.swift */,
 			);
 			path = Wrexagrams;
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 				DE0076901CBB95F1005B3DB1 /* SettingsViewController.swift in Sources */,
 				3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */,
 				DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */,
+				DE8362B01CBCB4A300C73BA4 /* WrexagramPagerViewController.swift in Sources */,
 				DE23674D1CBC356B00D9E87D /* Animations.swift in Sources */,
 				3EED85B61978FEE8007EEB62 /* AppDelegate.swift in Sources */,
 				A368216C1CB23F6300B2DA44 /* WrexagramLibrary.swift in Sources */,
