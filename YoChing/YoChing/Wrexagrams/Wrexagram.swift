@@ -15,17 +15,17 @@ struct Wrexagram {
     
     let title: String
     let subtitle: String?
-    let body: String?
     let number: Int?
+    let whatsUp: String?
     
     init(title: String) {
-        self.init(title: title, subtitle: nil, body: nil, number: nil)
+        self.init(title: title, subtitle: nil, whatsUp: nil, number: nil)
     }
     
-    init(title: String, subtitle: String? = nil, body: String? = nil, number: Int? = nil) {
+    init(title: String, subtitle: String? = nil, whatsUp: String? = nil, number: Int? = nil) {
         self.title = title
         self.subtitle = subtitle
-        self.body = body
+        self.whatsUp = whatsUp
         self.number = number
     }
     
@@ -33,9 +33,10 @@ struct Wrexagram {
         
         let title = json["title"].string ?? ""
         let subtitle = json["subtitle"].string ?? ""
+        let whatsUp = json["whats-up"].string ?? ""
         let number = json["number"].int ?? 0
     
-        return Wrexagram(title: title, subtitle: subtitle, body: nil, number: number)
+        return Wrexagram(title: title, subtitle: subtitle, whatsUp: whatsUp, number: number)
     }
     
     var asString: String {
