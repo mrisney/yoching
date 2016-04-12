@@ -358,7 +358,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Gary.com;
+				ORGANIZATIONNAME = YoChing.com;
 				TargetAttributes = {
 					3EED85AF1978FEE8007EEB62 = {
 						CreatedOnToolsVersion = 6.0;
