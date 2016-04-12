@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     private var coinTwo: Coin!
     private var coinThree: Coin!
     
-    private var maxTosses = 1
+    private var maxTosses = 6
     private var tosses  = 0
     private var hexNum = ""
     
@@ -46,7 +46,7 @@ class MainViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-         self.maxTosses = Settings.isClassicEnabled ? 6 : 1
+         self.maxTosses = Settings.isQuickEnabled ? 1 : 6
     }
     
     override func canBecomeFirstResponder() -> Bool {

@@ -47,6 +47,7 @@ extension WrexagramListViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = wrexagrams.count
+        print("There are \(count) Wrexagrams")
         return count
     }
     
