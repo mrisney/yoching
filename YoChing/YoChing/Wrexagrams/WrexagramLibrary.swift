@@ -85,7 +85,7 @@ class WrexagramLibrary {
     }
     
     static func imageForWrexagram(number: Int) -> UIImage? {
-        let imageName = String(format: "wrexagram%02d", number)
+        let imageName = "WREX\(number)"
         return UIImage(named: imageName)
     }
     

@@ -61,12 +61,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwu-EP-Ccx">
-                                            <rect key="frame" x="25" y="30" width="60" height="60"/>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwu-EP-Ccx">
+                                            <rect key="frame" x="30" y="30" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="jwu-EP-Ccx" secondAttribute="height" multiplier="1:1" id="cKv-G2-OPA"/>
                                             </constraints>
-                                            <state key="normal" title="Button" image="wrex01"/>
+                                            <state key="normal" title="Button" image="WREX1"/>
                                         </button>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-IB-bBe" userLabel="LINE">
                                             <rect key="frame" x="0.0" y="119" width="600" height="1"/>
@@ -75,20 +75,20 @@
                                                 <constraint firstAttribute="height" constant="1" id="t7h-N8-U1A"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="254" verticalHuggingPriority="251" horizontalCompressionResistancePriority="754" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdK-kf-nQB">
-                                            <rect key="frame" x="16" y="44" width="9" height="32"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="254" verticalHuggingPriority="251" horizontalCompressionResistancePriority="754" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdK-kf-nQB">
+                                            <rect key="frame" x="16" y="46" width="14" height="28"/>
                                             <fontDescription key="fontDescription" name="Exo-DemiBold" family="Exo" pointSize="24"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" text="Before shit pops off, it has to come together. That’s a hard time. Always STRESS GETTING STARTED." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-zw-z3q">
-                                            <rect key="frame" x="85" y="67" width="456" height="32"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" misplaced="YES" text="Before shit pops off, it has to come together. That’s a hard time. Always STRESS GETTING STARTED." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-zw-z3q">
+                                            <rect key="frame" x="90" y="65" width="436" height="28"/>
                                             <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="12"/>
                                             <color key="textColor" red="0.35288461539999999" green="0.35288461539999999" blue="0.35288461539999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="BRING IT" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pst-7P-LpV">
-                                            <rect key="frame" x="85" y="33" width="96" height="34"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" misplaced="YES" text="BRING IT" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pst-7P-LpV">
+                                            <rect key="frame" x="90" y="35" width="106" height="30"/>
                                             <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="25"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -197,14 +197,14 @@
                                     <constraint firstAttribute="width" secondItem="MZJ-OV-sZh" secondAttribute="height" multiplier="1:1" id="VPp-e6-Bc4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT'S YOUR SITUATION?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jj2-r0-7XR">
-                                <rect key="frame" x="30" y="16" width="540" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WHAT'S YOUR SITUATION?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jj2-r0-7XR">
+                                <rect key="frame" x="30" y="16" width="540" height="42"/>
                                 <fontDescription key="fontDescription" name="Exo-Black" family="Exo" pointSize="36"/>
                                 <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88O-bA-eNA" userLabel="Line">
-                                <rect key="frame" x="30" y="72" width="540" height="2"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88O-bA-eNA" userLabel="Line">
+                                <rect key="frame" x="30" y="66" width="540" height="2"/>
                                 <color key="backgroundColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="O1c-D1-J9T"/>
@@ -255,7 +255,7 @@
                     <navigationItem key="navigationItem" id="w9R-Ii-Nga">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="le8-wh-hvL"/>
-                        <barButtonItem key="leftBarButtonItem" image="Settings" id="ukv-E3-2nc">
+                        <barButtonItem key="leftBarButtonItem" image="Yo-Bro-White" id="ukv-E3-2nc">
                             <connections>
                                 <segue destination="yBe-gR-y53" kind="presentation" id="hDK-Io-SSL"/>
                             </connections>
@@ -691,14 +691,14 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spray.galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="rgn-Ug-Oyn">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wrexagram21" translatesAutoresizingMaskIntoConstraints="NO" id="Iq7-zX-NYy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WREX1" translatesAutoresizingMaskIntoConstraints="NO" id="Iq7-zX-NYy">
                                         <rect key="frame" x="24" y="15" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Iq7-zX-NYy" secondAttribute="height" multiplier="1:1" id="3dI-1J-kV6"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UP IN YOUR FACE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR0-8V-xY5">
-                                        <rect key="frame" x="126" y="33" width="204" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="UP IN YOUR FACE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR0-8V-xY5">
+                                        <rect key="frame" x="126" y="35" width="221" height="31"/>
                                         <fontDescription key="fontDescription" name="Exo-Black" family="Exo" pointSize="26"/>
                                         <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -802,13 +802,12 @@
         <image name="Close-Icon" width="40" height="40"/>
         <image name="Coin_Heads" width="100" height="100"/>
         <image name="Coin_Tails" width="100" height="100"/>
-        <image name="Settings" width="40" height="40"/>
+        <image name="WREX1" width="1800" height="1800"/>
         <image name="Wrexagram-Icon" width="40" height="40"/>
+        <image name="Yo-Bro-White" width="40" height="40"/>
         <image name="arrow_right" width="100" height="100"/>
         <image name="arrow_right-thick-dark" width="100" height="100"/>
-        <image name="spray.galaxy" width="2445" height="1630"/>
-        <image name="wrex01" width="432" height="432"/>
-        <image name="wrexagram21" width="432" height="432"/>
+        <image name="spray.galaxy" width="842" height="562"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="A7i-ez-YTE"/>
