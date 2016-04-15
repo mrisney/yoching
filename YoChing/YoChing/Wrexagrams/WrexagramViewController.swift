@@ -10,15 +10,17 @@ import AromaSwiftClient
 import Foundation
 import UIKit
 
-class WrexagramViewController : UIViewController {
+class WrexagramViewController : UITableViewController {
     
     @IBOutlet weak var navTitle: UILabel!
     @IBOutlet weak var wrexegramImage: UIImageView!
     @IBOutlet weak var wrexagramTitle: UILabel!
-    @IBOutlet weak var webView: UIWebView!
+
     
     var wrexagramNumber: Int = -1
     var wrexagram: Wrexagram?
+    
+    private var heights: [NSIndexPath : CGFloat] = [ : ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,27 +62,105 @@ class WrexagramViewController : UIViewController {
         }
     }
     
-    private func loadMessage() {
+    private func loadMessage() -> String {
         
         let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
-        let filename = "html/\(formattedOutcome)"
+        let filename = "txt/\(formattedOutcome)"
         
-        if let html = NSBundle.mainBundle().pathForResource(filename, ofType: "html") {
+        if let text = NSBundle.mainBundle().pathForResource(filename, ofType: "txt") {
             do {
-                let htmlString = try String(contentsOfFile: html, encoding: NSUTF8StringEncoding)
+                let string = try String(contentsOfFile: text, encoding: NSUTF8StringEncoding)
                 
-                webView.loadHTMLString(htmlString, baseURL : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
+                return string
+//                webView.loadHTMLString(htmlString, baseURL\ : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
                 
             } catch let ex {
                 AromaClient.begin()
                     .withTitle("Operation Failed")
                     .withBody("\(ex)\n\(UIDevice.currentDevice().name)")
                     .send()
+              
             }
         }
+        
+        return ""
     }
     
 }
+
+//MARK: Table View Data Methods
+extension WrexagramViewController {
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //One for the Body, another for the What's Up
+        return 2
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let row = indexPath.row
+        
+        if row == 0 {
+            return createBodyCell(tableView, forIndexPath: indexPath)
+        }
+        else {
+            return createWhatsUpCell(tableView, forIndexPath: indexPath)
+        }
+    }
+    
+    private func createBodyCell(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        guard let cell = tableView.dequeueReusableCellWithIdentifier("BodyCell", forIndexPath: indexPath) as? BodyCell
+        else {
+              return UITableViewCell()
+        }
+        
+        let body = loadMessage()
+        cell.textView.text = body
+        
+        let size = cell.textView.sizeThatFits(CGSize(width: cell.textView.bounds.width, height: CGFloat(FLT_MAX)))
+        
+        let height = size.height + 24
+        heights[indexPath] = height
+        
+        return cell
+    }
+    
+    private func createWhatsUpCell(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        guard let cell = tableView.dequeueReusableCellWithIdentifier("WhatsUpCell", forIndexPath: indexPath) as? WhatsUpCell
+        else {
+            return UITableViewCell()
+        }
+        
+        let whatsUpText = wrexagram?.whatsUp ?? ""
+        cell.textView.text = whatsUpText
+        
+//        
+//        let tempTextView = UITextView()
+//        tempTextView.text = whatsUpText
+        let size = cell.textView.sizeThatFits(CGSize(width: cell.textView.bounds.width, height: CGFloat(FLT_MAX)))
+        
+        let height = size.height + cell.whatsUpLabel.bounds.height + 24
+        heights[indexPath] = height
+        
+        return cell
+    }
+}
+
+//MARK : Table View Delegate Methods
+extension WrexagramViewController {
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        return heights[indexPath] ?? 44
+    }
+}
+
 
 //MARK: Utility Methods
 extension WrexagramViewController {
@@ -111,4 +191,18 @@ extension WrexagramViewController {
         
         return WrexagramLibrary.wrexagrams[index]
     }
+}
+
+//MARK: Cells
+class BodyCell : UITableViewCell {
+    
+    @IBOutlet weak var textView: UITextView!
+    
+}
+
+class WhatsUpCell : UITableViewCell {
+    
+    @IBOutlet weak var whatsUpLabel: UILabel!
+    @IBOutlet weak var textView: UITextView!
+    
 }

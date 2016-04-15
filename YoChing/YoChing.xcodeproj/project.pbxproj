@@ -47,6 +47,7 @@
 		DE6B7A0E1CB73B3300C47024 /* Exo-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B79FC1CB73B3300C47024 /* Exo-SemiBold.otf */; };
 		DE6B7A0F1CB73B3300C47024 /* Exo-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B79FD1CB73B3300C47024 /* Exo-SemiBoldItalic.otf */; };
 		DE6B7A111CB73B3300C47024 /* Exo-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B79FF1CB73B3300C47024 /* Exo-ThinItalic.otf */; };
+		DE6C9A581CC1A5A100ACF11A /* txt in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A571CC1A5A100ACF11A /* txt */; };
 		DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */; };
 		DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */; };
 		DE71A3521CB8055300F5BEF2 /* PTF55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */; };
@@ -124,6 +125,7 @@
 		DE6B79FD1CB73B3300C47024 /* Exo-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-SemiBoldItalic.otf"; sourceTree = "<group>"; };
 		DE6B79FE1CB73B3300C47024 /* Exo-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Thin.otf"; sourceTree = "<group>"; };
 		DE6B79FF1CB73B3300C47024 /* Exo-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ThinItalic.otf"; sourceTree = "<group>"; };
+		DE6C9A571CC1A5A100ACF11A /* txt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = txt; path = media/txt; sourceTree = "<group>"; };
 		DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC55F.ttf; sourceTree = "<group>"; };
 		DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC75F.ttf; sourceTree = "<group>"; };
 		DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTF55F.ttf; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				DE23674B1CBC353800D9E87D /* Animations */,
 				DE468E901CB968F000AC1199 /* html */,
 				DE468E911CB968F000AC1199 /* json */,
+				DE6C9A571CC1A5A100ACF11A /* txt */,
 				DE2CC9601CB8071D003233F2 /* Settings */,
 				DE6B79EB1CB721AF00C47024 /* Wrexagrams */,
 				3EED85B51978FEE8007EEB62 /* AppDelegate.swift */,
@@ -432,6 +435,7 @@
 				DE6B7A061CB73B3300C47024 /* Exo-ExtraLight.otf in Resources */,
 				DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */,
 				DE71A3521CB8055300F5BEF2 /* PTF55F.ttf in Resources */,
+				DE6C9A581CC1A5A100ACF11A /* txt in Resources */,
 				DE71A3571CB8055300F5BEF2 /* PTM75F.ttf in Resources */,
 				DE6B7A0C1CB73B3300C47024 /* Exo-MediumItalic.otf in Resources */,
 				DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */,

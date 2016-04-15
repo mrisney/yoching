@@ -15,6 +15,12 @@ class WrexagramListViewController : UITableViewController {
     
     private let async = NSOperationQueue()
     private let main = NSOperationQueue.mainQueue()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        async.maxConcurrentOperationCount = 2
+    }
 }
 
 //MARK: Segues

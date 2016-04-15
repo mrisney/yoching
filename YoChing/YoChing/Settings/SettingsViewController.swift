@@ -65,10 +65,22 @@ class SettingsViewController : UITableViewController {
         super.viewDidLoad()
 
         self.hideNavigationBarShadow()
+        setSprayBackground()
     }
 
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
+    }
+    
+    private func setSprayBackground() {
+        
+        guard let image = UIImage(named: "spray.galaxy.black") else { return }
+        guard let frame = self.view?.frame else { return }
+        let imageView = UIImageView(frame: frame)
+        imageView.contentMode = .ScaleAspectFill
+        imageView.image = image
+        
+        self.tableView.backgroundView = imageView
     }
 }
 
