@@ -68,6 +68,7 @@ extension WrexagramListViewController {
         cell.numberLabel.text = "\(number)"
         cell.title.text = wrexagram.title
         cell.subtitle?.text = wrexagram.subtitle
+        cell.wrexagramImage?.imageView?.image = nil
         
         async.addOperationWithBlock() { [weak cell, main] in
             guard let cell = cell else { return }
