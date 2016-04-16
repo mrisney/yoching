@@ -20,8 +20,6 @@ class WrexagramViewController : UITableViewController {
     var wrexagramNumber: Int = -1
     var wrexagram: Wrexagram?
     
-    private var heights: [NSIndexPath : CGFloat] = [ : ]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -72,7 +70,6 @@ class WrexagramViewController : UITableViewController {
                 let string = try String(contentsOfFile: text, encoding: NSUTF8StringEncoding)
                 
                 return string
-//                webView.loadHTMLString(htmlString, baseURL\ : NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath))
                 
             } catch let ex {
                 AromaClient.begin()
@@ -121,12 +118,7 @@ extension WrexagramViewController {
         
         let body = loadMessage()
         cell.textView.text = body
-        
-        let size = cell.textView.sizeThatFits(CGSize(width: cell.textView.bounds.width, height: CGFloat(FLT_MAX)))
-        
-        let height = size.height + 24
-        heights[indexPath] = height
-        
+
         return cell
     }
     
@@ -139,25 +131,24 @@ extension WrexagramViewController {
         
         let whatsUpText = wrexagram?.whatsUp ?? ""
         cell.textView.text = whatsUpText
-        
-//        
-//        let tempTextView = UITextView()
-//        tempTextView.text = whatsUpText
-        let size = cell.textView.sizeThatFits(CGSize(width: cell.textView.bounds.width, height: CGFloat(FLT_MAX)))
-        
-        let height = size.height + cell.whatsUpLabel.bounds.height + 24
-        heights[indexPath] = height
-        
+
         return cell
     }
+    
+    
 }
 
 //MARK : Table View Delegate Methods
 extension WrexagramViewController {
     
+    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 100
+    }
+    
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return heights[indexPath] ?? 44
+        return UITableViewAutomaticDimension
+
     }
 }
 
