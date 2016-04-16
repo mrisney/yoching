@@ -32,15 +32,19 @@ class WrexagramViewController : UITableViewController {
             
             defer { self.wrexagram = wrexagram }
             
-            AromaClient.begin()
-                .withTitle("Wrexagram Viewed")
-                .withBody("\(wrexagram.asString)\n\nBy \(UIDevice.currentDevice().name)")
+            AromaClient.beginWithTitle("Wrexagram Viewed")
+                .addBody("\(wrexagram.asString)")
+                .addLine().addLine()
+                .addBody("By \(UIDevice.currentDevice().name)")
+                .withPriority(.LOW)
                 .send()
         }
         else {
-            AromaClient.begin()
-                .withTitle("Wrexagram Viewed")
-                .withBody("Wrexagram \(wrexagramNumber)\n\nBy \(UIDevice.currentDevice().name)")
+            AromaClient.beginWithTitle("Wrexagram Viewed")
+                .addBody("Wrexagram \(wrexagramNumber)")
+                .addLine().addLine()
+                .addBody("By \(UIDevice.currentDevice().name)")
+                .withPriority(.LOW)
                 .send()
         }
         
@@ -72,9 +76,10 @@ class WrexagramViewController : UITableViewController {
                 return string
                 
             } catch let ex {
-                AromaClient.begin()
-                    .withTitle("Operation Failed")
-                    .withBody("\(ex)\n\(UIDevice.currentDevice().name)")
+                AromaClient.beginWithTitle("Failed To Load")
+                    .addBody("\(UIDevice.currentDevice().name)")
+                    .addLine().addLine()
+                    .addBody("\(ex)")
                     .send()
               
             }

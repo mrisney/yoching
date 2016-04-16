@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AromaSwiftClient:
-    :commit: d8bfa41bb4761e940a0085a58723d0046556fba4
+    :commit: 4b369a65c7c4ccc633ccc3848309c0a0b49e046f
     :git: https://github.com/RedRoma/aroma-swift-client.git
   SwiftyJSON:
     :commit: 2a5b70f06001316d4fb54501edc70b4084705da0

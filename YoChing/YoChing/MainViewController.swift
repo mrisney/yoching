@@ -199,8 +199,10 @@ extension MainViewController {
                     }
                     
                     defer {
-                        AromaClient.begin().withTitle("Coins Flipped")
-                            .withBody("Result: \(outcome)\n\nFrom: \(UIDevice.currentDevice().name)")
+                        AromaClient.beginWithTitle("Coins Flipped")
+                            .addBody("Result: \(outcome)")
+                            .addLine().addLine()
+                            .addBody("From: \(UIDevice.currentDevice().name)")
                             .send()
                     }
                     

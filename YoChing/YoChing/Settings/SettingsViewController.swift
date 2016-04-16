@@ -239,10 +239,11 @@ extension SettingsViewController {
         guard let url = link.toURL() else { return }
 
         defer {
-            AromaClient.begin()
-                .withTitle("Opened Link")
-                .withBody(link + "\n\n" + "By \(UIDevice.currentDevice().name)")
-                .withUrgency(.MEDIUM)
+            AromaClient.beginWithTitle("Opened Link")
+                .addBody(link)
+                .addLine().addLine()
+                .addBody("By \(UIDevice.currentDevice().name)")
+                .withPriority(.MEDIUM)
                 .send()
         }
 

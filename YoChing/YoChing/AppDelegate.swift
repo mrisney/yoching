@@ -22,17 +22,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AromaClient.TOKEN_ID = "3e7ee9ec-9e9e-479e-a44a-24c7376d2786"
         AromaClient.maxConcurrency = 2
         
-        AromaClient.begin()
-            .withTitle("App Launched")
-            .withBody("From Device: " + UIDevice.currentDevice().name)
-            .withUrgency(.LOW)                                                      
+        AromaClient.beginWithTitle("App Launched")
+            .addBody("From Device: " + UIDevice.currentDevice().name)
+            .withPriority(.LOW)
             .send()
         
         NSSetUncaughtExceptionHandler() { ex in
-            AromaClient.begin()
-                .withTitle("App Crashed")
-                .withBody("\(ex)")
-                .withUrgency(.HIGH)
+            
+            AromaClient.beginWithTitle("App Crashed")
+                .addBody("Device \(UIDevice.currentDevice().name)")
+                .addLine().addLine()
+                .addBody("\(ex)")
+                .withPriority(.HIGH)
                 .send()
         }
         
