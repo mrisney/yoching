@@ -43,6 +43,7 @@ class MainViewController: UIViewController {
         
         addSwipeGesture()
         
+        setCoins(coinOneImage, coinTwoImage, coinThreeImage)
         addTapGestures(coinOneImage, coinTwoImage, coinThreeImage)
     }
     
@@ -76,9 +77,6 @@ class MainViewController: UIViewController {
         
          self.maxTosses = Settings.isQuickEnabled ? 1 : 6
         
-        if tosses == 0 {
-            setCoins(coinOneImage, coinTwoImage, coinThreeImage)
-        }
     }
     
     private func setCoins(imageView: UIImageView...) {
@@ -87,11 +85,9 @@ class MainViewController: UIViewController {
             
             let animations: Void -> Void = {
                 image.image = Coin.headsCoin
-                image.image = Coin.headsCoin
-                image.image = Coin.headsCoin
             }
             
-            UIView.transitionWithView(image, duration: 0.3, options: .TransitionFlipFromTop, animations: animations, completion: nil)
+            UIView.transitionWithView(image, duration: 0.2, options: .TransitionFlipFromTop, animations: animations, completion: nil)
         }
     }
     
@@ -289,5 +285,9 @@ extension MainViewController {
     
     @IBAction func unwindFromSettings(segue: UIStoryboardSegue) {
         print("Unwinding")
+        
+        if tosses == 0 {
+            setCoins(coinOneImage, coinTwoImage, coinThreeImage)
+        }
     }
 }
