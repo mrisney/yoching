@@ -57,13 +57,11 @@
         <mutableArray key="Exo-SemiBold.otf">
             <string>Exo-DemiBold</string>
         </mutableArray>
-        <mutableArray key="PTS55F.ttf">
-            <string>PTSans-Regular</string>
-        </mutableArray>
         <mutableArray key="Signika 600.ttf">
             <string>Signika-Semibold</string>
         </mutableArray>
         <mutableArray key="Signika regular.ttf">
+            <string>Signika-Regular</string>
             <string>Signika-Regular</string>
         </mutableArray>
     </customFonts>
@@ -84,8 +82,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwu-EP-Ccx">
-                                            <rect key="frame" x="30" y="30" width="60" height="60"/>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwu-EP-Ccx">
+                                            <rect key="frame" x="25" y="30" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="jwu-EP-Ccx" secondAttribute="height" multiplier="1:1" id="cKv-G2-OPA"/>
                                             </constraints>
@@ -98,20 +96,20 @@
                                                 <constraint firstAttribute="height" constant="1" id="t7h-N8-U1A"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="254" verticalHuggingPriority="251" horizontalCompressionResistancePriority="754" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdK-kf-nQB">
-                                            <rect key="frame" x="16" y="46" width="14" height="28"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="254" verticalHuggingPriority="251" horizontalCompressionResistancePriority="754" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdK-kf-nQB">
+                                            <rect key="frame" x="16" y="44" width="9" height="32"/>
                                             <fontDescription key="fontDescription" name="Exo-DemiBold" family="Exo" pointSize="24"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" misplaced="YES" text="Before shit pops off, it has to come together. That’s a hard time. Always STRESS GETTING STARTED." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-zw-z3q">
-                                            <rect key="frame" x="90" y="65" width="436" height="28"/>
-                                            <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="12"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" text="Before shit pops off, it has to come together. That’s a hard time. Always STRESS GETTING STARTED." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-zw-z3q">
+                                            <rect key="frame" x="85" y="67" width="454" height="30"/>
+                                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="12"/>
                                             <color key="textColor" red="0.35288461539999999" green="0.35288461539999999" blue="0.35288461539999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" misplaced="YES" text="BRING IT" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pst-7P-LpV">
-                                            <rect key="frame" x="90" y="35" width="106" height="30"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="BRING IT" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pst-7P-LpV">
+                                            <rect key="frame" x="85" y="33" width="96" height="34"/>
                                             <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="25"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -124,6 +122,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="bSl-5X-qxc" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="6ob-6e-v4x"/>
                                         <constraint firstItem="jwu-EP-Ccx" firstAttribute="centerY" secondItem="WWF-d4-Io2" secondAttribute="centerY" id="9h8-GU-joB"/>
@@ -144,6 +143,8 @@
                                         <constraint firstItem="jwu-EP-Ccx" firstAttribute="height" secondItem="WWF-d4-Io2" secondAttribute="height" multiplier="0.5" id="vuJ-JM-2xG"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="arrow" destination="bSl-5X-qxc" id="Hut-Ph-3NO"/>
                                     <outlet property="numberLabel" destination="zdK-kf-nQB" id="rCt-9t-rwu"/>
@@ -868,6 +869,7 @@
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Large parks have lakes in them. Lakes have LIMITS. If water goes past the LIMITS, water overflows. Fucks up the park." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-ec-59p">
                                             <rect key="frame" x="16" y="8" width="568" height="184"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="18"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -894,7 +896,8 @@
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Recognize and respect limitations in this situation. Don't try for too much, too fast." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="NuD-sb-THl">
                                             <rect key="frame" x="16" y="59" width="568" height="133"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="Signika-Semibold" family="Signika" pointSize="18"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1031,13 +1034,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugh Gallagher" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5I-P7-jEo">
-                                                    <rect key="frame" x="32" y="8" width="165.5" height="32"/>
+                                                    <rect key="frame" x="32" y="8" width="166" height="32"/>
                                                     <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writer, Producer, Creative Director" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVY-2N-eYn">
-                                                    <rect key="frame" x="32" y="48" width="245.5" height="21.5"/>
+                                                    <rect key="frame" x="32" y="48" width="246" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -1076,7 +1079,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coder, Producer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbt-x0-Byu">
-                                                    <rect key="frame" x="32" y="48" width="113.5" height="21.5"/>
+                                                    <rect key="frame" x="32" y="48" width="114" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -1109,13 +1112,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellington Moreno" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ls2-X2-i59">
-                                                    <rect key="frame" x="32" y="8" width="205.5" height="32"/>
+                                                    <rect key="frame" x="32" y="8" width="206" height="32"/>
                                                     <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming Monk, App Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3f-BI-U4H">
-                                                    <rect key="frame" x="32" y="48" width="228.5" height="21.5"/>
+                                                    <rect key="frame" x="32" y="48" width="229" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -1193,8 +1196,8 @@
         <image name="spray.galaxy" width="842" height="562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HT8-GF-4WQ"/>
-        <segue reference="zY3-tK-GuC"/>
+        <segue reference="HDs-Lu-ahA"/>
+        <segue reference="VMP-af-WSe"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

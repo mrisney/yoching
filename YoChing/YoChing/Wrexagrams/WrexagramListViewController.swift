@@ -20,6 +20,7 @@ class WrexagramListViewController : UITableViewController {
         super.viewDidLoad()
         
         async.maxConcurrentOperationCount = 2
+        
     }
 }
 
@@ -104,6 +105,10 @@ extension WrexagramListViewController {
         guard row < wrexagrams.count else { return }
         
         self.goToWrexagram(row)
+    }
+    
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        cell.backgroundColor = cell.contentView.backgroundColor
     }
 }
 
