@@ -43,6 +43,32 @@ class MainViewController: UIViewController {
         
         addSwipeGesture()
         
+        addTapGestures(coinOneImage, coinTwoImage, coinThreeImage)
+    }
+    
+    private func addTapGestures(imageView: UIImageView...) {
+        
+        for image in imageView {
+            let gesture = UITapGestureRecognizer(target: self, action: #selector(self.onTap(_:)))
+            gesture.numberOfTapsRequired = 1
+            image.addGestureRecognizer(gesture)
+        }
+        
+    }
+    
+    func onTap(gesture: UIGestureRecognizer) {
+        guard let view = gesture.view as? UIImageView else { return }
+        
+        flipCoin(view)
+    }
+    
+    private func flipCoin(imageView: UIImageView) {
+        let animation: Void  -> Void = {
+            let heads = Int(arc4random_uniform(10)) % 2 == 0
+            imageView.image = heads ? Coin.headsCoin : Coin.tailsCoin
+        }
+        
+        UIView.transitionWithView(imageView, duration: 0.2, options: .TransitionFlipFromTop, animations: animation, completion: nil)
     }
     
     override func viewDidAppear(animated: Bool) {
