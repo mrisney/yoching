@@ -13,6 +13,11 @@ import UIKit
 class CreditsViewController : UITableViewController {
     
     
+    private let hughPath = NSIndexPath(forRow: 0, inSection: 0)
+    private let marcPath = NSIndexPath(forRow: 1, inSection: 0)
+    private let wellingtonPath = NSIndexPath(forRow: 2, inSection: 0)
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
