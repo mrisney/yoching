@@ -45,6 +45,9 @@ class CreditsViewController : UITableViewController {
 //MARK : Table View Delegate Methods
 extension CreditsViewController {
     
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        cell.backgroundColor = cell.contentView.backgroundColor
+    }
     
 }
 
