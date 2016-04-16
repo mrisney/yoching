@@ -16,6 +16,9 @@ class Settings {
     private static let CLASSIC_KEY = "YoChing.Classic"
     private static let QUICK_KEY = "YoChing.Quick"
     
+    private static let COINS_STREET = "YoChing.Street"
+    private static let COINS_SLICK = "YoChing.Slick"
+    
     
     private(set) static var isQuickEnabled: Bool {
         get {
@@ -35,6 +38,19 @@ class Settings {
         }
     }
     
+    private(set) static var isSlickEnabled: Bool {
+        get {
+            return defaults.objectForKey(COINS_SLICK) as? Bool ?? false
+        }
+        set(newValue) {
+            defaults.setObject(newValue, forKey: COINS_SLICK)
+        }
+    }
+    
+    static var isStreetEnabled: Bool {
+        return !isSlickEnabled
+    }
+    
 }
 
 class SettingsViewController : UITableViewController {
@@ -42,9 +58,15 @@ class SettingsViewController : UITableViewController {
     //MARK: Cell Outlets
     @IBOutlet weak var classicLabel: UILabel!
     @IBOutlet weak var classicCheckmark: UIImageView!
+    
     @IBOutlet weak var tapThatLabel: UILabel!
     @IBOutlet weak var tapThatCheckmark: UIImageView!
     
+    @IBOutlet weak var streetLabel: UILabel!
+    @IBOutlet weak var streetCheckmark: UIImageView!
+    
+    @IBOutlet weak var slickLabel: UILabel!
+    @IBOutlet weak var slickCheckmark: UIImageView!
     
     //MARK: Links to open
     private let BUY_BOOK_LINK = "http://www.amazon.com/Yo-Ching-Ancient-Knowledge-Streets/dp/0996462503"
@@ -54,10 +76,14 @@ class SettingsViewController : UITableViewController {
     private let classicPath = NSIndexPath(forRow: 1, inSection: 0)
     private let tapThatPath = NSIndexPath(forRow: 2, inSection: 0)
     
+    //MARK : Coin Styles
+    private let streetPath = NSIndexPath(forRow: 1, inSection: 1)
+    private let slickPath = NSIndexPath(forRow: 2, inSection: 1)
+    
     //MARK: Info Paths
-    private let getBookPath = NSIndexPath(forRow: 1, inSection: 1)
-    private let seeStreetCredsPath = NSIndexPath(forRow: 2, inSection: 1)
-    private let seeInfoPath = NSIndexPath(forRow: 3, inSection: 1)
+    private let getBookPath = NSIndexPath(forRow: 1, inSection: 2)
+    private let seeStreetCredsPath = NSIndexPath(forRow: 2, inSection: 2)
+    private let seeInfoPath = NSIndexPath(forRow: 3, inSection: 2)
     
 
 
@@ -108,6 +134,7 @@ extension SettingsViewController {
     }
     
     private func setLookForCell(tableView: UITableView, forIndexPath indexPath: NSIndexPath) {
+       
         if indexPath == classicPath {
             if Settings.isClassicEnabled {
                 classicCheckmark.hidden = false
@@ -128,6 +155,26 @@ extension SettingsViewController {
                 tapThatLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.75)
             }
         }
+        else if indexPath == streetPath {
+            if Settings.isStreetEnabled {
+                streetCheckmark.hidden = false
+                streetLabel.textColor = UIColor.whiteColor()
+            }
+            else {
+                streetLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.75)
+                streetCheckmark.hidden = true
+            }
+        }
+        else if indexPath == slickPath {
+            if Settings.isSlickEnabled {
+                slickLabel.textColor = UIColor.whiteColor()
+                slickCheckmark.hidden = false
+            }
+            else {
+                slickLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.75)
+                slickCheckmark.hidden = true
+            }
+        }
     }
 }
 
@@ -136,6 +183,10 @@ extension SettingsViewController {
     
     private func exit() {
         self.performSegueWithIdentifier("unwind", sender: self)
+    }
+    
+    @IBAction func unwindFromCredits(segue: UIStoryboardSegue) {
+        
     }
 }
 
@@ -164,6 +215,16 @@ extension SettingsViewController {
             
             tableView.deselectRowAtIndexPath(classicPath, animated: true)
             tableView.deselectRowAtIndexPath(tapThatPath, animated: true)
+        }
+        else if indexPath == streetPath || indexPath == slickPath {
+            
+            Settings.isSlickEnabled = indexPath == slickPath
+            
+            self.setLookForCell(tableView, forIndexPath: streetPath)
+            self.setLookForCell(tableView, forIndexPath: slickPath)
+            
+            tableView.deselectRowAtIndexPath(streetPath, animated: true)
+            tableView.deselectRowAtIndexPath(slickPath, animated: true)
         }
         
 

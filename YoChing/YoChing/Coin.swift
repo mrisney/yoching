@@ -25,8 +25,8 @@ class Coin {
     
     private var onDone: (CoinSide -> Void)?
     
-    private lazy var tails: UIImage = UIImage(named: "Coin_Tails")!
-    private lazy var heads: UIImage = UIImage(named: "Coin_Heads")!
+    private lazy var tails: UIImage = Coin.tailsCoin!
+    private lazy var heads: UIImage = Coin.headsCoin!
     
     enum CoinSide {
         case HEADS
@@ -118,4 +118,18 @@ class Coin {
         image.layer.contents = heads.CGImage
         doAnimation()
     }
+}
+
+extension Coin {
+    
+    static var headsCoin: UIImage? {
+        let name = Settings.isSlickEnabled ? "Coins.Slick.Heads" : "Coin_Heads"
+        return UIImage(named: name)
+    }
+    
+    static var tailsCoin: UIImage? {
+        let name = Settings.isSlickEnabled ? "Coins.Slick.Tails" : "Coin_Tails"
+        return UIImage(named: name)
+    }
+    
 }

@@ -34,7 +34,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
         coinOne = Coin(image: coinOneImage)
         coinTwo = Coin(image: coinTwoImage)
         coinThree = Coin(image: coinThreeImage)
@@ -49,6 +49,11 @@ class MainViewController: UIViewController {
         super.viewDidAppear(animated)
         
          self.maxTosses = Settings.isQuickEnabled ? 1 : 6
+        
+        coinOneImage.image = Coin.headsCoin
+        coinTwoImage.image = Coin.headsCoin
+        coinThreeImage.image = Coin.headsCoin
+        
     }
     
     override func canBecomeFirstResponder() -> Bool {
