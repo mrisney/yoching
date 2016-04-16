@@ -253,7 +253,7 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="le8-wh-hvL"/>
                         <barButtonItem key="leftBarButtonItem" image="Yo-Bro-White" id="ukv-E3-2nc">
                             <connections>
-                                <segue destination="yBe-gR-y53" kind="presentation" id="hDK-Io-SSL"/>
+                                <segue destination="yBe-gR-y53" kind="presentation" identifier="ToSettings" id="hDK-Io-SSL"/>
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="OCS-oQ-I3E">
@@ -313,20 +313,20 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yez-VG-JbM">
-                                    <rect key="frame" x="32" y="29" width="25" height="25"/>
+                                    <rect key="frame" x="32" y="27" width="30" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="Yez-VG-JbM" secondAttribute="height" multiplier="1:1" id="CZ1-bh-WRr"/>
                                     </constraints>
                                     <state key="normal" image="Close-Icon"/>
                                     <connections>
-                                        <segue destination="flR-uR-yNM" kind="unwind" unwindAction="unwindFromSettings:" id="Jyr-OY-Qm2"/>
+                                        <segue destination="flR-uR-yNM" kind="unwind" identifier="unwind" unwindAction="unwindFromSettings:" id="Jyr-OY-Qm2"/>
                                     </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="Yez-VG-JbM" firstAttribute="leading" secondItem="0PK-iC-uU0" secondAttribute="leading" constant="32" id="8JO-np-Hbo"/>
-                                <constraint firstItem="Yez-VG-JbM" firstAttribute="height" secondItem="0PK-iC-uU0" secondAttribute="height" multiplier="0.25" id="F6S-df-19j"/>
+                                <constraint firstItem="Yez-VG-JbM" firstAttribute="height" secondItem="0PK-iC-uU0" secondAttribute="height" multiplier="0.3" id="F6S-df-19j"/>
                                 <constraint firstItem="Mf6-cF-EAQ" firstAttribute="centerX" secondItem="0PK-iC-uU0" secondAttribute="centerX" id="Jhz-Z7-2CK"/>
                                 <constraint firstItem="Yez-VG-JbM" firstAttribute="centerY" secondItem="Mf6-cF-EAQ" secondAttribute="centerY" id="irL-w0-q3R"/>
                                 <constraint firstItem="Mf6-cF-EAQ" firstAttribute="top" secondItem="0PK-iC-uU0" secondAttribute="top" constant="24" id="uru-Qg-JOr"/>
@@ -709,7 +709,6 @@
                                 <constraint firstItem="vnd-dg-mLA" firstAttribute="centerX" secondItem="yng-hg-ujy" secondAttribute="centerX" id="Cv8-dp-zZf"/>
                                 <constraint firstItem="NVj-6E-SwQ" firstAttribute="centerX" secondItem="lkZ-BJ-Fch" secondAttribute="centerX" id="KWF-i4-zGk"/>
                                 <constraint firstItem="6gP-dm-eNJ" firstAttribute="top" secondItem="lkZ-BJ-Fch" secondAttribute="top" constant="-241" id="h67-x2-qCJ"/>
-                                <constraint firstAttribute="height" constant="100" id="hYd-cK-kZg"/>
                                 <constraint firstItem="6gP-dm-eNJ" firstAttribute="leading" secondItem="lkZ-BJ-Fch" secondAttribute="leading" id="j7n-C8-sIO"/>
                                 <constraint firstItem="yng-hg-ujy" firstAttribute="centerX" secondItem="lkZ-BJ-Fch" secondAttribute="centerX" id="nxP-fi-oYb"/>
                                 <constraint firstAttribute="trailing" secondItem="6gP-dm-eNJ" secondAttribute="trailing" id="oJS-6d-0Om"/>

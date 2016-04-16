@@ -66,6 +66,8 @@ class SettingsViewController : UITableViewController {
 
         self.hideNavigationBarShadow()
         setSprayBackground()
+        
+        addSwipeGesture()
     }
 
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
@@ -81,6 +83,18 @@ class SettingsViewController : UITableViewController {
         imageView.image = image
         
         self.tableView.backgroundView = imageView
+    }
+    
+    private func addSwipeGesture() {
+        
+        let swipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(self.onSwipe(_:)))
+        swipeGesture.direction = .Left
+        
+        self.tableView.addGestureRecognizer(swipeGesture)
+    }
+    
+    func onSwipe(gesture: UIGestureRecognizer) {
+        self.exit()
     }
 }
 
@@ -114,6 +128,14 @@ extension SettingsViewController {
                 tapThatLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.75)
             }
         }
+    }
+}
+
+//MARK : Segues
+extension SettingsViewController {
+    
+    private func exit() {
+        self.performSegueWithIdentifier("unwind", sender: self)
     }
 }
 

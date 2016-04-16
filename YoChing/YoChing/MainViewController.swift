@@ -41,6 +41,8 @@ class MainViewController: UIViewController {
         
         async.maxConcurrentOperationCount = 1
         
+        addSwipeGesture()
+        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -58,7 +60,25 @@ class MainViewController: UIViewController {
             self.flipCoinAction(NSNull)
         }
     }
-  
+    
+    private func addSwipeGesture() {
+        
+        let gesture = UISwipeGestureRecognizer(target: self, action: #selector(self.onSwipe(_:)))
+        gesture.direction = .Right
+        
+        self.view.addGestureRecognizer(gesture)
+    }
+    
+}
+
+
+//MARK : Actions
+extension MainViewController {
+    
+    func onSwipe(sender: UIGestureRecognizer) {
+        self.goToSettings()
+    }
+    
     @IBAction func flipCoinAction(sender: AnyObject) {
         
         flipButton.enabled = false
@@ -182,6 +202,10 @@ extension MainViewController {
     private func goToWrex(outcome: Int) {
         self.performSegueWithIdentifier("ToPager", sender: outcome)
 //        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
+    }
+    
+    private func goToSettings() {
+        self.performSegueWithIdentifier("ToSettings", sender: self)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
