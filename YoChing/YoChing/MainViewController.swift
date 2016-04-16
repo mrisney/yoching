@@ -50,10 +50,23 @@ class MainViewController: UIViewController {
         
          self.maxTosses = Settings.isQuickEnabled ? 1 : 6
         
-        coinOneImage.image = Coin.headsCoin
-        coinTwoImage.image = Coin.headsCoin
-        coinThreeImage.image = Coin.headsCoin
+        if tosses == 0 {
+            setCoins(coinOneImage, coinTwoImage, coinThreeImage)
+        }
+    }
+    
+    private func setCoins(imageView: UIImageView...) {
         
+        for image in imageView {
+            
+            let animations: Void -> Void = {
+                image.image = Coin.headsCoin
+                image.image = Coin.headsCoin
+                image.image = Coin.headsCoin
+            }
+            
+            UIView.transitionWithView(image, duration: 0.3, options: .TransitionFlipFromTop, animations: animations, completion: nil)
+        }
     }
     
     override func canBecomeFirstResponder() -> Bool {
@@ -82,6 +95,18 @@ extension MainViewController {
     
     func onSwipe(sender: UIGestureRecognizer) {
         self.goToSettings()
+    }
+    
+    @IBAction func scaleUpButton(sender: UIButton) {
+        UIView.animateWithDuration(0.1) {
+            sender.titleLabel?.transform = CGAffineTransformMakeScale(0.8, 0.8)
+        }
+    }
+    
+    @IBAction func scaleDownButton(sender: UIButton) {
+        UIView.animateWithDuration(0.1) {
+            sender.titleLabel?.transform = CGAffineTransformIdentity
+        }
     }
     
     @IBAction func flipCoinAction(sender: AnyObject) {
