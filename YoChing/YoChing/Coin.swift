@@ -25,9 +25,6 @@ class Coin {
     
     private var onDone: (CoinSide -> Void)?
     
-    private lazy var tails: UIImage = Coin.tailsCoin!
-    private lazy var heads: UIImage = Coin.headsCoin!
-    
     enum CoinSide {
         case HEADS
         case TAILS
@@ -46,7 +43,7 @@ class Coin {
             let isEven: Bool = (Int(arc4random()) % 2 == 0)
             let resultingSide: CoinSide =  isEven ? .HEADS : .TAILS
             
-            image.layer.contents =  resultingSide == .HEADS ? heads.CGImage : tails.CGImage
+            image.layer.contents =  resultingSide == .HEADS ? Coin.headsCoin.CGImage : Coin.tailsCoin.CGImage
             image.layer.transform = CATransform3DIdentity
 
             onDone?(resultingSide)
@@ -85,7 +82,7 @@ class Coin {
             }, completion: {
                 _ in
                 
-                image.layer.contents = self.tails.CGImage
+                image.layer.contents = Coin.tailsCoin.CGImage
                 UIView.animateWithDuration(self.animationDuration, delay: 0.0, options: UIViewAnimationOptions.CurveLinear, animations: {
                     
                     var rotation = image.layer.transform
@@ -95,7 +92,7 @@ class Coin {
                     }, completion: {
                         _ in
                         
-                        image.layer.contents = self.heads.CGImage
+                        image.layer.contents = Coin.headsCoin.CGImage
                         self.doAnimation()
                 })
         })
@@ -115,21 +112,21 @@ class Coin {
         self.onDone = onDone
         
         image.layer.removeAllAnimations()
-        image.layer.contents = heads.CGImage
+        image.layer.contents = Coin.headsCoin.CGImage
         doAnimation()
     }
 }
 
 extension Coin {
     
-    static var headsCoin: UIImage? {
+    static var headsCoin: UIImage {
         let name = Settings.isSlickEnabled ? "Coins.Slick.Heads" : "Coin_Heads"
-        return UIImage(named: name)
+        return UIImage(named: name) ?? UIImage()
     }
     
-    static var tailsCoin: UIImage? {
+    static var tailsCoin: UIImage {
         let name = Settings.isSlickEnabled ? "Coins.Slick.Tails" : "Coin_Tails"
-        return UIImage(named: name)
+        return UIImage(named: name) ?? UIImage()
     }
     
 }
