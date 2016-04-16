@@ -26,6 +26,7 @@ class AnimateLeft : NSObject, UIViewControllerTransitioningDelegate, UIViewContr
         
         toView.transform = offScreenRight
         
+        
         container.addSubview(toView)
         container.addSubview(fromView)
         
@@ -43,7 +44,7 @@ class AnimateLeft : NSObject, UIViewControllerTransitioningDelegate, UIViewContr
         }
         else {
             
-            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.7, options: .TransitionNone,
+            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.7, options: .TransitionNone,
                                        animations: {
                                         fromView.transform = offScreenLeft
                                         toView.transform = CGAffineTransformIdentity
@@ -82,13 +83,13 @@ class AnimateRight: NSObject, UIViewControllerTransitioningDelegate, UIViewContr
         guard let container = transitionContext.containerView() else { return }
 
         guard let fromView = transitionContext.viewForKey(UITransitionContextFromViewKey),
-            let toView = transitionContext.viewForKey(UITransitionContextToViewKey)
+              let toView = transitionContext.viewForKey(UITransitionContextToViewKey)
         else { return }
 
         let offScreenRight = CGAffineTransformMakeTranslation(container.frame.width, 0)
         let offScreenLeft = CGAffineTransformMakeTranslation(-container.frame.width, 0)
-
-        toView.transform = offScreenRight
+        
+        toView.transform = isPresenting ? offScreenRight : offScreenLeft
 
         if isPresenting {
             container.addSubview(toView)
@@ -102,7 +103,7 @@ class AnimateRight: NSObject, UIViewControllerTransitioningDelegate, UIViewContr
         let duration = self.transitionDuration(transitionContext)
 
         if isPresenting {
-            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .TransitionNone,
+            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.7, options: .TransitionNone,
                 animations: {
                     fromView.transform = offScreenLeft
                     toView.transform = CGAffineTransformIdentity
@@ -113,7 +114,7 @@ class AnimateRight: NSObject, UIViewControllerTransitioningDelegate, UIViewContr
         }
         else {
 
-            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .TransitionNone,
+            UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.7, options: .TransitionNone,
                 animations: {
                     fromView.transform = offScreenRight
                     toView.transform = CGAffineTransformIdentity

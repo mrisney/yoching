@@ -49,4 +49,26 @@ extension UITableViewController {
         let section = NSIndexSet(index: section)
         self.tableView?.reloadSections(section, withRowAnimation: animation)
     }
+    
+    func setSprayForBlackBackground() {
+        
+        let imageName = "spray.galaxy.black"
+        setBackground(imageName)
+    }
+    
+    func setSprayForWhiteBackground() {
+        
+        let imageName = "spray.galaxy"
+        setBackground(imageName)
+    }
+    
+    private func setBackground(imageName: String) {
+        guard let image = UIImage(named: imageName) else { return }
+        guard let frame = self.view?.frame else { return }
+        let imageView = UIImageView(frame: frame)
+        imageView.contentMode = .ScaleAspectFill
+        imageView.image = image
+        
+        self.tableView.backgroundView = imageView
+    }
 }

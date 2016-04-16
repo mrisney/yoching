@@ -37,9 +37,6 @@
             <string>Exo-Light</string>
             <string>Exo-Light</string>
             <string>Exo-Light</string>
-            <string>Exo-Light</string>
-            <string>Exo-Light</string>
-            <string>Exo-Light</string>
         </mutableArray>
         <mutableArray key="Exo-Medium.otf">
             <string>Exo-Medium</string>
@@ -49,9 +46,9 @@
             <string>Exo-Medium</string>
             <string>Exo-Medium</string>
             <string>Exo-Medium</string>
-            <string>Exo-Medium</string>
-            <string>Exo-Medium</string>
-            <string>Exo-Medium</string>
+        </mutableArray>
+        <mutableArray key="Exo-Regular.otf">
+            <string>Exo-Regular</string>
         </mutableArray>
         <mutableArray key="Exo-SemiBold.otf">
             <string>Exo-DemiBold</string>
@@ -981,10 +978,10 @@
             </objects>
             <point key="canvasLocation" x="-1310" y="-370"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Credits View Controller-->
         <scene sceneID="0ka-T6-ewE">
             <objects>
-                <tableViewController id="BdC-qh-CsU" customClass="SettingsViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="BdC-qh-CsU" customClass="CreditsViewController" customModule="YoChing" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="fUT-jW-8Uw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1006,7 +1003,7 @@
                                     </constraints>
                                     <state key="normal" image="arrow_left"/>
                                     <connections>
-                                        <segue destination="4GZ-Et-WEk" kind="unwind" unwindAction="unwindFromCredits:" id="Z6N-eg-A7K"/>
+                                        <segue destination="4GZ-Et-WEk" kind="unwind" identifier="unwind" unwindAction="unwindFromCredits:" id="Z6N-eg-A7K"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -1022,49 +1019,27 @@
                         <sections>
                             <tableViewSection id="Trn-Hd-N6a">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="lSP-mP-VJ5">
-                                        <rect key="frame" x="0.0" y="100" width="600" height="70"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lSP-mP-VJ5" id="GgS-Yv-HxA">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT'S UP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-oB-8ND">
-                                                    <rect key="frame" x="16" y="18" width="134" height="35"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="26"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <constraints>
-                                                <constraint firstItem="Rsr-oB-8ND" firstAttribute="leading" secondItem="GgS-Yv-HxA" secondAttribute="leadingMargin" constant="8" id="UdX-6y-o54"/>
-                                                <constraint firstItem="Rsr-oB-8ND" firstAttribute="centerY" secondItem="GgS-Yv-HxA" secondAttribute="centerY" id="Y0O-jg-f11"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="50" id="ueV-UJ-KzP">
-                                        <rect key="frame" x="0.0" y="170" width="600" height="50"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="80" id="ueV-UJ-KzP">
+                                        <rect key="frame" x="0.0" y="100" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ueV-UJ-KzP" id="BMO-OZ-yoV">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy The Book" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5I-P7-jEo">
-                                                    <rect key="frame" x="56" y="8" width="110" height="24"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Medium" family="Exo" pointSize="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugh Gallagher" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5I-P7-jEo">
+                                                    <rect key="frame" x="32" y="8" width="152" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="22"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300+ pages of YO CHING wisdom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVY-2N-eYn">
-                                                    <rect key="frame" x="56" y="32" width="178" height="16"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="12"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writer, Producer, Creative Director" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVY-2N-eYn">
+                                                    <rect key="frame" x="32" y="46" width="214.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="97B-5s-PXR">
-                                                    <rect key="frame" x="549" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="544" y="20" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="97B-5s-PXR" secondAttribute="height" multiplier="1:1" id="QqG-kO-5gQ"/>
                                                     </constraints>
@@ -1072,91 +1047,13 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstItem="97B-5s-PXR" firstAttribute="height" secondItem="BMO-OZ-yoV" secondAttribute="height" multiplier="0.7" id="QNk-di-Tbu"/>
+                                                <constraint firstItem="97B-5s-PXR" firstAttribute="height" secondItem="BMO-OZ-yoV" secondAttribute="height" multiplier="0.5" id="QNk-di-Tbu"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="97B-5s-PXR" secondAttribute="trailing" constant="8" id="cGh-Go-6Xo"/>
-                                                <constraint firstItem="D5I-P7-jEo" firstAttribute="leading" secondItem="BMO-OZ-yoV" secondAttribute="leadingMargin" constant="48" id="fOI-JB-rhX"/>
+                                                <constraint firstItem="D5I-P7-jEo" firstAttribute="leading" secondItem="BMO-OZ-yoV" secondAttribute="leadingMargin" constant="24" id="fOI-JB-rhX"/>
                                                 <constraint firstItem="97B-5s-PXR" firstAttribute="centerY" secondItem="BMO-OZ-yoV" secondAttribute="centerY" id="ozO-tW-DmH"/>
                                                 <constraint firstItem="zVY-2N-eYn" firstAttribute="leading" secondItem="D5I-P7-jEo" secondAttribute="leading" id="rag-YL-fUo"/>
-                                                <constraint firstItem="zVY-2N-eYn" firstAttribute="top" secondItem="D5I-P7-jEo" secondAttribute="bottom" id="tCk-ig-6Rq"/>
+                                                <constraint firstItem="zVY-2N-eYn" firstAttribute="top" secondItem="D5I-P7-jEo" secondAttribute="bottom" constant="8" id="tCk-ig-6Rq"/>
                                                 <constraint firstItem="D5I-P7-jEo" firstAttribute="top" secondItem="BMO-OZ-yoV" secondAttribute="topMargin" id="uL7-uM-dc8"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="50" id="XxF-Kf-cf2">
-                                        <rect key="frame" x="0.0" y="220" width="600" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XxF-Kf-cf2" id="Psi-ko-40b">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo App Players" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-xT-3sf">
-                                                    <rect key="frame" x="56" y="8" width="122" height="24"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Medium" family="Exo" pointSize="18"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The crew behind the YO CHING app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXT-wJ-Qhx">
-                                                    <rect key="frame" x="56" y="32" width="184" height="16"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="nj8-q0-5tV">
-                                                    <rect key="frame" x="549" y="8" width="35" height="35"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="nj8-q0-5tV" secondAttribute="height" multiplier="1:1" id="MOv-y7-DJi"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <constraints>
-                                                <constraint firstItem="eo6-xT-3sf" firstAttribute="top" secondItem="Psi-ko-40b" secondAttribute="topMargin" id="2DU-Tf-J8T"/>
-                                                <constraint firstItem="IXT-wJ-Qhx" firstAttribute="top" secondItem="eo6-xT-3sf" secondAttribute="bottom" id="Q17-Lj-Xyd"/>
-                                                <constraint firstItem="eo6-xT-3sf" firstAttribute="leading" secondItem="Psi-ko-40b" secondAttribute="leadingMargin" constant="48" id="Q9C-r1-v2l"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="nj8-q0-5tV" secondAttribute="trailing" constant="8" id="QHD-Sl-GGJ"/>
-                                                <constraint firstItem="nj8-q0-5tV" firstAttribute="centerY" secondItem="Psi-ko-40b" secondAttribute="centerY" id="cBs-Zu-WEF"/>
-                                                <constraint firstItem="nj8-q0-5tV" firstAttribute="height" secondItem="Psi-ko-40b" secondAttribute="height" multiplier="0.7" id="mAf-gV-WQ0"/>
-                                                <constraint firstItem="IXT-wJ-Qhx" firstAttribute="leading" secondItem="eo6-xT-3sf" secondAttribute="leading" id="vED-y4-hRg"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="50" id="1VC-Gl-scr">
-                                        <rect key="frame" x="0.0" y="270" width="600" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1VC-Gl-scr" id="MxZ-Po-Npp">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn Yo Ching" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGp-w6-qP1">
-                                                    <rect key="frame" x="56" y="8" width="118" height="24"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Medium" family="Exo" pointSize="18"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn more about YO CHING origins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8D-jO-CUL">
-                                                    <rect key="frame" x="56" y="32" width="189" height="16"/>
-                                                    <fontDescription key="fontDescription" name="Exo-Light" family="Exo" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="oAH-cA-xKy">
-                                                    <rect key="frame" x="549" y="8" width="35" height="35"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="oAH-cA-xKy" secondAttribute="height" multiplier="1:1" id="la5-rH-X4M"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="oAH-cA-xKy" secondAttribute="trailing" constant="8" id="Cdo-Ck-pwk"/>
-                                                <constraint firstItem="DGp-w6-qP1" firstAttribute="leading" secondItem="MxZ-Po-Npp" secondAttribute="leadingMargin" constant="48" id="Fgm-jq-y9F"/>
-                                                <constraint firstItem="a8D-jO-CUL" firstAttribute="leading" secondItem="DGp-w6-qP1" secondAttribute="leading" id="Xcf-LV-B4I"/>
-                                                <constraint firstItem="oAH-cA-xKy" firstAttribute="centerY" secondItem="MxZ-Po-Npp" secondAttribute="centerY" id="bC9-jd-5gN"/>
-                                                <constraint firstItem="a8D-jO-CUL" firstAttribute="top" secondItem="DGp-w6-qP1" secondAttribute="bottom" id="dbr-Pn-ycu"/>
-                                                <constraint firstItem="DGp-w6-qP1" firstAttribute="top" secondItem="MxZ-Po-Npp" secondAttribute="topMargin" id="rb0-F8-ImI"/>
-                                                <constraint firstItem="oAH-cA-xKy" firstAttribute="height" secondItem="MxZ-Po-Npp" secondAttribute="height" multiplier="0.7" id="vBo-3h-5UD"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

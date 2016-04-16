@@ -85,13 +85,14 @@ class SettingsViewController : UITableViewController {
     private let seeStreetCredsPath = NSIndexPath(forRow: 2, inSection: 2)
     private let seeInfoPath = NSIndexPath(forRow: 3, inSection: 2)
     
+    private let transition = AnimateRight()
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.hideNavigationBarShadow()
-        setSprayBackground()
+        setSprayForBlackBackground()
         
         addSwipeGesture()
     }
@@ -100,16 +101,6 @@ class SettingsViewController : UITableViewController {
         return .LightContent
     }
     
-    private func setSprayBackground() {
-        
-        guard let image = UIImage(named: "spray.galaxy.black") else { return }
-        guard let frame = self.view?.frame else { return }
-        let imageView = UIImageView(frame: frame)
-        imageView.contentMode = .ScaleAspectFill
-        imageView.image = image
-        
-        self.tableView.backgroundView = imageView
-    }
     
     private func addSwipeGesture() {
         
@@ -185,8 +176,21 @@ extension SettingsViewController {
         self.performSegueWithIdentifier("unwind", sender: self)
     }
     
+    private func goToCredits() {
+        self.performSegueWithIdentifier("ToCredits", sender: self)
+    }
+    
     @IBAction func unwindFromCredits(segue: UIStoryboardSegue) {
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let destination = segue.destinationViewController
+        
+        if let credits = destination as? CreditsViewController {
+            credits.transitioningDelegate = self.transition
+        }
     }
 }
 
@@ -203,7 +207,7 @@ extension SettingsViewController {
             self.openLink(BOOK_INFO_LINK)
         }
         else if indexPath == seeStreetCredsPath {
-            print("Showing Street Creds")
+            self.goToCredits()
         }
         else if indexPath == classicPath || indexPath == tapThatPath {
             

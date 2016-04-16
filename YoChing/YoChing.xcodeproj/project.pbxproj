@@ -52,6 +52,7 @@
 		DE6C9A5E1CC1C0A000ACF11A /* Signika 600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5A1CC1C0A000ACF11A /* Signika 600.ttf */; };
 		DE6C9A5F1CC1C0A000ACF11A /* Signika 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5B1CC1C0A000ACF11A /* Signika 700.ttf */; };
 		DE6C9A601CC1C0A000ACF11A /* Signika regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5C1CC1C0A000ACF11A /* Signika regular.ttf */; };
+		DE6C9A641CC2189600ACF11A /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C9A631CC2189600ACF11A /* CreditsViewController.swift */; };
 		DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */; };
 		DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */; };
 		DE71A3521CB8055300F5BEF2 /* PTF55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */; };
@@ -134,6 +135,7 @@
 		DE6C9A5A1CC1C0A000ACF11A /* Signika 600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika 600.ttf"; sourceTree = "<group>"; };
 		DE6C9A5B1CC1C0A000ACF11A /* Signika 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika 700.ttf"; sourceTree = "<group>"; };
 		DE6C9A5C1CC1C0A000ACF11A /* Signika regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika regular.ttf"; sourceTree = "<group>"; };
+		DE6C9A631CC2189600ACF11A /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC55F.ttf; sourceTree = "<group>"; };
 		DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC75F.ttf; sourceTree = "<group>"; };
 		DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTF55F.ttf; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				DE00768F1CBB95F1005B3DB1 /* SettingsViewController.swift */,
+				DE6C9A631CC2189600ACF11A /* CreditsViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				1397CE001BF44E6C004523FD /* Extensions.swift in Sources */,
 				DE0076901CBB95F1005B3DB1 /* SettingsViewController.swift in Sources */,
 				3EED85B81978FEE8007EEB62 /* MainViewController.swift in Sources */,
+				DE6C9A641CC2189600ACF11A /* CreditsViewController.swift in Sources */,
 				A31053181CBE115A00BCC866 /* WrexagramSendSMSViewController.swift in Sources */,
 				DE6B79ED1CB7226100C47024 /* WrexagramListViewController.swift in Sources */,
 				DE8362B01CBCB4A300C73BA4 /* WrexagramPagerViewController.swift in Sources */,
