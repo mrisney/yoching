@@ -48,6 +48,10 @@
 		DE6B7A0F1CB73B3300C47024 /* Exo-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B79FD1CB73B3300C47024 /* Exo-SemiBoldItalic.otf */; };
 		DE6B7A111CB73B3300C47024 /* Exo-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B79FF1CB73B3300C47024 /* Exo-ThinItalic.otf */; };
 		DE6C9A581CC1A5A100ACF11A /* txt in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A571CC1A5A100ACF11A /* txt */; };
+		DE6C9A5D1CC1C0A000ACF11A /* Signika 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A591CC1C0A000ACF11A /* Signika 300.ttf */; };
+		DE6C9A5E1CC1C0A000ACF11A /* Signika 600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5A1CC1C0A000ACF11A /* Signika 600.ttf */; };
+		DE6C9A5F1CC1C0A000ACF11A /* Signika 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5B1CC1C0A000ACF11A /* Signika 700.ttf */; };
+		DE6C9A601CC1C0A000ACF11A /* Signika regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6C9A5C1CC1C0A000ACF11A /* Signika regular.ttf */; };
 		DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */; };
 		DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */; };
 		DE71A3521CB8055300F5BEF2 /* PTF55F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */; };
@@ -126,6 +130,10 @@
 		DE6B79FE1CB73B3300C47024 /* Exo-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Thin.otf"; sourceTree = "<group>"; };
 		DE6B79FF1CB73B3300C47024 /* Exo-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ThinItalic.otf"; sourceTree = "<group>"; };
 		DE6C9A571CC1A5A100ACF11A /* txt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = txt; path = media/txt; sourceTree = "<group>"; };
+		DE6C9A591CC1C0A000ACF11A /* Signika 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika 300.ttf"; sourceTree = "<group>"; };
+		DE6C9A5A1CC1C0A000ACF11A /* Signika 600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika 600.ttf"; sourceTree = "<group>"; };
+		DE6C9A5B1CC1C0A000ACF11A /* Signika 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika 700.ttf"; sourceTree = "<group>"; };
+		DE6C9A5C1CC1C0A000ACF11A /* Signika regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika regular.ttf"; sourceTree = "<group>"; };
 		DE71A3401CB8055300F5BEF2 /* PTC55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC55F.ttf; sourceTree = "<group>"; };
 		DE71A3411CB8055300F5BEF2 /* PTC75F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTC75F.ttf; sourceTree = "<group>"; };
 		DE71A3421CB8055300F5BEF2 /* PTF55F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTF55F.ttf; sourceTree = "<group>"; };
@@ -291,6 +299,10 @@
 				DE71A34D1CB8055300F5BEF2 /* PTS76F.ttf */,
 				DE71A34E1CB8055300F5BEF2 /* PTZ55F.ttf */,
 				DE71A34F1CB8055300F5BEF2 /* PTZ56F.ttf */,
+				DE6C9A591CC1C0A000ACF11A /* Signika 300.ttf */,
+				DE6C9A5A1CC1C0A000ACF11A /* Signika 600.ttf */,
+				DE6C9A5B1CC1C0A000ACF11A /* Signika 700.ttf */,
+				DE6C9A5C1CC1C0A000ACF11A /* Signika regular.ttf */,
 				DE683D4C1CB372360072F98A /* Uni Sans Heavy Italic.otf */,
 				DE683D4D1CB372360072F98A /* Uni Sans Heavy.otf */,
 				DE683D4E1CB372360072F98A /* Uni Sans Thin Italic.otf */,
@@ -402,12 +414,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6C9A5D1CC1C0A000ACF11A /* Signika 300.ttf in Resources */,
 				DE683D511CB372360072F98A /* Uni Sans Heavy.otf in Resources */,
 				DE6B7A0D1CB73B3300C47024 /* Exo-Regular.otf in Resources */,
 				DE6B7A0B1CB73B3300C47024 /* Exo-Medium.otf in Resources */,
 				DE683D521CB372360072F98A /* Uni Sans Thin Italic.otf in Resources */,
 				DE71A3531CB8055300F5BEF2 /* PTF56F.ttf in Resources */,
 				DE71A3581CB8055300F5BEF2 /* PTN57F.ttf in Resources */,
+				DE6C9A601CC1C0A000ACF11A /* Signika regular.ttf in Resources */,
 				DE6B7A0E1CB73B3300C47024 /* Exo-SemiBold.otf in Resources */,
 				DE71A35F1CB8055300F5BEF2 /* PTZ56F.ttf in Resources */,
 				DE6B7A041CB73B3300C47024 /* Exo-ExtraBold.otf in Resources */,
@@ -436,10 +450,12 @@
 				DE468E8A1CB84BDB00AC1199 /* Launch Screen.storyboard in Resources */,
 				DE71A3521CB8055300F5BEF2 /* PTF55F.ttf in Resources */,
 				DE6C9A581CC1A5A100ACF11A /* txt in Resources */,
+				DE6C9A5E1CC1C0A000ACF11A /* Signika 600.ttf in Resources */,
 				DE71A3571CB8055300F5BEF2 /* PTM75F.ttf in Resources */,
 				DE6B7A0C1CB73B3300C47024 /* Exo-MediumItalic.otf in Resources */,
 				DE71A3501CB8055300F5BEF2 /* PTC55F.ttf in Resources */,
 				DE6B7A071CB73B3300C47024 /* Exo-ExtraLightItalic.otf in Resources */,
+				DE6C9A5F1CC1C0A000ACF11A /* Signika 700.ttf in Resources */,
 				DE71A3511CB8055300F5BEF2 /* PTC75F.ttf in Resources */,
 				DE468E931CB968F000AC1199 /* json in Resources */,
 				DE71A3561CB8055300F5BEF2 /* PTM55F.ttf in Resources */,

@@ -84,11 +84,13 @@ class SettingsViewController : UITableViewController {
     }
 }
 
+//MARK: Table View Delegates
 //MARK: Throwing Style configuration
 extension SettingsViewController {
     
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
         setLookForCell(tableView, forIndexPath: indexPath)
+        cell.backgroundColor = cell.contentView.backgroundColor
     }
     
     private func setLookForCell(tableView: UITableView, forIndexPath indexPath: NSIndexPath) {

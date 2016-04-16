@@ -17,7 +17,6 @@
             <string>Exo-Bold</string>
             <string>Exo-Bold</string>
             <string>Exo-Bold</string>
-            <string>Exo-Bold</string>
         </mutableArray>
         <mutableArray key="Exo-ExtraBold.otf">
             <string>Exo-ExtraBold</string>
@@ -42,14 +41,17 @@
             <string>Exo-Medium</string>
             <string>Exo-Medium</string>
         </mutableArray>
-        <mutableArray key="Exo-Regular.otf">
-            <string>Exo-Regular</string>
-        </mutableArray>
         <mutableArray key="Exo-SemiBold.otf">
             <string>Exo-DemiBold</string>
         </mutableArray>
         <mutableArray key="PTS55F.ttf">
             <string>PTSans-Regular</string>
+        </mutableArray>
+        <mutableArray key="Signika 600.ttf">
+            <string>Signika-Semibold</string>
+        </mutableArray>
+        <mutableArray key="Signika regular.ttf">
+            <string>Signika-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -836,7 +838,7 @@
                                             <rect key="frame" x="8" y="8" width="584" height="184"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="18"/>
+                                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="18"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                     </subviews>
@@ -863,7 +865,7 @@
                                             <rect key="frame" x="8" y="59" width="584" height="133"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="textColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="18"/>
+                                            <fontDescription key="fontDescription" name="Signika-Semibold" family="Signika" pointSize="18"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="754" text="WHAT'S UP" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-oR-Dy8">
