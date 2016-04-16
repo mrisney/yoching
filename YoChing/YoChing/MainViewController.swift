@@ -180,19 +180,27 @@ extension MainViewController {
     }
     
     private func goToWrex(outcome: Int) {
-        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
+        self.performSegueWithIdentifier("ToPager", sender: outcome)
+//        self.performSegueWithIdentifier("ToWrexagram", sender: outcome)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if let wrexegramView = segue.destinationViewController as? WrexagramViewController {
+        let destination = segue.destinationViewController
+        
+        if let wrexegramView = destination as? WrexagramViewController {
             if let outcome = sender as? Int {
                 print("transitioning to wrexagram with outcome \(outcome)")
                 wrexegramView.wrexagramNumber = outcome
             }
         }
         
-        if let settings = segue.destinationViewController as? SettingsViewController {
+        if let pager = destination as? WrexagramPagerViewController, outcome = sender as? Int {
+            pager.initialIndex = outcome - 1
+            pager.wrexagrams = WrexagramLibrary.wrexagrams
+        }
+        
+        if let settings = destination as? SettingsViewController {
             settings.transitioningDelegate = self.transition
         }
         
