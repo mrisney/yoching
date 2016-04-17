@@ -6,6 +6,7 @@
 //  Copyright © 2016 Gary.com. All rights reserved.
 //
 
+import AromaSwiftClient
 import Foundation
 import SwiftyJSON
 
@@ -87,6 +88,31 @@ class WrexagramLibrary {
     static func imageForWrexagram(number: Int) -> UIImage? {
         let imageName = "WREX\(number)"
         return UIImage(named: imageName)
+    }
+    
+    static func bodyForWrexagram(wrexagramNumber: Int) -> String {
+
+        let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
+        let filename = "txt/\(formattedOutcome)"
+        
+        if let text = NSBundle.mainBundle().pathForResource(filename, ofType: "txt") {
+            do {
+                let string = try String(contentsOfFile: text, encoding: NSUTF8StringEncoding)
+                
+                return string
+                
+            } catch let ex {
+                AromaClient.beginWithTitle("Failed To Load")
+                    .addBody("\(UIDevice.currentDevice().name)")
+                    .addLine().addLine()
+                    .addBody("\(ex)")
+                    .send()
+                
+            }
+        }
+        
+        return ""
+        
     }
     
     private static let JSON_FILE = "json/wrexagrams.json"

@@ -30,6 +30,14 @@ extension UIViewController {
         self.navigationController?.navigationBar.shadowImage = emptyImage
         self.navigationController?.navigationBar.setBackgroundImage(emptyImage, forBarMetrics: UIBarMetrics.Default)
     }
+    
+    var isiPhone: Bool {
+        return UI_USER_INTERFACE_IDIOM() == .Phone
+    }
+    
+    var isiPad: Bool {
+        return UI_USER_INTERFACE_IDIOM() == .Pad
+    }
 }
 
 

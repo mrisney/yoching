@@ -816,10 +816,15 @@
                                 <constraint firstItem="ydG-al-XNI" firstAttribute="leading" secondItem="Q9b-E2-0V3" secondAttribute="leading" id="gCU-tK-VuW"/>
                             </constraints>
                         </view>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="n8m-iQ-3y7"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="n8m-iQ-3y7">
+                            <connections>
+                                <action selector="onShare:" destination="mZ2-ZW-zjx" id="u4w-KB-wCH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="navTitle" destination="ydG-al-XNI" id="WPA-dC-Ry5"/>
+                        <outlet property="shareButton" destination="n8m-iQ-3y7" id="08O-w3-10J"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDg-e9-F8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
