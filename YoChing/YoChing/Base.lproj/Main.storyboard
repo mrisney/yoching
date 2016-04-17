@@ -20,6 +20,10 @@
             <string>Exo-Bold</string>
             <string>Exo-Bold</string>
             <string>Exo-Bold</string>
+            <string>Exo-Bold</string>
+            <string>Exo-Bold</string>
+            <string>Exo-Bold</string>
+            <string>Exo-Bold</string>
         </mutableArray>
         <mutableArray key="Exo-ExtraBold.otf">
             <string>Exo-ExtraBold</string>
@@ -50,6 +54,10 @@
             <string>Exo-Medium</string>
         </mutableArray>
         <mutableArray key="Exo-Regular.otf">
+            <string>Exo-Regular</string>
+            <string>Exo-Regular</string>
+            <string>Exo-Regular</string>
+            <string>Exo-Regular</string>
             <string>Exo-Regular</string>
             <string>Exo-Regular</string>
             <string>Exo-Regular</string>
@@ -230,7 +238,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="fJp-ly-hb8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="36"/>
                                 <state key="normal" title="THROW THE YO">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1036,8 +1044,47 @@
                         <sections>
                             <tableViewSection id="Trn-Hd-N6a">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="ueV-UJ-KzP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="ewD-hn-z2v">
                                         <rect key="frame" x="0.0" y="100" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ewD-hn-z2v" id="VD7-gd-pzs">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="True Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fR-U8-G5F">
+                                                    <rect key="frame" x="32" y="8" width="123" height="32"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Executive Producer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srv-SC-ts5">
+                                                    <rect key="frame" x="32" y="44" width="137" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="NJG-om-wXL">
+                                                    <rect key="frame" x="548" y="27" width="36" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="NJG-om-wXL" secondAttribute="height" multiplier="1:1" id="S12-ZU-vCb"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="srv-SC-ts5" firstAttribute="top" secondItem="4fR-U8-G5F" secondAttribute="bottom" constant="4" id="0DF-Sq-WlT"/>
+                                                <constraint firstItem="4fR-U8-G5F" firstAttribute="top" secondItem="VD7-gd-pzs" secondAttribute="topMargin" id="7dh-mp-Ce2"/>
+                                                <constraint firstItem="4fR-U8-G5F" firstAttribute="leading" secondItem="VD7-gd-pzs" secondAttribute="leadingMargin" constant="24" id="BQo-gY-1zN"/>
+                                                <constraint firstItem="srv-SC-ts5" firstAttribute="leading" secondItem="4fR-U8-G5F" secondAttribute="leading" id="CHB-ww-L5a"/>
+                                                <constraint firstItem="NJG-om-wXL" firstAttribute="centerY" secondItem="VD7-gd-pzs" secondAttribute="centerY" id="DoO-1n-bil"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="NJG-om-wXL" secondAttribute="trailing" constant="8" id="W5m-9v-Nto"/>
+                                                <constraint firstItem="NJG-om-wXL" firstAttribute="height" secondItem="VD7-gd-pzs" secondAttribute="height" multiplier="0.4" id="agU-Fz-OO6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="ueV-UJ-KzP">
+                                        <rect key="frame" x="0.0" y="190" width="600" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ueV-UJ-KzP" id="BMO-OZ-yoV">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
@@ -1050,9 +1097,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writer, Producer, Creative Director" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVY-2N-eYn">
-                                                    <rect key="frame" x="32" y="48" width="246" height="22"/>
+                                                    <rect key="frame" x="32" y="44" width="246" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="97B-5s-PXR">
@@ -1069,14 +1116,14 @@
                                                 <constraint firstItem="D5I-P7-jEo" firstAttribute="leading" secondItem="BMO-OZ-yoV" secondAttribute="leadingMargin" constant="24" id="fOI-JB-rhX"/>
                                                 <constraint firstItem="97B-5s-PXR" firstAttribute="centerY" secondItem="BMO-OZ-yoV" secondAttribute="centerY" id="ozO-tW-DmH"/>
                                                 <constraint firstItem="zVY-2N-eYn" firstAttribute="leading" secondItem="D5I-P7-jEo" secondAttribute="leading" id="rag-YL-fUo"/>
-                                                <constraint firstItem="zVY-2N-eYn" firstAttribute="top" secondItem="D5I-P7-jEo" secondAttribute="bottom" constant="8" id="tCk-ig-6Rq"/>
+                                                <constraint firstItem="zVY-2N-eYn" firstAttribute="top" secondItem="D5I-P7-jEo" secondAttribute="bottom" constant="4" id="tCk-ig-6Rq"/>
                                                 <constraint firstItem="D5I-P7-jEo" firstAttribute="top" secondItem="BMO-OZ-yoV" secondAttribute="topMargin" id="uL7-uM-dc8"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="JDk-fX-uLC">
-                                        <rect key="frame" x="0.0" y="190" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="280" width="600" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JDk-fX-uLC" id="LBY-zg-08l">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
@@ -1089,9 +1136,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coder, Producer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbt-x0-Byu">
-                                                    <rect key="frame" x="32" y="48" width="114" height="22"/>
+                                                    <rect key="frame" x="32" y="44" width="114" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="lFD-nj-Za9">
@@ -1106,7 +1153,7 @@
                                                 <constraint firstItem="PI2-4H-IxE" firstAttribute="top" secondItem="LBY-zg-08l" secondAttribute="topMargin" id="22H-T9-9yv"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="lFD-nj-Za9" secondAttribute="trailing" constant="8" id="YJk-jz-tHE"/>
                                                 <constraint firstItem="PI2-4H-IxE" firstAttribute="leading" secondItem="LBY-zg-08l" secondAttribute="leadingMargin" constant="24" id="c1W-Zk-lOh"/>
-                                                <constraint firstItem="tbt-x0-Byu" firstAttribute="top" secondItem="PI2-4H-IxE" secondAttribute="bottom" constant="8" id="dgF-AB-ynI"/>
+                                                <constraint firstItem="tbt-x0-Byu" firstAttribute="top" secondItem="PI2-4H-IxE" secondAttribute="bottom" constant="4" id="dgF-AB-ynI"/>
                                                 <constraint firstItem="tbt-x0-Byu" firstAttribute="leading" secondItem="PI2-4H-IxE" secondAttribute="leading" id="ivC-hK-kTV"/>
                                                 <constraint firstItem="lFD-nj-Za9" firstAttribute="centerY" secondItem="LBY-zg-08l" secondAttribute="centerY" id="jVe-U2-QBI"/>
                                                 <constraint firstItem="lFD-nj-Za9" firstAttribute="height" secondItem="LBY-zg-08l" secondAttribute="height" multiplier="0.4" id="tUR-UQ-7qR"/>
@@ -1115,7 +1162,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="i08-Ws-pMI">
-                                        <rect key="frame" x="0.0" y="280" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="370" width="600" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i08-Ws-pMI" id="cJ8-rP-rnE">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
@@ -1128,9 +1175,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming Monk, App Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3f-BI-U4H">
-                                                    <rect key="frame" x="32" y="48" width="229" height="22"/>
+                                                    <rect key="frame" x="32" y="44" width="229" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="LgZ-AO-1rh">
@@ -1143,13 +1190,101 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="y3f-BI-U4H" firstAttribute="leading" secondItem="Ls2-X2-i59" secondAttribute="leading" id="3BL-8v-kXy"/>
-                                                <constraint firstItem="y3f-BI-U4H" firstAttribute="top" secondItem="Ls2-X2-i59" secondAttribute="bottom" constant="8" id="Oap-Cu-JWm"/>
+                                                <constraint firstItem="y3f-BI-U4H" firstAttribute="top" secondItem="Ls2-X2-i59" secondAttribute="bottom" constant="4" id="Oap-Cu-JWm"/>
                                                 <constraint firstItem="Ls2-X2-i59" firstAttribute="leading" secondItem="cJ8-rP-rnE" secondAttribute="leadingMargin" constant="24" id="U2R-26-o8D"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="LgZ-AO-1rh" secondAttribute="trailing" constant="8" id="abk-wd-lrz"/>
                                                 <constraint firstItem="LgZ-AO-1rh" firstAttribute="height" secondItem="cJ8-rP-rnE" secondAttribute="height" multiplier="0.4" id="fv8-6c-jaU"/>
                                                 <constraint firstItem="Ls2-X2-i59" firstAttribute="top" secondItem="cJ8-rP-rnE" secondAttribute="topMargin" id="rg1-AR-X5a"/>
                                                 <constraint firstItem="LgZ-AO-1rh" firstAttribute="centerY" secondItem="cJ8-rP-rnE" secondAttribute="centerY" id="wLK-BX-yr5"/>
                                             </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="vET-Ml-h6I">
+                                        <rect key="frame" x="0.0" y="460" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vET-Ml-h6I" id="PTY-ch-x1i">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrexagram Artwork, Yo Bro Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oc-Dd-5Fb">
+                                                    <rect key="frame" x="32" y="44" width="254" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="g3J-Kf-01V">
+                                                    <rect key="frame" x="548" y="27" width="36" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="g3J-Kf-01V" secondAttribute="height" multiplier="1:1" id="T1e-th-9XY"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brendan Miller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TvG-SG-zou">
+                                                    <rect key="frame" x="32" y="8" width="158" height="32"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="g3J-Kf-01V" firstAttribute="centerY" secondItem="PTY-ch-x1i" secondAttribute="centerY" id="IwN-Ne-bVS"/>
+                                                <constraint firstItem="g3J-Kf-01V" firstAttribute="height" secondItem="PTY-ch-x1i" secondAttribute="height" multiplier="0.4" id="aUa-X7-RIH"/>
+                                                <constraint firstItem="TvG-SG-zou" firstAttribute="top" secondItem="PTY-ch-x1i" secondAttribute="topMargin" id="axM-BB-ZR4"/>
+                                                <constraint firstItem="3oc-Dd-5Fb" firstAttribute="top" secondItem="TvG-SG-zou" secondAttribute="bottom" constant="4" id="dNk-AT-bOK"/>
+                                                <constraint firstItem="TvG-SG-zou" firstAttribute="leading" secondItem="PTY-ch-x1i" secondAttribute="leadingMargin" constant="24" id="gNM-wZ-S7G"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="g3J-Kf-01V" secondAttribute="trailing" constant="8" id="sPu-hD-mMN"/>
+                                                <constraint firstItem="3oc-Dd-5Fb" firstAttribute="leading" secondItem="TvG-SG-zou" secondAttribute="leading" id="yaR-gA-5Cs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="YCn-YE-vhp">
+                                        <rect key="frame" x="0.0" y="550" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YCn-YE-vhp" id="FDH-j4-Uqs">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese Lady" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fam-lm-neZ">
+                                                    <rect key="frame" x="32" y="8" width="156" height="32"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YO Street Coins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zft-3x-ZWI">
+                                                    <rect key="frame" x="32" y="44" width="110" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="X8h-pm-Mcn">
+                                                    <rect key="frame" x="548" y="27" width="36" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="X8h-pm-Mcn" secondAttribute="height" multiplier="1:1" id="O1E-Xg-uKJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="fam-lm-neZ" firstAttribute="top" secondItem="FDH-j4-Uqs" secondAttribute="topMargin" id="52M-Fq-p5i"/>
+                                                <constraint firstItem="X8h-pm-Mcn" firstAttribute="centerY" secondItem="FDH-j4-Uqs" secondAttribute="centerY" id="DyH-9e-gke"/>
+                                                <constraint firstItem="X8h-pm-Mcn" firstAttribute="height" secondItem="FDH-j4-Uqs" secondAttribute="height" multiplier="0.4" id="FFZ-Xy-twc"/>
+                                                <constraint firstItem="fam-lm-neZ" firstAttribute="leading" secondItem="FDH-j4-Uqs" secondAttribute="leadingMargin" constant="24" id="L64-OH-6X7"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="X8h-pm-Mcn" secondAttribute="trailing" constant="8" id="QHi-1t-iEo"/>
+                                                <constraint firstItem="Zft-3x-ZWI" firstAttribute="top" secondItem="fam-lm-neZ" secondAttribute="bottom" constant="4" id="qxL-zf-KfT"/>
+                                                <constraint firstItem="Zft-3x-ZWI" firstAttribute="leading" secondItem="fam-lm-neZ" secondAttribute="leading" id="wQL-QI-V6b"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="50" id="BIc-ha-ppb">
+                                        <rect key="frame" x="0.0" y="640" width="600" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BIc-ha-ppb" id="SJa-E6-nVI">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
@@ -1186,6 +1321,45 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7q-lk-avn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="90" id="N2T-M6-X5V">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N2T-M6-X5V" id="hVs-6B-fPR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellington Moreno" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iye-YE-prP">
+                                <rect key="frame" x="32" y="8" width="206" height="32"/>
+                                <fontDescription key="fontDescription" name="Exo-Bold" family="Exo" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming Monk, App Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eod-DB-hVb">
+                                <rect key="frame" x="32" y="48" width="229" height="22"/>
+                                <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right-thick" translatesAutoresizingMaskIntoConstraints="NO" id="dtt-ZO-Yk6">
+                                <rect key="frame" x="548" y="27" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dtt-ZO-Yk6" secondAttribute="height" multiplier="1:1" id="omj-tf-UaZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eod-DB-hVb" firstAttribute="top" secondItem="iye-YE-prP" secondAttribute="bottom" constant="8" id="Qww-EH-huT"/>
+                            <constraint firstItem="iye-YE-prP" firstAttribute="top" secondItem="hVs-6B-fPR" secondAttribute="topMargin" id="exY-0b-o3e"/>
+                            <constraint firstItem="dtt-ZO-Yk6" firstAttribute="centerY" secondItem="hVs-6B-fPR" secondAttribute="centerY" id="fXg-U4-ioy"/>
+                            <constraint firstItem="iye-YE-prP" firstAttribute="leading" secondItem="hVs-6B-fPR" secondAttribute="leadingMargin" constant="24" id="lPT-KP-z7j"/>
+                            <constraint firstItem="Eod-DB-hVb" firstAttribute="leading" secondItem="iye-YE-prP" secondAttribute="leading" id="pG3-ht-j7Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dtt-ZO-Yk6" secondAttribute="trailing" constant="8" id="ttw-cX-dup"/>
+                            <constraint firstItem="dtt-ZO-Yk6" firstAttribute="height" secondItem="hVs-6B-fPR" secondAttribute="height" multiplier="0.4" id="x1N-ds-SRs"/>
+                        </constraints>
+                    </tableViewCellContentView>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableViewCell>
                 <exit id="4GZ-Et-WEk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="330" y="387"/>
