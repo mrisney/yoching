@@ -1180,8 +1180,8 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming Monk, App Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3f-BI-U4H">
-                                                    <rect key="frame" x="32" y="44" width="229" height="22"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming Monk, App Designer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3f-BI-U4H">
+                                                    <rect key="frame" x="32" y="44" width="244" height="22"/>
                                                     <fontDescription key="fontDescription" name="Exo-Regular" family="Exo" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
