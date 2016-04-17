@@ -816,6 +816,7 @@
                                 <constraint firstItem="ydG-al-XNI" firstAttribute="leading" secondItem="Q9b-E2-0V3" secondAttribute="leading" id="gCU-tK-VuW"/>
                             </constraints>
                         </view>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="n8m-iQ-3y7"/>
                     </navigationItem>
                     <connections>
                         <outlet property="navTitle" destination="ydG-al-XNI" id="WPA-dC-Ry5"/>
