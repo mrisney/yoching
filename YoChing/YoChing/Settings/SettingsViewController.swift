@@ -29,13 +29,8 @@ class Settings {
         }
     }
     
-    private(set) static var isClassicEnabled: Bool {
-        get {
-            return defaults.objectForKey(CLASSIC_KEY) as? Bool ?? false
-        }
-        set(newValue) {
-            defaults.setObject(newValue, forKey: CLASSIC_KEY)
-        }
+     static var isClassicEnabled: Bool {
+        return !isQuickEnabled
     }
     
     private(set) static var isSlickEnabled: Bool {
@@ -211,7 +206,6 @@ extension SettingsViewController {
         }
         else if indexPath == classicPath || indexPath == tapThatPath {
             
-            Settings.isClassicEnabled = indexPath == classicPath
             Settings.isQuickEnabled = indexPath == tapThatPath
             
             self.setLookForCell(tableView, forIndexPath: classicPath)

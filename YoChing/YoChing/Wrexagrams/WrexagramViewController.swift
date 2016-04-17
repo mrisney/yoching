@@ -50,7 +50,6 @@ class WrexagramViewController : UITableViewController {
         
         loadTitle()
         loadImage()
-        loadMessage()
     }
     
     private func loadTitle() {
@@ -64,29 +63,6 @@ class WrexagramViewController : UITableViewController {
         }
     }
     
-    private func loadMessage() -> String {
-        
-        let formattedOutcome = String(format: "wrexagram%02d", wrexagramNumber)
-        let filename = "txt/\(formattedOutcome)"
-        
-        if let text = NSBundle.mainBundle().pathForResource(filename, ofType: "txt") {
-            do {
-                let string = try String(contentsOfFile: text, encoding: NSUTF8StringEncoding)
-                
-                return string
-                
-            } catch let ex {
-                AromaClient.beginWithTitle("Failed To Load")
-                    .addBody("\(UIDevice.currentDevice().name)")
-                    .addLine().addLine()
-                    .addBody("\(ex)")
-                    .send()
-              
-            }
-        }
-        
-        return ""
-    }
     
 }
 
@@ -121,7 +97,7 @@ extension WrexagramViewController {
               return UITableViewCell()
         }
         
-        let body = loadMessage()
+        let body = WrexagramLibrary.bodyForWrexagram(wrexagramNumber)
         cell.textView.text = body
 
         return cell
